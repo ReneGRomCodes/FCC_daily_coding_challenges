@@ -20,7 +20,7 @@ is 8 or less.
 6. has_exoplanet("ZXXWYZXYWYXZEGZXWYZXYGEE") should return True.
 """
 
-def has_exoplanet(readings):
+def has_exoplanet(readings) -> bool:
 
     lum_list: list[int] = [int(x, 36) for x in readings]
     lum_avrg: float = sum(lum_list) / len(lum_list)
