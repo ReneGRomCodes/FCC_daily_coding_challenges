@@ -22,15 +22,14 @@ Return the correct phase as a string.
 5. moon_phase("2022-12-14") should return "New".
 """
 
-def moon_phase(date_string):
+def moon_phase(date_string: str) -> str:
     year, month, day = map(int, date_string.split("-"))
 
     # Days in each month.
-    month_lengths = [31, 28, 31, 30, 31, 30,
-                     31, 31, 30, 31, 30, 31]
+    month_lengths: list[int] = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
     # Count total days for full years since 2000.
-    days = 0
+    days: int = 0
     for y in range(2000, year):
         days += 365
         if (y % 4 == 0 and y % 100 != 0) or (y % 400 == 0):
@@ -47,10 +46,10 @@ def moon_phase(date_string):
     days += day
 
     # Reference new moon: 2000-01-06 (day 6).
-    days_since_new_moon = days - 6
+    days_since_new_moon: int = days - 6
 
     # Determine moon phase.
-    day_in_cycle = days_since_new_moon % 28
+    day_in_cycle: int = days_since_new_moon % 28
 
     if 0 <= day_in_cycle <= 6:
         return "New"
