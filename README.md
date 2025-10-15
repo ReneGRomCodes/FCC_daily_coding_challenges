@@ -1,0 +1,36 @@
+# freeCodeCamp Daily Coding Challenges
+
+## Collection of my solutions to FCCs daily coding challenges sorted by month.
+
+### August 2025 (08-25)
+- 11-08-25: Vowel Balance
+- 12-08-25: Base Check
+- 13-08-25: Fibonacci Sequence
+- 14-08-25: S P A C E J A M
+- 15-08-25: Jbelmud Text
+- 16-08-25: Anagram Checker
+- 17-08-25: Targeted Sum
+- 18-08-25: Factorializer
+- 19-08-25: Sum of Squares
+- 20-08-25: 3 Strikes
+- 21-08-25: Mile Pace
+- 22-08-25: Message Decoder
+- 23-08-25: Unnatural Prime
+- 24-08-25: Character Battle
+- 25-08-25: camelCase
+
+### September 2025 (09-25)
+
+### October 2025 (10-25)
+- 04-10-25: Space Week Day 1 - Stellar Classification
+- 05-10-25: Space Week Day 2 - Exoplanet Search
+- 06-10-25: Space Week Day 3 - Phone Home
+- 07-10-25: Space Week Day 4 - Landing Spot
+- 08-10-25: Space Week Day 5 - Goldilock Zone
+- 09-10-25: Space Week Day 6 - Moon Phase
+- 10-10-25: Space Week Day 7 - Launch Fuel
+- 11-10-25: Hex to Decimal
+- 12-10-25: Battle of Words
+- 13-10-25: 24 to 12
+- 14-10-25: String Count
+- 15-10-25: HTML Tag Stripper
