@@ -34,3 +34,4 @@
 - 13-10-25: 24 to 12
 - 14-10-25: String Count
 - 15-10-25: HTML Tag Stripper
+- 16-10-25: Email Validator
