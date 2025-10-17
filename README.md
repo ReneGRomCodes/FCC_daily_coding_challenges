@@ -18,6 +18,8 @@
 - 23-08-25: Unnatural Prime
 - 24-08-25: Character Battle
 - 25-08-25: camelCase
+- 26-08-25:
+- 27-08-25:
 
 ### September 2025 (09-25)
 
@@ -35,3 +37,4 @@
 - 14-10-25: String Count
 - 15-10-25: HTML Tag Stripper
 - 16-10-25: Email Validator
+- 17-10-25: Credit Card Masker
