@@ -19,7 +19,7 @@
 - 24-08-25: Character Battle
 - 25-08-25: camelCase
 - 26-08-25:
-- 27-08-25:
+- 27-08-25: Unorder of Operations
 
 ### September 2025 (09-25)
 
