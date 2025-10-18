@@ -20,7 +20,8 @@
 - 25-08-25: camelCase
 - 26-08-25:
 - 27-08-25: Unorder of Operations
-- 28-10-25: Seconds Best
+- 28-08-25: Seconds Best
+- 29-08-25: Candlelight
 
 ### September 2025 (09-25)
 
