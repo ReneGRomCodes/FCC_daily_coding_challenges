@@ -20,6 +20,7 @@
 - 25-08-25: camelCase
 - 26-08-25:
 - 27-08-25: Unorder of Operations
+- 28-10-25: Seconds Best
 
 ### September 2025 (09-25)
 
@@ -38,3 +39,4 @@
 - 15-10-25: HTML Tag Stripper
 - 16-10-25: Email Validator
 - 17-10-25: Credit Card Masker
+- 18-10-25: Missing Socks
