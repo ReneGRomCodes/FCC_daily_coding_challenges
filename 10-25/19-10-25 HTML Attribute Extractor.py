@@ -20,18 +20,18 @@ If no attributes are found, return an empty array.
 
 def extract_attributes(element: str) -> list[str]:
     # Variables for attribute indicators, flags and indices.
-    attr_indicator_0 = ' '
-    attr_indicator_1 = '='
-    attr_indicator_2 = '"'
-    attr_flag_0 = False
-    attr_flag_1 = False
-    attr_flag_2 = False
-    attr_index_0 = 0
-    attr_index_2 = 0
+    attr_indicator_0: str = ' '
+    attr_indicator_1: str = '='
+    attr_indicator_2: str = '"'
+    attr_flag_0: bool = False
+    attr_flag_1: bool = False
+    attr_flag_2: bool = False
+    attr_index_0: int = 0
+    attr_index_2: int = 0
 
     # Lists for each step of extraction process. 'extracted_attributes' for return.
-    extracted_elements = []
-    extracted_attributes = []
+    extracted_elements: list[str] = []
+    extracted_attributes: list[str] = []
 
     for index, char in enumerate(element):
         # Check for first indicator.
