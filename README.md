@@ -41,3 +41,4 @@
 - 16-10-25: Email Validator
 - 17-10-25: Credit Card Masker
 - 18-10-25: Missing Socks
+- 19-10-25: HTML Attribute Extractor
