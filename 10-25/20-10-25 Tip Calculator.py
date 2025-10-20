@@ -21,7 +21,7 @@ def calculate_tips(meal_price: str, custom_tip: str) -> list[str]:
     prices_with_tip: list[str] = []
 
     for v in tip_values:
-        prices_with_tip.append(f"${round(meal_price/100*v, 2)}")
+        prices_with_tip.append(f"${round(meal_price / 100 * v, 2):.2f}")
 
     return prices_with_tip
 
