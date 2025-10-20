@@ -27,6 +27,7 @@
 
 ### September 2025 (09-25)
 - 01-09-25: Tribonacci Sequence
+- 02-09-25: RGB to Hex
 
 ### October 2025 (10-25)
 - 04-10-25: Space Week Day 1 - Stellar Classification
