@@ -26,6 +26,7 @@
 - 31-08-25:
 
 ### September 2025 (09-25)
+- 01-09-25: Tribonacci Sequence
 
 ### October 2025 (10-25)
 - 04-10-25: Space Week Day 1 - Stellar Classification
