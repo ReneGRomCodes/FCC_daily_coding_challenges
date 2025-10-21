@@ -29,6 +29,8 @@
 - 01-09-25: Tribonacci Sequence
 - 02-09-25: RGB to Hex
 - 03-09-25: Pangram
+- 04-09-25: Vowel Repeater
+- 05-09-25: IPv4 Validator
 
 ### October 2025 (10-25)
 - 04-10-25: Space Week Day 1 - Stellar Classification
@@ -48,3 +50,4 @@
 - 18-10-25: Missing Socks
 - 19-10-25: HTML Attribute Extractor
 - 20-10-25: Tip Calculator
+- 21-10-25: Thermostat Adjuster 2
