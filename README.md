@@ -32,6 +32,7 @@
 - 04-09-25: Vowel Repeater
 - 05-09-25: IPv4 Validator
 - 06-09-25: Matrix Rotate
+- 07-09-25: Roman Numeral Parser
 
 ### October 2025 (10-25)
 - 04-10-25: Space Week Day 1 - Stellar Classification
