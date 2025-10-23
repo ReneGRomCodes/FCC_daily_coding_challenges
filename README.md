@@ -31,6 +31,7 @@
 - 03-09-25: Pangram
 - 04-09-25: Vowel Repeater
 - 05-09-25: IPv4 Validator
+- 06-09-25: Matrix Rotate
 
 ### October 2025 (10-25)
 - 04-10-25: Space Week Day 1 - Stellar Classification
@@ -51,3 +52,4 @@
 - 19-10-25: HTML Attribute Extractor
 - 20-10-25: Tip Calculator
 - 21-10-25: Thermostat Adjuster 2
+- 22-10-25: Speak Wisely, You Must
