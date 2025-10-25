@@ -34,6 +34,7 @@
 - 06-09-25: Matrix Rotate
 - 07-09-25: Roman Numeral Parser
 - 08-09-25: Acronym Builder
+- 09-09-25: Unique Characters
 
 ### October 2025 (10-25)
 - 04-10-25: Space Week Day 1 - Stellar Classification
