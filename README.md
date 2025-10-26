@@ -36,6 +36,7 @@
 - 08-09-25: Acronym Builder
 - 09-09-25: Unique Characters
 - 10-09-25: Array Diff
+- 11-09-25: Reverse Sentence
 
 ### October 2025 (10-25)
 - 04-10-25: Space Week Day 1 - Stellar Classification
