@@ -63,3 +63,5 @@
 - 25-10-25: Complementary DNA
 - 26-10-25: Duration Formatter
 - 27-10-25: Integer Sequence
+- 28-10-25:
+- 29-10-25: Email Sorter
