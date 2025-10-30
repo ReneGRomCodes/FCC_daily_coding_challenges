@@ -66,3 +66,4 @@
 - 27-10-25: Integer Sequence
 - 28-10-25:
 - 29-10-25: Email Sorter
+- 30-10-25: Nth Prime
