@@ -39,8 +39,10 @@
 - 11-09-25: Reverse Sentence
 - 12-09-25: Screen Time
 - 13-09-25: Missing Numbers
+- 14-09-25: Word Frequency
 
 ### October 2025 (10-25)
+- 03-10-25: P@ssw0rd Str3ngth!
 - 04-10-25: Space Week Day 1 - Stellar Classification
 - 05-10-25: Space Week Day 2 - Exoplanet Search
 - 06-10-25: Space Week Day 3 - Phone Home
