@@ -68,3 +68,4 @@
 - 28-10-25:
 - 29-10-25: Email Sorter
 - 30-10-25: Nth Prime
+- 31-10-25: SpOoKy~CaSe
