@@ -40,8 +40,11 @@
 - 12-09-25: Screen Time
 - 13-09-25: Missing Numbers
 - 14-09-25: Word Frequency
+- 15-09-25: Thermostat Adjuster
 
 ### October 2025 (10-25)
+- 01-10-25: Binary to Decimal
+- 02-10-25: Decimal to Binary
 - 03-10-25: P@ssw0rd Str3ngth!
 - 04-10-25: Space Week Day 1 - Stellar Classification
 - 05-10-25: Space Week Day 2 - Exoplanet Search
@@ -71,3 +74,6 @@
 - 29-10-25: Email Sorter
 - 30-10-25: Nth Prime
 - 31-10-25: SpOoKy~CaSe
+
+### November 2025 (11-25)
+- 01-11-25: Signature Validation
