@@ -43,6 +43,9 @@
 - 15-09-25: Thermostat Adjuster
 - 16-09-25: Sentence Capitalizer
 - 17-09-25: Slug Generator
+- 18-09-25: Fill The Tank
+- 19-09-25: Photo Storage
+- 20-09-25: File Storage
 
 ### October 2025 (10-25)
 - 01-10-25: Binary to Decimal
@@ -80,3 +83,4 @@
 ### November 2025 (11-25)
 - 01-11-25: Signature Validation
 - 02-11-25: Infected
+- 03-11-25: Word Counter
