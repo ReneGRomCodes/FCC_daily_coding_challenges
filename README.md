@@ -46,6 +46,9 @@
 - 18-09-25: Fill The Tank
 - 19-09-25: Photo Storage
 - 20-09-25: File Storage
+- 21-09-25: Video Storage
+- 22-09-25: Digits vs Letters
+- 23-09-25: String Mirror
 
 ### October 2025 (10-25)
 - 01-10-25: Binary to Decimal
