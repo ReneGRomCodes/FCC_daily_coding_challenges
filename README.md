@@ -50,6 +50,8 @@
 - 22-09-25: Digits vs Letters
 - 23-09-25: String Mirror
 - 24-09-25: Perfect Square
+- 25-09-25: 2nd Largest
+- 26-09-25: Caught Speeding
 
 ### October 2025 (10-25)
 - 01-10-25: Binary to Decimal
