@@ -49,6 +49,7 @@
 - 21-09-25: Video Storage
 - 22-09-25: Digits vs Letters
 - 23-09-25: String Mirror
+- 24-09-25: Perfect Square
 
 ### October 2025 (10-25)
 - 01-10-25: Binary to Decimal
