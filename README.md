@@ -52,6 +52,8 @@
 - 24-09-25: Perfect Square
 - 25-09-25: 2nd Largest
 - 26-09-25: Caught Speeding
+- 27-09-25: Spam Detector
+- 28-09-25: CSV Header Parser
 
 ### October 2025 (10-25)
 - 01-10-25: Binary to Decimal
