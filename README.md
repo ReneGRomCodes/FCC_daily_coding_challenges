@@ -94,3 +94,4 @@
 - 03-11-25: Word Counter
 - 04-11-25: Image Search
 - 05-11-25: Matrix builder
+- 06-11-25: Weekday Finder
