@@ -54,6 +54,8 @@
 - 26-09-25: Caught Speeding
 - 27-09-25: Spam Detector
 - 28-09-25: CSV Header Parser
+- 29-09-25: Longest Word
+- 30-09-25: Phone Number Formatter
 
 ### October 2025 (10-25)
 - 01-10-25: Binary to Decimal
@@ -95,3 +97,4 @@
 - 04-11-25: Image Search
 - 05-11-25: Matrix builder
 - 06-11-25: Weekday Finder
+- 07-11-25: Counting Cards
