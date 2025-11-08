@@ -98,3 +98,4 @@
 - 05-11-25: Matrix builder
 - 06-11-25: Weekday Finder
 - 07-11-25: Counting Cards
+- 08-11-25: Character Limit
