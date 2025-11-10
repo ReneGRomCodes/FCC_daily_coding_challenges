@@ -99,3 +99,5 @@
 - 06-11-25: Weekday Finder
 - 07-11-25: Counting Cards
 - 08-11-25: Character Limit
+- 09-11-25:
+- 10-11-25: Extension Extractor
