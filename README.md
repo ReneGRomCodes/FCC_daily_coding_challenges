@@ -107,5 +107,6 @@
 - 07-11-25: Counting Cards<br>
 - 08-11-25: Character Limit<br>
 - 09-11-25:<br>
-- 10-11-25: Extension Extractor<p>
+- 10-11-25: Extension Extractor<br>
+- 11-11-25: Vowels and Consonants<p>
 </details>
