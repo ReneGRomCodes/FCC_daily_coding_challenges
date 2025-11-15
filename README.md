@@ -110,5 +110,7 @@
 - 10-11-25: Extension Extractor<br>
 - 11-11-25: Vowels and Consonants<br>
 - 12-11-25: Email Signature Generator<br>
-- 13-11-25: Array Shift<p>
+- 13-11-25: Array Shift<br>
+- 14-11-25: Is It the Weekend<br>
+- 15-11-25: GCD<p>
 </details>
