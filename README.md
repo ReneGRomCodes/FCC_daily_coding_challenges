@@ -113,5 +113,6 @@
 - 13-11-25: Array Shift<br>
 - 14-11-25: Is It the Weekend<br>
 - 15-11-25: GCD<br>
-- 16-11-25: Rectangle Count<p>
+- 16-11-25: Rectangle Count<br>
+- 17-11-25: Fingerprint Test<p>
 </details>
