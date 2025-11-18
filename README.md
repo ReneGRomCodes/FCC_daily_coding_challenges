@@ -114,5 +114,6 @@
 - 14-11-25: Is It the Weekend<br>
 - 15-11-25: GCD<br>
 - 16-11-25: Rectangle Count<br>
-- 17-11-25: Fingerprint Test<p>
+- 17-11-25: Fingerprint Test<br>
+- 18-11-25: 100 Characters<p>
 </details>
