@@ -116,5 +116,6 @@
 - 16-11-25: Rectangle Count<br>
 - 17-11-25: Fingerprint Test<br>
 - 18-11-25: 100 Characters<br>
-- 19-11-25: Markdown Heading Converter<p>
+- 19-11-25: Markdown Heading Converter<br>
+- 20-11-25: Longest Word<p>
 </details>
