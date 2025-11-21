@@ -117,5 +117,6 @@
 - 17-11-25: Fingerprint Test<br>
 - 18-11-25: 100 Characters<br>
 - 19-11-25: Markdown Heading Converter<br>
-- 20-11-25: Longest Word<p>
+- 20-11-25: Longest Word<br>
+- 21-11-25: LCM<p>
 </details>
