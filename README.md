@@ -118,5 +118,6 @@
 - 18-11-25: 100 Characters<br>
 - 19-11-25: Markdown Heading Converter<br>
 - 20-11-25: Longest Word<br>
-- 21-11-25: LCM<p>
+- 21-11-25: LCM<br>
+- 22-11-25: Recipe Scaler<p>
 </details>
