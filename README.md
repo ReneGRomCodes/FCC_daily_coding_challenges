@@ -120,5 +120,6 @@
 - 20-11-25: Longest Word<br>
 - 21-11-25: LCM<br>
 - 22-11-25: Recipe Scaler<br>
-- 23-11-25: Character Count<p>
+- 23-11-25: Character Count<br>
+- 24-11-25: Message Validator<p>
 </details>
