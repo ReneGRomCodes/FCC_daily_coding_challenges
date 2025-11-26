@@ -122,5 +122,6 @@
 - 22-11-25: Recipe Scaler<br>
 - 23-11-25: Character Count<br>
 - 24-11-25: Message Validator<br>
-- 25-11-25: FizzBuzz<p>
+- 25-11-25: FizzBuzz<br>
+- 26-11-25: BuzzFizz<p>
 </details>
