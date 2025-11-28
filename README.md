@@ -124,5 +124,6 @@
 - 24-11-25: Message Validator<br>
 - 25-11-25: FizzBuzz<br>
 - 26-11-25: BuzzFizz<br>
-- 27-11-25: What's My Age Again<p>
+- 27-11-25: What's My Age Again<br>
+- 28-11-25: Word Guesser<p>
 </details>
