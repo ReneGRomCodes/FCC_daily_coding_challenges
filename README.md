@@ -126,5 +126,6 @@
 - 26-11-25: BuzzFizz<br>
 - 27-11-25: What's My Age Again<br>
 - 28-11-25: Word Guesser<br>
-- 29-11-25: Ball Trajectory<p>
+- 29-11-25: Ball Trajectory<br>
+- 30-11-25: AI Detector<p>
 </details>
