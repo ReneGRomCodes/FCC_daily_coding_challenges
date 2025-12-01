@@ -129,3 +129,8 @@
 - 29-11-25: Ball Trajectory<br>
 - 30-11-25: AI Detector<p>
 </details>
+
+<details>
+  <summary><b>December 2025 (11-25)</b></summary>
+- 01-12-25: Miles to Kilometers<p>
+</details>
