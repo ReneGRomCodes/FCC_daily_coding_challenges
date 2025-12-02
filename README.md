@@ -132,5 +132,6 @@
 
 <details>
   <summary><b>December 2025 (11-25)</b></summary>
-- 01-12-25: Miles to Kilometers<p>
+- 01-12-25: Miles to Kilometers<br>
+- 02-12-25: Camel to Snake<p>
 </details>
