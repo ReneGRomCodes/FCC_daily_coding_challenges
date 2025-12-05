@@ -135,5 +135,6 @@
 - 01-12-25: Miles to Kilometers<br>
 - 02-12-25: Camel to Snake<br>
 - 03-12-25: Markdown Ordered List Item Converter<br>
-- 04-12-25: Permutation Count<p>
+- 04-12-25: Permutation Count<br>
+- 05-12-25: Symmetric Difference<p>
 </details>
