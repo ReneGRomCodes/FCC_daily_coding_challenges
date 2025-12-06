@@ -136,5 +136,6 @@
 - 02-12-25: Camel to Snake<br>
 - 03-12-25: Markdown Ordered List Item Converter<br>
 - 04-12-25: Permutation Count<br>
-- 05-12-25: Symmetric Difference<p>
+- 05-12-25: Symmetric Difference<br>
+- 06-12-25: Date Formatter<p>
 </details>
