@@ -138,5 +138,6 @@
 - 04-12-25: Permutation Count<br>
 - 05-12-25: Symmetric Difference<br>
 - 06-12-25: Date Formatter<br>
-- 07-12-25: String Compression<p>
+- 07-12-25: String Compression<br>
+- 08-12-25: Pounds to Kilogram<p>
 </details>
