@@ -106,7 +106,7 @@
 - 06-11-25: Weekday Finder<br>
 - 07-11-25: Counting Cards<br>
 - 08-11-25: Character Limit<br>
-- 09-11-25:<br>
+- 09-11-25: Word Search<br>
 - 10-11-25: Extension Extractor<br>
 - 11-11-25: Vowels and Consonants<br>
 - 12-11-25: Email Signature Generator<br>
