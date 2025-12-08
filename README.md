@@ -90,7 +90,7 @@
 - 25-10-25: Complementary DNA<br>
 - 26-10-25: Duration Formatter<br>
 - 27-10-25: Integer Sequence<br>
-- 28-10-25:<br>
+- 28-10-25: Navigator<br>
 - 29-10-25: Email Sorter<br>
 - 30-10-25: Nth Prime<br>
 - 31-10-25: SpOoKy~CaSe<p>
