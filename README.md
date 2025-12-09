@@ -139,5 +139,6 @@
 - 05-12-25: Symmetric Difference<br>
 - 06-12-25: Date Formatter<br>
 - 07-12-25: String Compression<br>
-- 08-12-25: Pounds to Kilogram<p>
+- 08-12-25: Pounds to Kilogram<br>
+- 09-12-25: Most Frequent<p>
 </details>
