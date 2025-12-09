@@ -19,7 +19,7 @@
 - 23-08-25: Unnatural Prime<br>
 - 24-08-25: Character Battle<br>
 - 25-08-25: camelCase<br>
-- 26-08-25:<br>
+- 26-08-25: Reverse Parenthesis<br>
 - 27-08-25: Unorder of Operations<br>
 - 28-08-25: Seconds Best<br>
 - 29-08-25: Candlelight<br>
