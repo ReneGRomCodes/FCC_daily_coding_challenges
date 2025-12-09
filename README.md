@@ -24,7 +24,7 @@
 - 28-08-25: Seconds Best<br>
 - 29-08-25: Candlelight<br>
 - 30-08-25: Array Duplicates<br>
-- 31-08-25:<p>
+- 31-08-25: Hex Generator<p>
 </details>
 
 <details>
