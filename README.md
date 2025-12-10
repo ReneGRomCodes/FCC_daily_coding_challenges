@@ -140,5 +140,6 @@
 - 06-12-25: Date Formatter<br>
 - 07-12-25: String Compression<br>
 - 08-12-25: Pounds to Kilogram<br>
-- 09-12-25: Most Frequent<p>
+- 09-12-25: Most Frequent<br>
+- 10-12-25: Markdown Bold Parser<p>
 </details>
