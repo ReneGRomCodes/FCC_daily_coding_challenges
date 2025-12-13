@@ -27,6 +27,7 @@ def update_inventory(inventory: list[list[int | str]], shipment: list[list[int |
     if not inventory:
         return shipment
 
+    # Indices for objects in inner lists.
     amount_index: int = 0
     name_index: int = 1
     # Dict for items in 'inventory' for lookups of their occurrence and index in 'inventory'.

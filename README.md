@@ -143,5 +143,6 @@
 - 09-12-25: Most Frequent<br>
 - 10-12-25: Markdown Bold Parser<br>
 - 11-12-25: Roman Numeral Builder<br>
-- 12-12-25: Inventory Update<p>
+- 12-12-25: Inventory Update<br>
+- 13-12-25: Game of Life<p>
 </details>
