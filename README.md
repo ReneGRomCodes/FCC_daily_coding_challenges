@@ -144,5 +144,6 @@
 - 10-12-25: Markdown Bold Parser<br>
 - 11-12-25: Roman Numeral Builder<br>
 - 12-12-25: Inventory Update<br>
-- 13-12-25: Game of Life<p>
+- 13-12-25: Game of Life<br>
+- 14-12-25: Capitalize It<p>
 </details>

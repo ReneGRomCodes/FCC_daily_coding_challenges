@@ -38,8 +38,8 @@ stays alive (2 live neighbors), [0][2] dies (3 live neighbors), and so on.
     should return [[1, 1, 1, 0], [1, 0, 0, 1], [1, 0, 0, 1], [0, 1, 1, 0]].
 """
 
-def count_surrounding_live(grid, i, j, is_border_lt, is_border_rt, is_border_up, is_border_lo) -> int:
-    """Check surrounding cells for live and return number of live cells."""
+def count_surrounding_life(grid, i, j, is_border_lt, is_border_rt, is_border_up, is_border_lo) -> int:
+    """Check surrounding cells for life and return number of live cells."""
     live_cells: list[bool] = [
         not is_border_lt and grid[i][j-1],  # left
         not is_border_rt and grid[i][j+1],  # right
@@ -64,7 +64,7 @@ def game_of_life(grid: list[list[int]]) -> list[list[int]]:
         for j, cell in enumerate(array):
             is_cell_alive: bool = cell == 1
             is_border_lt, is_border_rt = (j == 0), (j == len(grid[0])-1)
-            n_live_cells: int = count_surrounding_live(grid, i, j, is_border_lt, is_border_rt, is_border_up, is_border_lo)
+            n_live_cells: int = count_surrounding_life(grid, i, j, is_border_lt, is_border_rt, is_border_up, is_border_lo)
 
             if (n_live_cells < 2) or (n_live_cells > 3 and is_cell_alive):
                 new_array.append(0)
