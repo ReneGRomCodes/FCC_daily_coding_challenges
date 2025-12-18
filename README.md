@@ -148,5 +148,6 @@
 - 14-12-25: Capitalize It<br>
 - 15-12-25: Speed Check<br>
 - 16-12-25: Consonant Count<br>
-- 17-12-25: Markdown Blockquote Parser<p>
+- 17-12-25: Markdown Blockquote Parser<br>
+- 18-12-25: Checkerboard<p>
 </details>
