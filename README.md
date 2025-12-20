@@ -150,5 +150,6 @@
 - 16-12-25: Consonant Count<br>
 - 17-12-25: Markdown Blockquote Parser<br>
 - 18-12-25: Checkerboard<br>
-- 19-12-25: Pairwise<p>
+- 19-12-25: Pairwise<br>
+- 20-12-25: Purge Most Frequent<p>
 </details>
