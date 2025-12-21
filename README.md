@@ -151,5 +151,6 @@
 - 17-12-25: Markdown Blockquote Parser<br>
 - 18-12-25: Checkerboard<br>
 - 19-12-25: Pairwise<br>
-- 20-12-25: Purge Most Frequent<p>
+- 20-12-25: Purge Most Frequent<br>
+- 21-12-25: Daylight Hours<p>
 </details>
