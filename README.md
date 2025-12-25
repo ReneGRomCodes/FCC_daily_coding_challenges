@@ -155,5 +155,6 @@
 - 21-12-25: Daylight Hours<br>
 - 22-12-25: Traveling Shopper<br>
 - 23-12-25: Re: Fwd: Fw: Count<br>
-- 24-12-25: Markdown Image Parser<p>
+- 24-12-25: Markdown Image Parser<br>
+- 25-12-25: Snowflake Generator<p>
 </details>
