@@ -156,5 +156,6 @@
 - 22-12-25: Traveling Shopper<br>
 - 23-12-25: Re: Fwd: Fw: Count<br>
 - 24-12-25: Markdown Image Parser<br>
-- 25-12-25: Snowflake Generator<p>
+- 25-12-25: Snowflake Generator<br>
+- 26-12-25: Sum of Divisors<p>
 </details>
