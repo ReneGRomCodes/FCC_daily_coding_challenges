@@ -15,6 +15,8 @@ For example, given 6, return 12 because the divisors of 6 are 1, 2, 3, and 6, an
 """
 
 def sum_divisors(n: int) -> int:
+    """Straight forward solution, but for really large numbers you should use a generator. They are way more efficient
+    and can be easily found on StackOverflow ;)."""
     return sum([x for x in range(1, n + 1) if n % x == 0])
 
 

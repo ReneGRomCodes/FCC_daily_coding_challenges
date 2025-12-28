@@ -157,5 +157,7 @@
 - 23-12-25: Re: Fwd: Fw: Count<br>
 - 24-12-25: Markdown Image Parser<br>
 - 25-12-25: Snowflake Generator<br>
-- 26-12-25: Sum of Divisors<p>
+- 26-12-25: Sum of Divisors<br>
+- 27-12-25: Rock, Paper, Scissors<br>
+- 28-12-25: SCREAMING_SNAKE_CASE<p>
 </details>
