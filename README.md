@@ -160,5 +160,6 @@
 - 26-12-25: Sum of Divisors<br>
 - 27-12-25: Rock, Paper, Scissors<br>
 - 28-12-25: SCREAMING_SNAKE_CASE<br>
-- 29-12-25: Takeoff Fuel<p>
+- 29-12-25: Takeoff Fuel<br>
+- 30-12-25: Sum the Strings<p>
 </details>
