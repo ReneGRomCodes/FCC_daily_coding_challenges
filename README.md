@@ -131,7 +131,7 @@
 </details>
 
 <details>
-  <summary><b>December 2025 (11-25)</b></summary>
+  <summary><b>December 2025 (12-25)</b></summary>
 - 01-12-25: Miles to Kilometers<br>
 - 02-12-25: Camel to Snake<br>
 - 03-12-25: Markdown Ordered List Item Converter<br>
@@ -163,4 +163,9 @@
 - 29-12-25: Takeoff Fuel<br>
 - 30-12-25: Sum the Strings<br>
 - 31-12-25: Markdown Italic Parser<p>
+</details>
+
+<details>
+  <summary><b>January 2026 (01-26)</b></summary>
+- 01-01-26: Resolution Streak<p>
 </details>
