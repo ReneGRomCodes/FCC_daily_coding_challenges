@@ -167,5 +167,6 @@
 
 <details>
   <summary><b>January 2026 (01-26)</b></summary>
-- 01-01-26: Resolution Streak<p>
+- 01-01-26: Resolution Streak<br>
+- 02-01-26: Nth Fibonacci Number<p>
 </details>
