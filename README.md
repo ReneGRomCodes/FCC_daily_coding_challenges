@@ -170,5 +170,6 @@
 - 01-01-26: Resolution Streak<br>
 - 02-01-26: Nth Fibonacci Number<br>
 - 03-01-26: Left-Handed Seat at the Table<br>
-- 04-01-26: Leap Year Calculator<p>
+- 04-01-26: Leap Year Calculator<br>
+- 05-01-25: Tire Pressure<p>
 </details>
