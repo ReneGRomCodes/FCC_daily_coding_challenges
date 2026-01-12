@@ -177,5 +177,6 @@
 - 08-01-26: Sorted Array?<br>
 - 09-01-26: Circular Prime<br>
 - 10-01-26: Tic-Tac-Toe<br>
-- 11-01-26: Par for the Hole<p>
+- 11-01-26: Par for the Hole<br>
+- 12-01-26: Plant the Crop<p>
 </details>
