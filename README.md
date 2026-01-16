@@ -181,5 +181,6 @@
 - 12-01-26: Plant the Crop<br>
 - 13-01-26: Odd or Even<br>
 - 14-01-26: Markdown Link Parser<br>
-- 15-01-26: Array Swap<p>
+- 15-01-26: Array Swap<br>
+- 16-01-26: Integer Hypotenuse<p>
 </details>
