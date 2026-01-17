@@ -182,5 +182,6 @@
 - 13-01-26: Odd or Even<br>
 - 14-01-26: Markdown Link Parser<br>
 - 15-01-26: Array Swap<br>
-- 16-01-26: Integer Hypotenuse<p>
+- 16-01-26: Integer Hypotenuse<br>
+- 17-01-26: Knight Moves<p>
 </details>
