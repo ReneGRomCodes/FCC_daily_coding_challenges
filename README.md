@@ -1,6 +1,8 @@
 # freeCodeCamp Daily Coding Challenges
 
-## Collection of my solutions to FCCs daily coding challenges sorted by month.
+## Collection of my solutions to FCCs daily coding challenges sorted by language and month.
+
+### NOTE: While the Python solutions are complete, I am still in the process of adding JavaScript.
 
 <details>
   <summary><b>August 2025 (08-25)</b></summary>
