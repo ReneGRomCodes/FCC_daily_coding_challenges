@@ -183,5 +183,6 @@
 - 14-01-26: Markdown Link Parser<br>
 - 15-01-26: Array Swap<br>
 - 16-01-26: Integer Hypotenuse<br>
-- 17-01-26: Knight Moves<p>
+- 17-01-26: Knight Moves<br>
+- 18-01-26: Free Shipping<p>
 </details>
