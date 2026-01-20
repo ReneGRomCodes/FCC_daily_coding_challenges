@@ -187,5 +187,6 @@
 - 16-01-26: Integer Hypotenuse<br>
 - 17-01-26: Knight Moves<br>
 - 18-01-26: Free Shipping<br>
-- 19-01-26: Energy Consumption<p>
+- 19-01-26: Energy Consumption<br>
+- 20-01-26: Consonant Case<p>
 </details>
