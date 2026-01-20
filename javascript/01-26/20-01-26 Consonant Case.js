@@ -29,7 +29,7 @@ function toConsonantCase(str) {
 }
 
 
-console.log(toConsonantCase("helloworld"))
-console.log(toConsonantCase("HELLOWORLD"))
-console.log(toConsonantCase("_hElLO-WOrlD-"))
-console.log(toConsonantCase("_~-generic_~-variable_~-name_~-here-~_"))
+console.log(toConsonantCase("helloworld"));
+console.log(toConsonantCase("HELLOWORLD"));
+console.log(toConsonantCase("_hElLO-WOrlD-"));
+console.log(toConsonantCase("_~-generic_~-variable_~-name_~-here-~_"));
