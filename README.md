@@ -189,5 +189,6 @@
 - 18-01-26: Free Shipping<br>
 - 19-01-26: Energy Consumption<br>
 - 20-01-26: Consonant Case<br>
-- 21-01-26: Markdown Inline Code Parser<p>
+- 21-01-26: Markdown Inline Code Parser<br>
+- 22-01-26: Class Average<p>
 </details>
