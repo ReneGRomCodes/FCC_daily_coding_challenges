@@ -190,5 +190,6 @@
 - 19-01-26: Energy Consumption<br>
 - 20-01-26: Consonant Case<br>
 - 21-01-26: Markdown Inline Code Parser<br>
-- 22-01-26: Class Average<p>
+- 22-01-26: Class Average<br>
+- 23-01-26: Hex Validator<p>
 </details>
