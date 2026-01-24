@@ -191,5 +191,6 @@
 - 20-01-26: Consonant Case<br>
 - 21-01-26: Markdown Inline Code Parser<br>
 - 22-01-26: Class Average<br>
-- 23-01-26: Hex Validator<p>
+- 23-01-26: Hex Validator<br>
+- 24-01-26: Bingo! Letter<p>
 </details>
