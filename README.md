@@ -192,5 +192,6 @@
 - 21-01-26: Markdown Inline Code Parser<br>
 - 22-01-26: Class Average<br>
 - 23-01-26: Hex Validator<br>
-- 24-01-26: Bingo! Letter<p>
+- 24-01-26: Bingo! Letter<br>
+- 25-01-26: Scaled Image<p>
 </details>
