@@ -193,5 +193,6 @@
 - 22-01-26: Class Average<br>
 - 23-01-26: Hex Validator<br>
 - 24-01-26: Bingo! Letter<br>
-- 25-01-26: Scaled Image<p>
+- 25-01-26: Scaled Image<br>
+- 26-01-26: FizzBuzz Mini<p>
 </details>
