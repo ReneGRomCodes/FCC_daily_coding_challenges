@@ -194,5 +194,8 @@
 - 23-01-26: Hex Validator<br>
 - 24-01-26: Bingo! Letter<br>
 - 25-01-26: Scaled Image<br>
-- 26-01-26: FizzBuzz Mini<p>
+- 26-01-26: FizzBuzz Mini<br>
+- 27-01-26: Odd or Even Day - NOT ADDED YET<br>
+- 28-01-26: Flatten the Array - NET ADDED YET<br>
+- 29-01-26: Letters-Numbers<p>
 </details>
