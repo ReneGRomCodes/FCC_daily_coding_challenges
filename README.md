@@ -197,5 +197,6 @@
 - 26-01-26: FizzBuzz Mini<br>
 - 27-01-26: Odd or Even Day<br>
 - 28-01-26: Flatten the Array<br>
-- 29-01-26: Letters-Numbers<p>
+- 29-01-26: Letters-Numbers<br>
+- 30-01-26: Valid Pawn Moves<p>
 </details>
