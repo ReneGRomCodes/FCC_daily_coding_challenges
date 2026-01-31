@@ -198,5 +198,6 @@
 - 27-01-26: Odd or Even Day<br>
 - 28-01-26: Flatten the Array<br>
 - 29-01-26: Letters-Numbers<br>
-- 30-01-26: Valid Pawn Moves<p>
+- 30-01-26: Valid Pawn Moves<br>
+- 31-01-26: Zodiac Finder<p>
 </details>
