@@ -2,7 +2,8 @@
 
 ## Collection of my solutions to FCCs daily coding challenges sorted by language and month.
 
-### NOTE: While the Python solutions are complete, I am still in the process of adding JavaScript.
+### NOTE 1: While the Python solutions are complete, I am still in the process of adding JavaScript.
+### NOTE 2: I try to solve all challenges with a 'no import' approach... just to make my life a little harder ;)
 
 <details>
   <summary><b>August 2025 (08-25)</b></summary>
@@ -200,4 +201,10 @@
 - 29-01-26: Letters-Numbers<br>
 - 30-01-26: Valid Pawn Moves<br>
 - 31-01-26: Zodiac Finder<p>
+</details>
+
+<details>
+  <summary><b>February 2026 (02-26)</b></summary>
+- 01-02-26: Digital Detox<br>
+- 02-02-26: Groundhog Day<p>
 </details>
