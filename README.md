@@ -207,5 +207,6 @@
   <summary><b>February 2026 (02-26)</b></summary>
 - 01-02-26: Digital Detox<br>
 - 02-02-26: Groundhog Day<br>
-- 03-02-26: String Mirror<p>
+- 03-02-26: String Mirror<br>
+- 04-02-26: Truncate the Text<p>
 </details>
