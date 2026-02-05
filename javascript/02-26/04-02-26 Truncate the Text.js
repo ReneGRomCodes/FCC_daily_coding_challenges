@@ -10,7 +10,7 @@ first 17 characters and append "..." to the end of it (so it's 20 characters tot
  */
 
 function truncateText(text) {
-    return text.length > 20 ? text.slice(0, 17) + "..." : text
+    return text.length > 20 ? text.slice(0, 17) + "..." : text;
 }
 
 console.log(truncateText("Hello, world!"));
