@@ -209,5 +209,6 @@
 - 02-02-26: Groundhog Day<br>
 - 03-02-26: String Mirror<br>
 - 04-02-26: Truncate the Text<br>
-- 05-02-26: Pocket Change<p>
+- 05-02-26: Pocket Change<br>
+- 06-02-26: 2026 Winter Games Day 1: Opening Day<p> 
 </details>
