@@ -210,5 +210,6 @@
 - 03-02-26: String Mirror<br>
 - 04-02-26: Truncate the Text<br>
 - 05-02-26: Pocket Change<br>
-- 06-02-26: 2026 Winter Games Day 1: Opening Day<p> 
+- 06-02-26: 2026 Winter Games Day 1: Opening Day<br>
+- 07-02-26: 2026 Winter Games Day 2: Snowboarding<p>
 </details>
