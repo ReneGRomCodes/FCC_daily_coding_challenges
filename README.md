@@ -211,5 +211,6 @@
 - 04-02-26: Truncate the Text<br>
 - 05-02-26: Pocket Change<br>
 - 06-02-26: 2026 Winter Games Day 1: Opening Day<br>
-- 07-02-26: 2026 Winter Games Day 2: Snowboarding<p>
+- 07-02-26: 2026 Winter Games Day 2: Snowboarding<br>
+- 08-02-26: 2026 Winter Games Day 3: Biathlon<p>
 </details>
