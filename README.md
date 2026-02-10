@@ -213,5 +213,6 @@
 - 06-02-26: 2026 Winter Games Day 1: Opening Day<br>
 - 07-02-26: 2026 Winter Games Day 2: Snowboarding<br>
 - 08-02-26: 2026 Winter Games Day 3: Biathlon<br>
-- 09-02-26: 2026 Winter Games Day 4: Ski Jumping<p>
+- 09-02-26: 2026 Winter Games Day 4: Ski Jumping<br>
+- 10-02-26: 2026 Winter Games Day 5: Cross Country Skiing<p>
 </details>
