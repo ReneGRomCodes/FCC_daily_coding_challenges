@@ -221,5 +221,6 @@
 - 14-02-26: 2026 Winter Games Day 9: Skeleton<br>
 - 15-02-26: 2026 Winter Games Day 10: Alpine Skiing<br>
 - 16-02-26: 2026 Winter Games Day 11: Ice Hockey<br>
-- 17-02-26: 2026 Winter Games Day 12: Bobsled<p>
+- 17-02-26: 2026 Winter Games Day 12: Bobsled<br>
+- 18-02-26: 2026 Winter Games Day 13: Nordic Combined<p>
 </details>
