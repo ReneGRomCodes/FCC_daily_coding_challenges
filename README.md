@@ -225,5 +225,6 @@
 - 18-02-26: 2026 Winter Games Day 13: Nordic Combined<br>
 - 19-02-26: 2026 Winter Games Day 14: Ski Mountaineering<br>
 - 20-02-26: 2026 Winter Games Day 15: Freestyle Skiing<br>
-- 21-02-26: 2026 Winter Games Day 16: Curling<p>
+- 21-02-26: 2026 Winter Games Day 16: Curling<br>
+- 22-02-26: 2026 Winter Games Day 17: Closing Day<p>
 </details>
