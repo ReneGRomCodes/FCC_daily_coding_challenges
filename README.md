@@ -226,5 +226,6 @@
 - 19-02-26: 2026 Winter Games Day 14: Ski Mountaineering<br>
 - 20-02-26: 2026 Winter Games Day 15: Freestyle Skiing<br>
 - 21-02-26: 2026 Winter Games Day 16: Curling<br>
-- 22-02-26: 2026 Winter Games Day 17: Closing Day<p>
+- 22-02-26: 2026 Winter Games Day 17: Closing Day<br>
+- 23-02-26: Blood Type Compatibility<p>
 </details>
