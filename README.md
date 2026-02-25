@@ -228,5 +228,6 @@
 - 21-02-26: 2026 Winter Games Day 16: Curling<br>
 - 22-02-26: 2026 Winter Games Day 17: Closing Day<br>
 - 23-02-26: Blood Type Compatibility<br>
-- 24-02-26: Business Day Counter<p>
+- 24-02-26: Business Day Counter<br>
+- 25-02-26: Sequential Differences<p>
 </details>
