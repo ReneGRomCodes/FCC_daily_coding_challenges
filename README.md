@@ -239,5 +239,6 @@
   <summary><b>March 2026 (03-26)</b></summary>
 - 01-03-26: Flattened<br>
 - 02-03-26: Sum the Letters<br>
-- 03-03-26: Perfect Cube Count<p>
+- 03-03-26: Perfect Cube Count<br>
+- 04-03-26: Playing Card Values<p>
 </details>
