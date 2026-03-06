@@ -241,6 +241,6 @@
 - 02-03-26: Sum the Letters<br>
 - 03-03-26: Perfect Cube Count<br>
 - 04-03-26: Playing Card Values<br>
-- 05-03-26:<br>
+- 05-03-26: Smallest Gap<br>
 - 06-03-26: Trail Traversal<p>
 </details>
