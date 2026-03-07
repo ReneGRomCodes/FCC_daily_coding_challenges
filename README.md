@@ -242,5 +242,6 @@
 - 03-03-26: Perfect Cube Count<br>
 - 04-03-26: Playing Card Values<br>
 - 05-03-26: Smallest Gap<br>
-- 06-03-26: Trail Traversal<p>
+- 06-03-26: Trail Traversal<br>
+- 07-03-26: Element Size<p>
 </details>
