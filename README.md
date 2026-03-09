@@ -243,5 +243,7 @@
 - 04-03-26: Playing Card Values<br>
 - 05-03-26: Smallest Gap<br>
 - 06-03-26: Trail Traversal<br>
-- 07-03-26: Element Size<p>
+- 07-03-26: Element Size<br>
+- 08-03-26:<br>
+- 09-03-26: Array Sum<p>
 </details>
