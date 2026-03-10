@@ -245,5 +245,6 @@
 - 06-03-26: Trail Traversal<br>
 - 07-03-26: Element Size<br>
 - 08-03-26: HSL Validator<br>
-- 09-03-26: Array Sum<p>
+- 09-03-26: Array Sum<br>
+- 10-03-26: Array Insertion<p>
 </details>
