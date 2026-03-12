@@ -247,5 +247,6 @@
 - 08-03-26: HSL Validator<br>
 - 09-03-26: Array Sum<br>
 - 10-03-26: Array Insertion<br>
-- 11-03-26: Word Length Converter<p>
+- 11-03-26: Word Length Converter<br>
+- 12-03-26: Domino Chain Validator<p>
 </details>
