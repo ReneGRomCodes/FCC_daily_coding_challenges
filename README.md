@@ -248,5 +248,6 @@
 - 09-03-26: Array Sum<br>
 - 10-03-26: Array Insertion<br>
 - 11-03-26: Word Length Converter<br>
-- 12-03-26: Domino Chain Validator<p>
+- 12-03-26: Domino Chain Validator<br>
+- 13-03-26: Parking Fee Calculator<p>
 </details>
