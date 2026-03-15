@@ -250,5 +250,6 @@
 - 11-03-26: Word Length Converter<br>
 - 12-03-26: Domino Chain Validator<br>
 - 13-03-26: Parking Fee Calculator<br>
-- 14-03-26: Pi Day<p>
+- 14-03-26: Pi Day<br>
+- 15-03-26: Captured Chess Pieces<p>
 </details>
