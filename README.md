@@ -253,5 +253,6 @@
 - 14-03-26: Pi Day<br>
 - 15-03-26: Captured Chess Pieces<br>
 - 16-03-26: Evenly Divisible<br>
-- 17-03-26: Anniversary Milestones<p>
+- 17-03-26: Anniversary Milestones<br>
+- 18-03-26: Largest Number<p>
 </details>
