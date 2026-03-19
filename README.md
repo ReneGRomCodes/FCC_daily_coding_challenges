@@ -252,5 +252,6 @@
 - 13-03-26: Parking Fee Calculator<br>
 - 14-03-26: Pi Day<br>
 - 15-03-26: Captured Chess Pieces<br>
-- 16-03-26: Evenly Divisible<p>
+- 16-03-26: Evenly Divisible<br>
+- 17-03-26: Anniversary Milestones<p>
 </details>
