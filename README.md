@@ -254,5 +254,6 @@
 - 15-03-26: Captured Chess Pieces<br>
 - 16-03-26: Evenly Divisible<br>
 - 17-03-26: Anniversary Milestones<br>
-- 18-03-26: Largest Number<p>
+- 18-03-26: Largest Number<br>
+- 19-03-26: Inverted Matrix<p>
 </details>
