@@ -255,5 +255,6 @@
 - 16-03-26: Evenly Divisible<br>
 - 17-03-26: Anniversary Milestones<br>
 - 18-03-26: Largest Number<br>
-- 19-03-26: Inverted Matrix<p>
+- 19-03-26: Inverted Matrix<br>
+- 20-03-26: Equinox Shadows<p>
 </details>
