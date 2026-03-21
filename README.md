@@ -256,5 +256,6 @@
 - 17-03-26: Anniversary Milestones<br>
 - 18-03-26: Largest Number<br>
 - 19-03-26: Inverted Matrix<br>
-- 20-03-26: Equinox Shadows<p>
+- 20-03-26: Equinox Shadows<br>
+- 21-03-26: QR Decoder<p>
 </details>
