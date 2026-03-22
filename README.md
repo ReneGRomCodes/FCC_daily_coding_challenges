@@ -257,5 +257,6 @@
 - 18-03-26: Largest Number<br>
 - 19-03-26: Inverted Matrix<br>
 - 20-03-26: Equinox Shadows<br>
-- 21-03-26: QR Decoder<p>
+- 21-03-26: QR Decoder<br>
+- 22-03-26: Coffee Roast Detector<p>
 </details>
