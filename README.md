@@ -258,5 +258,6 @@
 - 19-03-26: Inverted Matrix<br>
 - 20-03-26: Equinox Shadows<br>
 - 21-03-26: QR Decoder<br>
-- 22-03-26: Coffee Roast Detector<p>
+- 22-03-26: Coffee Roast Detector<br>
+- 23-03-26: No Consecutive Repeats<p>
 </details>
