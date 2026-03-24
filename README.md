@@ -259,5 +259,6 @@
 - 20-03-26: Equinox Shadows<br>
 - 21-03-26: QR Decoder<br>
 - 22-03-26: Coffee Roast Detector<br>
-- 23-03-26: No Consecutive Repeats<p>
+- 23-03-26: No Consecutive Repeats<br>
+- 24-03-26: Passing Exam Count<p>
 </details>
