@@ -260,5 +260,6 @@
 - 21-03-26: QR Decoder<br>
 - 22-03-26: Coffee Roast Detector<br>
 - 23-03-26: No Consecutive Repeats<br>
-- 24-03-26: Passing Exam Count<p>
+- 24-03-26: Passing Exam Count<br>
+- 25-03-26: Cooldown Time<p>
 </details>
