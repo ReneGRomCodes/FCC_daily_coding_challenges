@@ -261,5 +261,6 @@
 - 22-03-26: Coffee Roast Detector<br>
 - 23-03-26: No Consecutive Repeats<br>
 - 24-03-26: Passing Exam Count<br>
-- 25-03-26: Cooldown Time<p>
+- 25-03-26: Cooldown Time<br>
+- 26-03-26: Movie Night<p>
 </details>
