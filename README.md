@@ -263,5 +263,6 @@
 - 24-03-26: Passing Exam Count<br>
 - 25-03-26: Cooldown Time<br>
 - 26-03-26: Movie Night<br>
-- 27-03-26: Truncate the Text 2<p>
+- 27-03-26: Truncate the Text 2<br>
+- 28-03-26: Pascal's Triangle Row<p>
 </details>
