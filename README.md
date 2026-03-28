@@ -262,5 +262,6 @@
 - 23-03-26: No Consecutive Repeats<br>
 - 24-03-26: Passing Exam Count<br>
 - 25-03-26: Cooldown Time<br>
-- 26-03-26: Movie Night<p>
+- 26-03-26: Movie Night<br>
+- 27-03-26: Truncate the Text 2<p>
 </details>
