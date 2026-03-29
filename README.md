@@ -264,5 +264,6 @@
 - 25-03-26: Cooldown Time<br>
 - 26-03-26: Movie Night<br>
 - 27-03-26: Truncate the Text 2<br>
-- 28-03-26: Pascal's Triangle Row<p>
+- 28-03-26: Pascal's Triangle Row<br>
+- 29-03-26: ISBN-10 Validator<p>
 </details>
