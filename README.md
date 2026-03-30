@@ -265,5 +265,6 @@
 - 26-03-26: Movie Night<br>
 - 27-03-26: Truncate the Text 2<br>
 - 28-03-26: Pascal's Triangle Row<br>
-- 29-03-26: ISBN-10 Validator<p>
+- 29-03-26: ISBN-10 Validator<br>
+- 30-03-26: Due Date<p>
 </details>
