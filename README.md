@@ -266,5 +266,6 @@
 - 27-03-26: Truncate the Text 2<br>
 - 28-03-26: Pascal's Triangle Row<br>
 - 29-03-26: ISBN-10 Validator<br>
-- 30-03-26: Due Date<p>
+- 30-03-26: Due Date<br>
+- 31-03-26: Wake-Up Alarm<p>
 </details>
