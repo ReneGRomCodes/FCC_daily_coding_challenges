@@ -274,5 +274,7 @@
   <summary><b>April 2026 (03-26)</b></summary>
 - 01-04-26: Prank Number<br>
 - 02-04-26: Capitalized Fibonacci<br>
-- 03-04-26: Browser History<p>
+- 03-04-26: Browser History<br>
+- 04-04-26:<br>
+- 05-04-26: Digit Rotation Escape<p>
 </details>
