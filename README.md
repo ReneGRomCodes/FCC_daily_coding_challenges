@@ -275,6 +275,6 @@
 - 01-04-26: Prank Number<br>
 - 02-04-26: Capitalized Fibonacci<br>
 - 03-04-26: Browser History<br>
-- 04-04-26:<br>
+- 04-04-26: Equation Validation<br>
 - 05-04-26: Digit Rotation Escape<p>
 </details>
