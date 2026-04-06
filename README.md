@@ -276,5 +276,6 @@
 - 02-04-26: Capitalized Fibonacci<br>
 - 03-04-26: Browser History<br>
 - 04-04-26: Equation Validation<br>
-- 05-04-26: Digit Rotation Escape<p>
+- 05-04-26: Digit Rotation Escape<br>
+- 06-04-26: What Day Is It?<p>
 </details>
