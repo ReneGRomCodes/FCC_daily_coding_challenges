@@ -277,5 +277,6 @@
 - 03-04-26: Browser History<br>
 - 04-04-26: Equation Validation<br>
 - 05-04-26: Digit Rotation Escape<br>
-- 06-04-26: What Day Is It?<p>
+- 06-04-26: What Day Is It?<br>
+- 07-04-26: Palindrome Characters<p>
 </details>
