@@ -279,5 +279,6 @@
 - 05-04-26: Digit Rotation Escape<br>
 - 06-04-26: What Day Is It?<br>
 - 07-04-26: Palindrome Characters<br>
-- 08-04-26: FizzBuzz Validator<p>
+- 08-04-26: FizzBuzz Validator<br>
+- 09-04-26: Next Bingo Number<p>
 </details>
