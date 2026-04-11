@@ -281,5 +281,6 @@
 - 07-04-26: Palindrome Characters<br>
 - 08-04-26: FizzBuzz Validator<br>
 - 09-04-26: Next Bingo Number<br>
-- 10-04-26: Rook Attack<p>
+- 10-04-26: Rook Attack<br>
+- 11-04-26: Rook and Bishop Attack<p>
 </details>
