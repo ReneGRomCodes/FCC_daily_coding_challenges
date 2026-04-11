@@ -280,5 +280,6 @@
 - 06-04-26: What Day Is It?<br>
 - 07-04-26: Palindrome Characters<br>
 - 08-04-26: FizzBuzz Validator<br>
-- 09-04-26: Next Bingo Number<p>
+- 09-04-26: Next Bingo Number<br>
+- 10-04-26: Rook Attack<p>
 </details>
