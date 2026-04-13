@@ -283,6 +283,6 @@
 - 09-04-26: Next Bingo Number<br>
 - 10-04-26: Rook Attack<br>
 - 11-04-26: Rook and Bishop Attack<br>
-- 12-04-26: <br>
+- 12-04-26: Spiral Matrix<br>
 - 13-04-26: Name Initials<p>
 </details>
