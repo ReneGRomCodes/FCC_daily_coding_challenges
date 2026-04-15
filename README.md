@@ -285,5 +285,6 @@
 - 11-04-26: Rook and Bishop Attack<br>
 - 12-04-26: Spiral Matrix<br>
 - 13-04-26: Name Initials<br>
-- 14-04-26: Last Letter<p>
+- 14-04-26: Last Letter<br>
+- 15-04-26: Sorted Array Swap<p>
 </details>
