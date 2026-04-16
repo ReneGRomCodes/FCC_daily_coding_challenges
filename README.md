@@ -286,5 +286,6 @@
 - 12-04-26: Spiral Matrix<br>
 - 13-04-26: Name Initials<br>
 - 14-04-26: Last Letter<br>
-- 15-04-26: Sorted Array Swap<p>
+- 15-04-26: Sorted Array Swap<br>
+- 16-04-26: String Math<p>
 </details>
