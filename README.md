@@ -287,5 +287,6 @@
 - 13-04-26: Name Initials<br>
 - 14-04-26: Last Letter<br>
 - 15-04-26: Sorted Array Swap<br>
-- 16-04-26: String Math<p>
+- 16-04-26: String Math<br>
+- 17-04-26: Hidden Key<p>
 </details>
