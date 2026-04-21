@@ -291,5 +291,6 @@
 - 17-04-26: Hidden Key<br>
 - 18-04-26: Array Sum Finder<br>
 - 19-04-26: Unique Stair Climb<br>
-- 20-04-26: Acronym Finder<p>
+- 20-04-26: Acronym Finder<br>
+- 21-04-26: Odd Words<p>
 </details>
