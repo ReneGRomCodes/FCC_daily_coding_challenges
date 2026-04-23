@@ -292,5 +292,7 @@
 - 18-04-26: Array Sum Finder<br>
 - 19-04-26: Unique Stair Climb<br>
 - 20-04-26: Acronym Finder<br>
-- 21-04-26: Odd Words<p>
+- 21-04-26: Odd Words<br>
+- 22-04-26: <br>
+- 23-04-26: Closest Time Direction<p>
 </details>
