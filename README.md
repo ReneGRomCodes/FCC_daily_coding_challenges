@@ -294,5 +294,6 @@
 - 20-04-26: Acronym Finder<br>
 - 21-04-26: Odd Words<br>
 - 22-04-26: <br>
-- 23-04-26: Closest Time Direction<p>
+- 23-04-26: Closest Time Direction<br>
+- 24-04-26: Word Compressor<p>
 </details>
