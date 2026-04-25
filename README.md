@@ -295,5 +295,6 @@
 - 21-04-26: Odd Words<br>
 - 22-04-26: Earth Day Cleanup Crew<br>
 - 23-04-26: Closest Time Direction<br>
-- 24-04-26: Word Compressor<p>
+- 24-04-26: Word Compressor<br>
+- 25-04-26: Word Decompressor<p>
 </details>
