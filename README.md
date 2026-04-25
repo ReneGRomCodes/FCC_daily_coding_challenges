@@ -293,7 +293,7 @@
 - 19-04-26: Unique Stair Climb<br>
 - 20-04-26: Acronym Finder<br>
 - 21-04-26: Odd Words<br>
-- 22-04-26: <br>
+- 22-04-26: Earth Day Cleanup Crew<br>
 - 23-04-26: Closest Time Direction<br>
 - 24-04-26: Word Compressor<p>
 </details>
