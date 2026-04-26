@@ -296,5 +296,6 @@
 - 22-04-26: Earth Day Cleanup Crew<br>
 - 23-04-26: Closest Time Direction<br>
 - 24-04-26: Word Compressor<br>
-- 25-04-26: Word Decompressor<p>
+- 25-04-26: Word Decompressor<br>
+- 26-04-26: FizzBuzz Explosion<p>
 </details>
