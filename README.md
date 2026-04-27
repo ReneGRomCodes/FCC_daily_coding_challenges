@@ -297,5 +297,6 @@
 - 23-04-26: Closest Time Direction<br>
 - 24-04-26: Word Compressor<br>
 - 25-04-26: Word Decompressor<br>
-- 26-04-26: FizzBuzz Explosion<p>
+- 26-04-26: FizzBuzz Explosion<br>
+- 27-04-26: Word Score<p>
 </details>
