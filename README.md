@@ -298,5 +298,6 @@
 - 24-04-26: Word Compressor<br>
 - 25-04-26: Word Decompressor<br>
 - 26-04-26: FizzBuzz Explosion<br>
-- 27-04-26: Word Score<p>
+- 27-04-26: Word Score<br>
+- 28-04-26: Number Words<p>
 </details>
