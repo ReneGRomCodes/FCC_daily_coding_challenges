@@ -271,7 +271,7 @@
 </details>
 
 <details>
-  <summary><b>April 2026 (03-26)</b></summary>
+  <summary><b>April 2026 (04-26)</b></summary>
 - 01-04-26: Prank Number<br>
 - 02-04-26: Capitalized Fibonacci<br>
 - 03-04-26: Browser History<br>
@@ -302,4 +302,9 @@
 - 28-04-26: Number Words<br>
 - 29-04-26: URL Query Parse<br>
 - 30-04-26: Binary Crosswords<p>
+</details>
+
+<details>
+  <summary><b>May 2026 (05-26)</b></summary>
+- 01-05-26: Anagram Groups<p>
 </details>
