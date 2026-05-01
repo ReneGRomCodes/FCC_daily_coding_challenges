@@ -300,5 +300,6 @@
 - 26-04-26: FizzBuzz Explosion<br>
 - 27-04-26: Word Score<br>
 - 28-04-26: Number Words<br>
-- 29-04-26: URL Query Parse<p>
+- 29-04-26: URL Query Parse<br>
+- 30-04-26: Binary Crosswords<p>
 </details>
