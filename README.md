@@ -306,5 +306,10 @@
 
 <details>
   <summary><b>May 2026 (05-26)</b></summary>
-- 01-05-26: Anagram Groups<p>
+- 01-05-26: Anagram Groups<br>
+- 02-05-26:<br>
+- 03-05-26:<br>
+- 04-05-26: Parsec Converter<br>
+- 05-05-26:<br>
+- 06-05-26:<p>
 </details>
