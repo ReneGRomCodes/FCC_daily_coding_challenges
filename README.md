@@ -311,5 +311,7 @@
 - 03-05-26: Good Day<br>
 - 04-05-26: Parsec Converter<br>
 - 05-05-26: Narcissistic Number<br>
-- 06-05-26: Allergen Friendly Meals<p>
+- 06-05-26: Allergen Friendly Meals<br>
+- 07-05-26:<br>
+- 08-05-26: Medication Reminder<p>
 </details>
