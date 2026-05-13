@@ -317,5 +317,6 @@
 - 09-05-26:<br>
 - 10-05-26: ISBN-13 Validator<br>
 - 11-05-26:<br>
-- 12-05-26: Character Frequency<p>
+- 12-05-26: Character Frequency<br>
+- 13-05-26: Offending Element<p>
 </details>
