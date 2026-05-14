@@ -318,5 +318,6 @@
 - 10-05-26: ISBN-13 Validator<br>
 - 11-05-26:<br>
 - 12-05-26: Character Frequency<br>
-- 13-05-26: Offending Element<p>
+- 13-05-26: Offending Element<br>
+- 14-05-26: Mirror Image<p>
 </details>
