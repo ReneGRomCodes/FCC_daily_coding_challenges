@@ -314,7 +314,7 @@
 - 06-05-26: Allergen Friendly Meals<br>
 - 07-05-26:<br>
 - 08-05-26: Medication Reminder<br>
-- 09-05-26:<br>
+- 09-05-26: Transposed Matrix<br>
 - 10-05-26: ISBN-13 Validator<br>
 - 11-05-26:<br>
 - 12-05-26: Character Frequency<br>
