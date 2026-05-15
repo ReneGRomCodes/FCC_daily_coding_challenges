@@ -319,5 +319,6 @@
 - 11-05-26: Oldest Person<br>
 - 12-05-26: Character Frequency<br>
 - 13-05-26: Offending Element<br>
-- 14-05-26: Mirror Image<p>
+- 14-05-26: Mirror Image<br>
+- 15-05-26: Coffee Order Parser<p>
 </details>
