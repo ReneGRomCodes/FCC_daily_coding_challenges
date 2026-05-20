@@ -323,7 +323,7 @@
 - 15-05-26: Coffee Order Parser<br>
 - 16-05-26:<br>
 - 17-05-26:<br>
-- 18-05-26:<br>
+- 18-05-26: Bingo Range<br>
 - 19-05-26: Sleep Debt<br>
 - 20-05-26: String Zipper<p>
 </details>
