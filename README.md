@@ -320,5 +320,10 @@
 - 12-05-26: Character Frequency<br>
 - 13-05-26: Offending Element<br>
 - 14-05-26: Mirror Image<br>
-- 15-05-26: Coffee Order Parser<p>
+- 15-05-26: Coffee Order Parser<br>
+- 16-05-26:<br>
+- 17-05-26:<br>
+- 18-05-26:<br>
+- 19-05-26:<br>
+- 20-05-26: String Zipper<p>
 </details>
