@@ -325,5 +325,6 @@
 - 17-05-26: Mongo ID Date<br>
 - 18-05-26: Bingo Range<br>
 - 19-05-26: Sleep Debt<br>
-- 20-05-26: String Zipper<p>
+- 20-05-26: String Zipper<br>
+- 21-05-26: I Before E<p>
 </details>
