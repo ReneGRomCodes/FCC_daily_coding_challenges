@@ -326,5 +326,6 @@
 - 18-05-26: Bingo Range<br>
 - 19-05-26: Sleep Debt<br>
 - 20-05-26: String Zipper<br>
-- 21-05-26: I Before E<p>
+- 21-05-26: I Before E<br>
+- 22-05-26: Meeting Time<p>
 </details>
