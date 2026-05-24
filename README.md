@@ -329,5 +329,5 @@
 - 21-05-26: I Before E<br>
 - 22-05-26: Meeting Time<br>
 - 23-05-26: Open Issues<br>
-- 24-05-26:<p>
+- 24-05-26: Roman Numeral Fixer:<p>
 </details>
