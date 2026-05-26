@@ -312,7 +312,7 @@
 - 04-05-26: Parsec Converter<br>
 - 05-05-26: Narcissistic Number<br>
 - 06-05-26: Allergen Friendly Meals<br>
-- 07-05-26:<br>
+- 07-05-26: Longest Common Substrings<br>
 - 08-05-26: Medication Reminder<br>
 - 09-05-26: Transposed Matrix<br>
 - 10-05-26: ISBN-13 Validator<br>
