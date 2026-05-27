@@ -331,5 +331,6 @@
 - 23-05-26: Open Issues<br>
 - 24-05-26: Roman Numeral Fixer<br>
 - 25-05-26: Secret Number<br>
-- 26-05-26: Sum of Differences<p>
+- 26-05-26: Sum of Differences<br>
+- 27-05-26: Pizza Party<p>
 </details>
