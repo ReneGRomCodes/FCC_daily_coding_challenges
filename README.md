@@ -332,5 +332,6 @@
 - 24-05-26: Roman Numeral Fixer<br>
 - 25-05-26: Secret Number<br>
 - 26-05-26: Sum of Differences<br>
-- 27-05-26: Pizza Party<p>
+- 27-05-26: Pizza Party<br>
+- 28-05-26: FizzBuzzCounter<p>
 </details>
