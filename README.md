@@ -334,5 +334,6 @@
 - 26-05-26: Sum of Differences<br>
 - 27-05-26: Pizza Party<br>
 - 28-05-26: FizzBuzz Counter<br>
-- 29-05-26: Wider Aspect Ratio<p>
+- 29-05-26: Wider Aspect Ratio<br>
+- 30-05-26: Best Hand<p>
 </details>
