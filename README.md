@@ -335,5 +335,11 @@
 - 27-05-26: Pizza Party<br>
 - 28-05-26: FizzBuzz Counter<br>
 - 29-05-26: Wider Aspect Ratio<br>
-- 30-05-26: Best Hand<p>
+- 30-05-26: Best Hand<br>
+- 31-05-26: Parentheses Combination<p>
+</details>
+
+<details>
+  <summary><b>June 2026 (06-26)</b></summary>
+- 01-06-26:<p>
 </details>
