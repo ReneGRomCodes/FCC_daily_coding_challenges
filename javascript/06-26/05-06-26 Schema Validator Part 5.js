@@ -91,7 +91,7 @@ function isValidSchema(obj) {
         }
     }
 
-    return true
+    return true;
 }
 
 
