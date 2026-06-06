@@ -344,5 +344,7 @@
 - 01-06-26: Schema Validator Part 1<br>
 - 02-06-26: Schema Validator Part 2<br>
 - 03-06-26: Schema Validator Part 3<br>
-- 04-06-26: Schema Validator Part 4<p>
+- 04-06-26: Schema Validator Part 4<br>
+- 05-06-26: Schema Validator Part 5<br>
+- 06-26-06:<p>
 </details>
