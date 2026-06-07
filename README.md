@@ -346,5 +346,6 @@
 - 03-06-26: Schema Validator Part 3<br>
 - 04-06-26: Schema Validator Part 4<br>
 - 05-06-26: Schema Validator Part 5<br>
-- 06-26-06: Schema Validator Part 6<p>
+- 06-06-26: Schema Validator Part 6<br>
+- 07-06-26: Last Load<p>
 </details>
