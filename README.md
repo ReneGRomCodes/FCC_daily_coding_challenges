@@ -349,5 +349,6 @@
 - 06-06-26: Schema Validator Part 6<br>
 - 07-06-26: Last Load<br>
 - 08-06-26: Jet Lagged<br>
-- 09-06-26: Roommates<p>
+- 09-06-26: Roommates<br>
+- 10-06-26: Itinerary Arrangements<p>
 </details>
