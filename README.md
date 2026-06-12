@@ -350,5 +350,7 @@
 - 07-06-26: Last Load<br>
 - 08-06-26: Jet Lagged<br>
 - 09-06-26: Roommates<br>
-- 10-06-26: Itinerary Arrangements<p>
+- 10-06-26: Itinerary Arrangements<br>
+- 11-06-26: Idea Rankings<br>
+- 12-06-26:<p>
 </details>
