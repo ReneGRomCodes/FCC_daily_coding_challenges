@@ -352,5 +352,5 @@
 - 09-06-26: Roommates<br>
 - 10-06-26: Itinerary Arrangements<br>
 - 11-06-26: Idea Rankings<br>
-- 12-06-26:<p>
+- 12-06-26: HTML Content Extractor<p>
 </details>
