@@ -353,5 +353,6 @@
 - 10-06-26: Itinerary Arrangements<br>
 - 11-06-26: Idea Rankings<br>
 - 12-06-26: HTML Content Extractor<br>
-- 13-06-26: Zoning Regulations<p>
+- 13-06-26: Zoning Regulations<br>
+- 14-06-26: Credit Card Validator<p>
 </details>
