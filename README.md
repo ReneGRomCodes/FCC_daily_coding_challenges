@@ -356,5 +356,6 @@
 - 13-06-26: Zoning Regulations<br>
 - 14-06-26: Credit Card Validator<br>
 - 15-06-26: Number Sort<br>
-- 16-06-26: British to American<p>
+- 16-06-26: British to American<br>
+- 17-06-26: Spellcaster<p>
 </details>
