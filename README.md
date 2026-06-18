@@ -357,5 +357,6 @@
 - 14-06-26: Credit Card Validator<br>
 - 15-06-26: Number Sort<br>
 - 16-06-26: British to American<br>
-- 17-06-26: Spellcaster<p>
+- 17-06-26: Spellcaster<br>
+- 18-06-26: Streaming Cost<p>
 </details>
