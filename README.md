@@ -358,5 +358,6 @@
 - 15-06-26: Number Sort<br>
 - 16-06-26: British to American<br>
 - 17-06-26: Spellcaster<br>
-- 18-06-26: Streaming Cost<p>
+- 18-06-26: Streaming Cost<br>
+- 19-06-26: Daily Rental Cost<p>
 </details>
