@@ -360,5 +360,6 @@
 - 17-06-26: Spellcaster<br>
 - 18-06-26: Streaming Cost<br>
 - 19-06-26: Rental Cost<br>
-- 20-06-26: Prime Factorization<p>
+- 20-06-26: Prime Factorization<br>
+- 21-06-26: Summer Solstice<p>
 </details>
