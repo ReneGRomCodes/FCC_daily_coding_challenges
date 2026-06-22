@@ -361,5 +361,6 @@
 - 18-06-26: Streaming Cost<br>
 - 19-06-26: Rental Cost<br>
 - 20-06-26: Prime Factorization<br>
-- 21-06-26: Summer Solstice<p>
+- 21-06-26: Summer Solstice<br>
+- 22-06-26: 1337 Speak<p>
 </details>
