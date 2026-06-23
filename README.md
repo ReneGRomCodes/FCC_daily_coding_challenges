@@ -362,5 +362,6 @@
 - 19-06-26: Rental Cost<br>
 - 20-06-26: Prime Factorization<br>
 - 21-06-26: Summer Solstice<br>
-- 22-06-26: 1337 Speak<p>
+- 22-06-26: 1337 Speak<br>
+- 23-06-26: BMI Calculator<p>
 </details>
