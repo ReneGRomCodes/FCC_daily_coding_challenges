@@ -363,5 +363,6 @@
 - 20-06-26: Prime Factorization<br>
 - 21-06-26: Summer Solstice<br>
 - 22-06-26: 1337 Speak<br>
-- 23-06-26: BMI Calculator<p>
+- 23-06-26: BMI Calculator<br>
+- 24-06-26: DNA Mutations<p>
 </details>
