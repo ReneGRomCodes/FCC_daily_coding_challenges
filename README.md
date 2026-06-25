@@ -364,5 +364,6 @@
 - 21-06-26: Summer Solstice<br>
 - 22-06-26: 1337 Speak<br>
 - 23-06-26: BMI Calculator<br>
-- 24-06-26: DNA Mutations<p>
+- 24-06-26: DNA Mutations<br>
+- 25-06-26: Frontmatter Parser<p>
 </details>
