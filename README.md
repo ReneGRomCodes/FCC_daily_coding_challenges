@@ -365,5 +365,9 @@
 - 22-06-26: 1337 Speak<br>
 - 23-06-26: BMI Calculator<br>
 - 24-06-26: DNA Mutations<br>
-- 25-06-26: Frontmatter Parser<p>
+- 25-06-26: Frontmatter Parser<br>
+- 26-06-26:<br>
+- 27-06-26:<br>
+- 28-06-26:<br>
+- 29-06-26: Song Mood Finder<p>
 </details>
