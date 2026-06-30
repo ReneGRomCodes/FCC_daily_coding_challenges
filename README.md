@@ -369,5 +369,6 @@
 - 26-06-26:<br>
 - 27-06-26:<br>
 - 28-06-26:<br>
-- 29-06-26: Song Mood Finder<p>
+- 29-06-26: Song Mood Finder<br>
+- 30-06-26: Duplicate Character Count<p>
 </details>
