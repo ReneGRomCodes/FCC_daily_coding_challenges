@@ -372,3 +372,11 @@
 - 29-06-26: Song Mood Finder<br>
 - 30-06-26: Duplicate Character Count<p>
 </details>
+
+<details>
+  <summary><b>July 2026 (07-26)</b></summary>
+- 01-07-26:<br>
+- 02-07-26:<br>
+- 03-07-26:<br>
+- 04-07-26: Kaprekar's Routine<p>
+</details>
