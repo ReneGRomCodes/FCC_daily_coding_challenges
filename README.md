@@ -378,5 +378,7 @@
 - 01-07-26:<br>
 - 02-07-26:<br>
 - 03-07-26:<br>
-- 04-07-26: Kaprekar's Routine<p>
+- 04-07-26: Kaprekar's Routine<br>
+- 05-07-26: Bucket Fill<br>
+- 06-07-26: lowercase word<p>
 </details>
