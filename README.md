@@ -380,5 +380,7 @@
 - 03-07-26:<br>
 - 04-07-26: Kaprekar's Routine<br>
 - 05-07-26: Bucket Fill<br>
-- 06-07-26: lowercase word<p>
+- 06-07-26: lowercase word<br>
+- 07-07-26: Nearest Multiple<br>
+- 08-07-26: Issue Triage<p>
 </details>
