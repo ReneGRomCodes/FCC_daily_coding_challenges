@@ -383,5 +383,6 @@
 - 06-07-26: lowercase word<br>
 - 07-07-26: Nearest Multiple<br>
 - 08-07-26: Issue Triage<br>
-- 09-07-26: Issue Triage 2<p>
+- 09-07-26: Issue Triage 2<br>
+- 10-07-26: Exact Change<p>
 </details>
