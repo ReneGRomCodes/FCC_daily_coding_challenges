@@ -386,5 +386,6 @@
 - 09-07-26: Issue Triage 2<br>
 - 10-07-26: Exact Change<br>
 - 11-07-26: Five Dice<br>
-- 12-07-26: Horoscope Match<p>
+- 12-07-26: Horoscope Match<br>
+- 13-07-26: Tally Counter<p>
 </details>
