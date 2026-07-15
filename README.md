@@ -388,5 +388,6 @@
 - 11-07-26: Five Dice<br>
 - 12-07-26: Horoscope Match<br>
 - 13-07-26: Tally Counter<br>
-- 14-07-26: Pet Age Calculator<p>
+- 14-07-26: Pet Age Calculator<br>
+- 15-07-26: Array Chunks<p>
 </details>
