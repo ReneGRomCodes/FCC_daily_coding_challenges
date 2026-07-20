@@ -14,9 +14,9 @@ Given two numbers, determine if their ratio approximates the golden ratio.
 """
 
 def is_golden_ratio(a: int, b: int) -> bool:
-    golden_ratio = 1.618
-    tolerance = 0.01
-    ratio_ab = max(a, b) / min(a, b)
+    golden_ratio: float = 1.618
+    tolerance: float = 0.01
+    ratio_ab: float = max(a, b) / min(a, b)
 
     return abs(golden_ratio - ratio_ab) <= tolerance
 
