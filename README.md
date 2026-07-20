@@ -392,5 +392,7 @@
 - 15-07-26: Array Chunks<br>
 - 16-07-26: Pig Latin Converter<br>
 - 17-07-26: Birthday Countdown<br>
-- 18-07-26: Dice Odds<p>
+- 18-07-26: Dice Odds<br>
+- 19-07-26:<br>
+- 20-07-26: Golden Ratio<p>
 </details>
