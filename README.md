@@ -393,6 +393,7 @@
 - 16-07-26: Pig Latin Converter<br>
 - 17-07-26: Birthday Countdown<br>
 - 18-07-26: Dice Odds<br>
-- 19-07-26:<br>
-- 20-07-26: Golden Ratio<p>
+- 19-07-26: Elevator Stops<br>
+- 20-07-26: Golden Ratio<br>
+- 21-07-26: Word Blender<p>
 </details>
