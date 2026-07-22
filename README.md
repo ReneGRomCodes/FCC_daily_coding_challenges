@@ -395,5 +395,6 @@
 - 18-07-26: Dice Odds<br>
 - 19-07-26: Elevator Stops<br>
 - 20-07-26: Golden Ratio<br>
-- 21-07-26: Word Blender<p>
+- 21-07-26: Word Blender<br>
+- 22-07-26: Piggy Bank<p>
 </details>
