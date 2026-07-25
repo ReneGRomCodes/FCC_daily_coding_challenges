@@ -396,5 +396,8 @@
 - 19-07-26: Elevator Stops<br>
 - 20-07-26: Golden Ratio<br>
 - 21-07-26: Word Blender<br>
-- 22-07-26: Piggy Bank<p>
+- 22-07-26: Piggy Bank<br>
+- 23-07-26: Game Theory<br>
+- 24-07-26:<br>
+- 25-07-26:<p>
 </details>
