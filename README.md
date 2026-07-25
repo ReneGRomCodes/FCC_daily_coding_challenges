@@ -398,6 +398,6 @@
 - 21-07-26: Word Blender<br>
 - 22-07-26: Piggy Bank<br>
 - 23-07-26: Game Theory<br>
-- 24-07-26:<br>
+- 24-07-26: Loan Calculator<br>
 - 25-07-26: Cell Signal<p>
 </details>
