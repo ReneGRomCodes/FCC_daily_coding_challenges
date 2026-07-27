@@ -400,6 +400,6 @@
 - 23-07-26: Game Theory<br>
 - 24-07-26: Loan Calculator<br>
 - 25-07-26: Cell Signal<br>
-- 26-07-26:<br>
+- 26-07-26: Letter Distances<br>
 - 27-07-26: Pronit Numbers<p>
 </details>

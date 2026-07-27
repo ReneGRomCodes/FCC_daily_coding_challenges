@@ -23,6 +23,20 @@ def is_pronic(n: int) -> bool:
             return False
 
 
+# Alternative Version that bypasses the iteration.
+import math
+
+def alternative_is_pronic(n: int) -> bool:
+    n_sqrt: float = math.sqrt(n)
+
+    if n == 0:
+        return True
+    elif n_sqrt // 1 == 0 or int(n_sqrt) * math.ceil(n_sqrt) != n:
+        return False
+
+    return True
+
+
 print(is_pronic(6))
 print(is_pronic(15))
 print(is_pronic(12))

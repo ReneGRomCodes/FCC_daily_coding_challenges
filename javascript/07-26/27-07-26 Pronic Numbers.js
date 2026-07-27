@@ -24,6 +24,19 @@ function isPronic(n) {
     }
 }
 
+// Alternative Version that bypasses the iteration.
+function alternativeIsPronic(n) {
+    const nSqrt = Math.sqrt(n);
+
+    if (n === 0) {
+        return true;
+    } else if (Math.floor(nSqrt) === 0 || Math.trunc(nSqrt) * Math.ceil(nSqrt) !== n) {
+        return false;
+    }
+
+    return true;
+}
+
 
 console.log(isPronic(6));
 console.log(isPronic(15));
