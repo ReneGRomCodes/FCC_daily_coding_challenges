@@ -404,5 +404,6 @@
 - 27-07-26: Pronit Numbers<br>
 - 28-07-26: Contrast Rating 1<br>
 - 29-07-26: Contrast Rating 2<br>
-- 30-07-26: Contrast Rating 3<p>
+- 30-07-26: Contrast Rating 3<br>
+- 31-07-26: Morse Code<p>
 </details>
