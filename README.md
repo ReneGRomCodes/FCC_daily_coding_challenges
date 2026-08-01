@@ -407,3 +407,8 @@
 - 30-07-26: Contrast Rating 3<br>
 - 31-07-26: Morse Code<p>
 </details>
+
+<details>
+  <summary><b>August 2026 (08-26)</b></summary>
+- 01-08-26: Magic Square Solver<p>
+</details>
