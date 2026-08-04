@@ -412,5 +412,6 @@
   <summary><b>August 2026 (08-26)</b></summary>
 - 01-08-26: Magic Square Solver<br>
 - 02-08-26: Food Chain<br>
-- 03-08-26: Emoji Translator<p>
+- 03-08-26: Emoji Translator<br>
+- 04-08-26: Golf Handicap Calculator<p>
 </details>
