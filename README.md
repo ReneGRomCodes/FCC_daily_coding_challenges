@@ -417,5 +417,5 @@
 - 05-08-26: Spoken Duration<br>
 - 06-08-26: Spoken Time<br>
 - 07-08-26: Nonogram Validator<br>
-- 08-08-26:<p>
+- 08-08-26: Bucket Fill 2<p>
 </details>
