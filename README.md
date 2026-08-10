@@ -418,5 +418,11 @@
 - 06-08-26: Spoken Time<br>
 - 07-08-26: Nonogram Validator<br>
 - 08-08-26: Bucket Fill 2<br>
-- 09-08-26: Between Two Buckets<p>
+- 09-08-26: Between Two Buckets<br>
+- 10-08-26: The Last Challenge - Bucket Fill 3<p>
 </details>
+
+
+
+Aaaaaaand that's it. FCCs daily coding challenges ran for exactly one year. Well, it was fun while it lasted.
+Still have to add a couple of challenges I didn't do and a bunch of JavaScript solutions that are still missing.
