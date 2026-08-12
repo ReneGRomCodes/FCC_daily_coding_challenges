@@ -367,7 +367,7 @@
 - 24-06-26: DNA Mutations<br>
 - 25-06-26: Frontmatter Parser<br>
 - 26-06-26: Blood Bank<br>
-- 27-06-26:<br>
+- 27-06-26: Periodic Spelling<br>
 - 28-06-26:<br>
 - 29-06-26: Song Mood Finder<br>
 - 30-06-26: Duplicate Character Count<p>
@@ -425,4 +425,4 @@
 
 
 Aaaaaaand that's it. FCCs daily coding challenges ran for exactly one year. Well, it was fun while it lasted.
-Still have to add a couple of challenges I didn't do and a bunch of JavaScript solutions that are still missing.
+Still have to add a couple of solutions I didn't do and a bunch of JavaScript solutions that are still missing.
