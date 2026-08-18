@@ -368,7 +368,7 @@
 - 25-06-26: Frontmatter Parser<br>
 - 26-06-26: Blood Bank<br>
 - 27-06-26: Periodic Spelling<br>
-- 28-06-26:<br>
+- 28-06-26: Connect 3<br>
 - 29-06-26: Song Mood Finder<br>
 - 30-06-26: Duplicate Character Count<p>
 </details>
@@ -421,8 +421,3 @@
 - 09-08-26: Between Two Buckets<br>
 - 10-08-26: The Last Challenge - Bucket Fill 3<p>
 </details>
-
-
-
-Aaaaaaand that's it. FCCs daily coding challenges ran for exactly one year. Well, it was fun while it lasted.
-Still have to add a couple of solutions I didn't do and a bunch of JavaScript solutions that are still missing.
