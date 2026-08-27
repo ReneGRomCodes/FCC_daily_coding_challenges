@@ -1,4 +1,4 @@
-"""
+/*
 Candlelight
 Given an integer representing the number of candles you start with, and an integer representing how many burned candles
 it takes to create a new one, return the number of candles you will have used after creating and burning as many as you
@@ -20,25 +20,27 @@ You will have burned 13 total candles in the example.
 3. burn_candles(20, 3) should return 29
 4. burn_candles(17, 4) should return 22
 5. burn_candles(2345, 3) should return 3517
-"""
+ */
 
-def burn_candles(candles: int, leftovers_needed: int) -> int:
-    # First round of candle burning.
-    candles_burnt: int = candles
-    leftovers: int = candles
+function burnCandles(candles, leftoversNeeded) {
+    // First round of candle burning.
+    let candlesBurnt = candles;
+    let leftovers = candles;
 
-    # Successive rounds of candle burning and making.
-    while leftovers >= leftovers_needed:
-        new_candles: int = leftovers // leftovers_needed  # Make new candles from leftovers.
-        leftovers %= leftovers_needed  # Collect leftovers left.
-        candles_burnt += new_candles  # Burn new candles.
-        leftovers += new_candles  # Add new leftovers to old ones.
+    // Successive rounds of candle burning and making.
+    while (leftovers >= leftoversNeeded) {
+        const newCandles = Math.floor(leftovers / leftoversNeeded);  // Make new candles from leftovers.
+        leftovers %= leftoversNeeded;  // Collect leftovers left.
+        candlesBurnt += newCandles;  // Burn new candles.
+        leftovers += newCandles;  // Add new leftovers to old ones.
+    }
 
-    return candles_burnt
+    return candlesBurnt;
+}
 
 
-print(burn_candles(7, 2))
-print(burn_candles(10, 5))
-print(burn_candles(20, 3))
-print(burn_candles(17, 4))
-print(burn_candles(2345, 3))
+console.log(burnCandles(7, 2));
+console.log(burnCandles(10, 5));
+console.log(burnCandles(20, 3));
+console.log(burnCandles(17, 4));
+console.log(burnCandles(2345, 3));
