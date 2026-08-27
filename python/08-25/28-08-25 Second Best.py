@@ -16,7 +16,7 @@ Duplicate prices should be ignored.
 
 def get_laptop_cost(laptops: list[int], budget: int) -> int:
     laptops.remove(max(laptops))  # Remove most expensive Laptop first.
-    found_laptop = False
+    found_laptop: bool | int = False
 
     while not found_laptop:
         if laptops:
