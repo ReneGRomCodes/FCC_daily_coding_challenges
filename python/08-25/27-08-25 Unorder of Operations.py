@@ -15,13 +15,14 @@ Valid operators are +, -, *, /, and %.
 5. evaluate([33, 11, 29, 13], ['/', '-']) should return -2
 """
 
-def apply_op(a, b, op):
+def apply_op(a: int, b: int, op: str) -> int:
     if op == '+': return a + b
     elif op == '-': return a - b
     elif op == '*': return a * b
     elif op == '/': return int(a / b)
     elif op == '%': return a % b
-    return None
+
+    return 0  # Technically useless return of 0 to shut up the type hinting demons.
 
 
 def evaluate(numbers: list[int], operators: list[str]) -> int:
@@ -36,7 +37,7 @@ def evaluate(numbers: list[int], operators: list[str]) -> int:
         if op_index == len(operators) - 1:
             op_index = 0
         else:
-            op_index +=1
+            op_index += 1
 
     for index, (num, op_index) in enumerate(zip(numbers, op_indices)):
         if index == len(numbers) - 1:  # Return final result when last index is reached.
