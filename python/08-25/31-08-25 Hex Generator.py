@@ -31,6 +31,7 @@ def _rand255() -> int:
     _seed = (_seed * 1103515245 + 12345) & 0x7fffffff
     return _seed % 256
 
+
 def generate_hex(color: str) -> str:
     if color.lower() not in ("red", "green", "blue"):
         return "Invalid color"
