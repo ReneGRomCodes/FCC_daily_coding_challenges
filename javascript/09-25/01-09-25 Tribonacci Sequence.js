@@ -19,8 +19,17 @@ Note that the starting numbers are part of the sequence.
  */
 
 function tribonacciSequence(startSequence, length) {
+    // Return 'shortened' start sequence if it's length exceeds 'length' argument.
+    if (startSequence.length >= length) return startSequence.slice(0, length);
 
-    return length;
+    while (startSequence.length < length) {
+        startSequence.push(
+            startSequence[startSequence.length - 1] +
+            startSequence[startSequence.length - 2] +
+            startSequence[startSequence.length - 3]);
+    }
+
+    return startSequence;
 }
 
 
