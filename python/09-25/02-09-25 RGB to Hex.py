@@ -18,7 +18,11 @@ Return a # followed by six characters. Don't use any shorthand values.
 """
 
 def rgb_to_hex(rgb: str) -> str:
-    """Long solution using 'hex()' method and manual formatting of output string."""
+    """Long solution using 'hex()' method and manual formatting of output string.
+
+    NOTE ADDED OVER A YEAR LATER:
+    I have no idea why I came up with this solution when the short one further down works
+    perfectly fine. Must've been bored or something."""
     hexadecimal: str = "#"
     rgb: list[str] = rgb[4:-1].split(", ")  # Extract RGB values as list of strings from 'rgb'.
 

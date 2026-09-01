@@ -18,8 +18,14 @@ Return a # followed by six characters. Don't use any shorthand values.
  */
 
 function rgbToHex(rgb) {
+    let hexadecimal = "#";
+    rgb = rgb.slice(4, rgb.length - 1).split(", ");  // Extract RGB values as list of strings from 'rgb'.
 
-    return rgb;
+    for (const v of rgb) {
+        hexadecimal += parseInt(v).toString(16).padStart(2, "0");
+    }
+
+    return hexadecimal;
 }
 
 
