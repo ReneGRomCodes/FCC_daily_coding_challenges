@@ -17,8 +17,13 @@ Ignore letter casing in the word or sentence.
  */
 
 function isPangram(sentence, letters) {
+    const sentenceSet = new Set(
+        [...sentence.toLowerCase()].filter(c => /[a-z]/.test(c))
+    );
+    const lettersSet = new Set(letters);
 
-    return sentence;
+    return sentenceSet.size === lettersSet.size &&
+        [...sentenceSet].every(c => lettersSet.has(c));
 }
 
 

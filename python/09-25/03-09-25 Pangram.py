@@ -20,10 +20,7 @@ def is_pangram(sentence: str, letters: str) -> bool:
     sentence_set: set[str] = {c for c in sentence.lower() if c.isalpha()}
     letters_set: set[str] = set(letters)
 
-    if sentence_set == letters_set:
-        return True
-
-    return False
+    return sentence_set == letters_set
 
 
 print(is_pangram("hello", "helo"))
