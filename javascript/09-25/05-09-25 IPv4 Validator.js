@@ -17,8 +17,29 @@ Only numeric characters are allowed.
  */
 
 function isValidIPv4(ipv4) {
+    const octets = ipv4.split(".");
 
-    return ipv4;
+    if (octets.length !== 4) {
+        return false;
+    }
+
+    for (const item of octets) {
+        if (!/^\d+$/.test(item)) {
+            return false;
+        }
+
+        const itemInt = Number(item);
+
+        if (itemInt < 0 || itemInt > 255) {
+            return false;
+        }
+
+        if (item.length > 1 && item[0] === "0") {
+            return false;
+        }
+    }
+
+    return true;
 }
 
 
