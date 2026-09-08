@@ -16,8 +16,17 @@ You should return [[3, 1], [4, 2]], which looks like this:
  */
 
 function rotate(matrix) {
+    const n = matrix.length;
+    const m = matrix[0].length;
 
-    return matrix;
+    const transposedMatrix = Array.from(
+        { length: m },
+        (_, i) => matrix.map(row => row[i])
+    );
+
+    const rotatedMatrix = transposedMatrix.map(row => row.reverse());
+
+    return rotatedMatrix;
 }
 
 

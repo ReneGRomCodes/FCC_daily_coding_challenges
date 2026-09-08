@@ -19,10 +19,10 @@ def rotate(matrix: list[list[int]]) -> list[list[int]]:
     n: int = len(matrix)
     m: int = len(matrix[0])
 
-    # Transpose the matrix
+    # Transpose the matrix.
     transposed_matrix: list[list[int]] = [[matrix[j][i] for j in range(n)] for i in range(m)]
 
-    # Reverse each row
+    # Reverse each row.
     rotated_matrix = [[row[i] for i in range(m - 1, -1, -1)] for row in transposed_matrix]
 
     return rotated_matrix
