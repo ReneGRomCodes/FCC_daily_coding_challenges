@@ -25,9 +25,35 @@ values are added.
 7. parse_roman_numeral("MMXXV") should return 2025.
  */
 
-function parseRomanNumeral(numeral) {
+function convertSingleNumeral(singleNumeral) {
+    const conversionTable = {
+        I: 1,
+        V: 5,
+        X: 10,
+        L: 50,
+        C: 100,
+        D: 500,
+        M: 1000
+    }
 
-    return numeral;
+    return conversionTable[singleNumeral];
+}
+
+
+function parseRomanNumeral(numeral) {
+    const numerals = numeral.split("");
+    let sumN = 0;
+
+    for (let i = 0; i < numerals.length - 1; i++) {
+        const convNum = convertSingleNumeral(numerals[i]);
+        const convNextNum = convertSingleNumeral(numerals[i + 1]);
+
+        convNum < convNextNum ? sumN -= convNum : sumN += convNum;
+    }
+
+    sumN += convertSingleNumeral(numerals[numerals.length - 1]);
+
+    return sumN;
 }
 
 
