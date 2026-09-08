@@ -17,8 +17,20 @@ All non-vowel characters should keep their original case.
  */
 
 function repeatVowels(str) {
+    const vowels = ["a", "e", "i", "o", "u"];
+    let vowelRepeatCounter = 0;
+    const new_str = [];
 
-    return str;
+    for (const char of str) {
+        if (vowels.includes(char.toLowerCase())) {
+            new_str.push(char + char.toLowerCase().repeat(vowelRepeatCounter));
+            vowelRepeatCounter++;
+        } else {
+            new_str.push(char);
+        }
+    }
+
+    return new_str.join("");
 }
 
 

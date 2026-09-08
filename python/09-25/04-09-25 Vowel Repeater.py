@@ -16,20 +16,19 @@ All non-vowel characters should keep their original case.
     creeeeeeeeeaaaaaaaaaam iiiiiiiiiiin Iiiiiiiiiiiiceeeeeeeeeeeeelaaaaaaaaaaaaaand".
 """
 
-VOWELS: str = "aeiou"
-
 def repeat_vowels(s: str) -> str:
-    vowel_repeat_n: int = 0
-    repeated_vowels: str = ""
+    vowels: set[str] = {"a", "e", "i", "o", "u"}
+    vowel_repeat_counter: int = 0
+    new_s: list[str] = []
 
     for char in s:
-        if char.lower() in VOWELS:
-            repeated_vowels += char + char.lower() * vowel_repeat_n
-            vowel_repeat_n += 1
+        if char.lower() in vowels:
+            new_s.append(char + char.lower() * vowel_repeat_counter)
+            vowel_repeat_counter += 1
         else:
-            repeated_vowels += char
+            new_s.append(char)
 
-    return repeated_vowels
+    return "".join(new_s)
 
 
 print(repeat_vowels("hello world"))
