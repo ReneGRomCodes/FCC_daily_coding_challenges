@@ -13,8 +13,16 @@ The returned string should only have one space between words.
  */
 
 function reverseSentence(sentence) {
+    const sentenceArr = sentence.split(" ");
+    const reverseArr = []
 
-    return sentence;
+    for (let i = sentenceArr.length - 1; i >= 0; i--) {
+        if (sentenceArr[i].length > 0) {
+            reverseArr.push(sentenceArr[i]);
+        }
+    }
+
+    return reverseArr.join(" ");
 }
 
 
