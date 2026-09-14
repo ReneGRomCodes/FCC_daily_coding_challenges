@@ -14,8 +14,7 @@ Uppercase and lowercase letters should be considered different characters.
  */
 
 function allUnique(str) {
-
-    return str;
+    return new Set(str).size === str.length;
 }
 
 
