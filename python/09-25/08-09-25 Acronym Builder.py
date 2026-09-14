@@ -21,16 +21,14 @@ The acronym should not contain any spaces.
 def build_acronym(s: str) -> str:
     ignore: set[str] = {"a", "for", "an", "and", "by", "of"}
     s: list[str] = s.split(" ")
-    new_s: list[str] = []
+    acronym_list: list[str] = []
 
-    # Build new list with relevant words for acronym in uppercase.
+    # Build new list with relevant letters for acronym in uppercase.
     for index, word in enumerate(s):
         if index == 0 or word.lower() not in ignore:
-            new_s.append(word.upper())
+            acronym_list.append(word.upper()[0])
 
-    acronym: str = "".join(word[0] for word in new_s)
-
-    return acronym
+    return "".join(acronym_list)
 
 
 print(build_acronym("Search Engine Optimization"))

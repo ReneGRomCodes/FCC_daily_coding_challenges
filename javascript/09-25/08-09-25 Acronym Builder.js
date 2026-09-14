@@ -19,8 +19,18 @@ The acronym should not contain any spaces.
  */
 
 function buildAcronym(str) {
+    const ignore = ["a", "for", "an", "and", "by", "of"];
+    const s = str.split(" ")
+    const acronymArr = []
 
-    return str;
+    // Build new list with relevant letters for acronym in uppercase.
+    for (let i = 0; i < s.length; i++) {
+        if (i === 0 || !ignore.includes(s[i].toLowerCase())) {
+            acronymArr.push(s[i][0].toUpperCase());
+        }
+    }
+
+    return acronymArr.join("");
 }
 
 
