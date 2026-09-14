@@ -14,8 +14,13 @@ The returned array should be sorted in alphabetical order.
  */
 
 function arrayDiff(arr1, arr2) {
+    const set1 = new Set(arr1);
+    const set2 = new Set(arr2);
 
-    return arr1;
+    const onlyIn1 = arr1.filter(x => !set2.has(x));
+    const onlyIn2 = arr2.filter(x => !set1.has(x));
+
+    return [...new Set([...onlyIn1, ...onlyIn2])].sort();
 }
 
 
