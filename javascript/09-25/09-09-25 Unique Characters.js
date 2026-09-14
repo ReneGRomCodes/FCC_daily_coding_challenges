@@ -1,4 +1,4 @@
-"""
+/*
 Unique Characters
 Given a string, determine if all the characters in the string are unique.
 
@@ -11,16 +11,18 @@ Uppercase and lowercase letters should be considered different characters.
 5. all_unique("hello") should return False.
 6. all_unique("freeCodeCamp") should return False.
 7. all_unique("!@#*$%^&*()aA") should return False.
-"""
+ */
 
-def all_unique(s: str) -> bool:
-    return len(set(s)) == len(s)
+function allUnique(str) {
+
+    return str;
+}
 
 
-print(all_unique("abc"))
-print(all_unique("aA"))
-print(all_unique("QwErTy123!@"))
-print(all_unique("~!@#$%^&*()_+"))
-print(all_unique("hello"))
-print(all_unique("freeCodeCamp"))
-print(all_unique("!@#*$%^&*()aA"))
+console.log(allUnique("abc"));
+console.log(allUnique("aA"));
+console.log(allUnique("QwErTy123!@"));
+console.log(allUnique("~!@#$%^&*()_+"));
+console.log(allUnique("hello"));
+console.log(allUnique("freeCodeCamp"));
+console.log(allUnique("!@#*$%^&*()aA"));

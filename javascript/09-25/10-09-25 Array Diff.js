@@ -1,4 +1,4 @@
-"""
+/*
 Array Diff
 Given two arrays with strings values, return a new array containing all the values that appear in only one of the arrays.
 
@@ -11,17 +11,16 @@ The returned array should be sorted in alphabetical order.
 4. array_diff(["two", "four", "five", "eight"], ["one", "two", "three", "four", "seven", "eight"])
     should return ["five", "one", "seven", "three"].
 5. array_diff(["I", "like", "freeCodeCamp"], ["I", "like", "rocks"]) should return ["freeCodeCamp", "rocks"].
-"""
+ */
 
-def array_diff(arr1: list[str], arr2: list[str]) -> list[str]:
-    set1, set2 = set(arr1), set(arr2)
-    arr3: list[str] = sorted(list((set1 - set2) | (set2 - set1)))
+function arrayDiff(arr1, arr2) {
 
-    return arr3
+    return arr1;
+}
 
 
-print(array_diff(["apple", "banana"], ["apple", "banana", "cherry"]))
-print(array_diff(["apple", "banana", "cherry"], ["apple", "banana"]))
-print(array_diff(["one", "two", "three", "four", "six"], ["one", "three", "eight"]))
-print(array_diff(["two", "four", "five", "eight"], ["one", "two", "three", "four", "seven", "eight"]))
-print(array_diff(["I", "like", "freeCodeCamp"], ["I", "like", "rocks"]))
+console.log(arrayDiff(["apple", "banana"], ["apple", "banana", "cherry"]));
+console.log(arrayDiff(["apple", "banana", "cherry"], ["apple", "banana"]));
+console.log(arrayDiff(["one", "two", "three", "four", "six"], ["one", "three", "eight"]));
+console.log(arrayDiff(["two", "four", "five", "eight"], ["one", "two", "three", "four", "seven", "eight"]));
+console.log(arrayDiff(["I", "like", "freeCodeCamp"], ["I", "like", "rocks"]));
