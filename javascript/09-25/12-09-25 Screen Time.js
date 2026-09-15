@@ -17,8 +17,17 @@ If the average of the seven days is greater than or equal to 6 hours, it's too m
  */
 
 function tooMuchScreenTime(hours) {
+    if (hours.reduce((a, b) => a + b, 0) / hours.length >= 6) { return true; }
 
-    return hours;
+    for (const day of hours) {
+        if (day >= 10) { return true }
+        }
+
+    for (let i = 0; i < hours.length - 2; i++) {
+        if (hours.slice(i, i + 3).reduce((a, b) => a + b, 0) / 3 >= 8) { return true}
+    }
+
+    return false;
 }
 
 
