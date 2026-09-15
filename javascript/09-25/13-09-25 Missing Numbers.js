@@ -16,8 +16,18 @@ If no integers are missing, return an empty array.
  */
 
 function findMissingNumbers(arr) {
+    const numbers = new Set(arr);
+    const missingNumbers = [];
 
-    return arr;
+    const max = Math.max(...arr);
+
+    for (let i = 1; i <= max; i++) {
+        if (!numbers.has(i)) {
+            missingNumbers.push(i);
+        }
+    }
+
+    return missingNumbers;
 }
 
 
