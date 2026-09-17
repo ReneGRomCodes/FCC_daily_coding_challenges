@@ -1,4 +1,4 @@
-"""
+/*
 Video Storage
 Given a video size, a unit for the video size, a hard drive capacity, and a unit for the hard drive, return the number
 of videos the hard drive can store using the following constraints:
@@ -23,40 +23,16 @@ drive.
 3. number_of_videos(2000, "MB", 100000, "MB") should return "Invalid drive unit".
 4. number_of_videos(500000, "KB", 2, "TB") should return 4000.
 5. number_of_videos(1.5, "GB", 2.2, "TB") should return 1466.
-"""
+ */
 
-def convert_to_bytes(size: int | float, unit: str) -> int | float:
-    size_mult_kb: int = 1_000
-    size_mult_mb: int = 1_000_000
-    size_mult_gb: int = 1_000_000_000
-    size_mult_tb: int = 1_000_000_000_000
+function numberOfVideos(videoSize, videoUnit, driveSize, driveUnit) {
 
-    if unit == "KB":
-        size *= size_mult_kb
-    elif unit == "MB":
-        size *= size_mult_mb
-    elif unit == "GB":
-        size *= size_mult_gb
-    elif unit == "TB":
-        size *= size_mult_tb
-
-    return size
+    return videoSize;
+}
 
 
-def number_of_videos(video_size: int | float, video_unit: str, drive_size: int | float, drive_unit: str) -> int | str:
-    valid_video_units: set[str] = {"B", "KB", "MB", "GB"}
-    valid_drive_units: set[str] = {"GB", "TB"}
-
-    if video_unit not in valid_video_units:
-        return "Invalid video unit"
-    if drive_unit not in valid_drive_units:
-        return "Invalid drive unit"
-
-    return int(convert_to_bytes(drive_size, drive_unit) / convert_to_bytes(video_size, video_unit))
-
-
-print(number_of_videos(500, "MB", 100, "GB"))
-print(number_of_videos(1, "TB", 10, "TB"))
-print(number_of_videos(2000, "MB", 100000, "MB"))
-print(number_of_videos(500000, "KB", 2, "TB"))
-print(number_of_videos(1.5, "GB", 2.2, "TB"))
+console.log(numberOfVideos(500, "MB", 100, "GB"));
+console.log(numberOfVideos(1, "TB", 10, "TB"));
+console.log(numberOfVideos(2000, "MB", 100000, "MB"));
+console.log(numberOfVideos(500000, "KB", 2, "TB"));
+console.log(numberOfVideos(1.5, "GB", 2.2, "TB"));

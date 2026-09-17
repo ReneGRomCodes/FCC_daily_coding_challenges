@@ -1,4 +1,4 @@
-"""
+/*
 Fill The Tank
 Given the size of a fuel tank, the current fuel level, and the price per gallon, return the cost to fill the tank all
 the way.
@@ -13,14 +13,16 @@ The returned value should be rounded to two decimal places in the format: "$d.dd
 3. cost_to_fill(18, 9, 3.25) should return "$29.25".
 4. cost_to_fill(12, 12, 4.99) should return "$0.00".
 5. cost_to_fill(15, 9.5, 3.98) should return "$21.89".
-"""
+ */
 
-def cost_to_fill(tank_size: int, fuel_level: int | float, price_per_gallon: float) -> str:
-    return f"${(tank_size - fuel_level) * price_per_gallon:.2f}"
+function costToFill(tankSize, fuelLevel, pricePerGallon) {
+
+    return tankSize;
+}
 
 
-print(cost_to_fill(20, 0, 4.00))
-print(cost_to_fill(15, 10, 3.50))
-print(cost_to_fill(18, 9, 3.25))
-print(cost_to_fill(12, 12, 4.99))
-print(cost_to_fill(15, 9.5, 3.98))
+console.log(costToFill(20, 0, 4.00));
+console.log(costToFill(15, 10, 3.50));
+console.log(costToFill(18, 9, 3.25));
+console.log(costToFill(12, 12, 4.99));
+console.log(costToFill(15, 9.5, 3.98));

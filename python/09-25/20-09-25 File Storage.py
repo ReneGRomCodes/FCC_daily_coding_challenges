@@ -27,7 +27,7 @@ def number_of_files(file_size: int | float, file_unit: str, drive_size_gb: int |
     size_mult_mb: int = 1_000_000
     size_mult_gb: int = 1_000_000_000
     # Stores the file size in bytes.
-    file_size_b: int = 0
+    file_size_b: int | float = 0
 
     if file_unit == "B":
         file_size_b = file_size
