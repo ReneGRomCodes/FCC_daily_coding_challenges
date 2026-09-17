@@ -16,26 +16,26 @@ Sentences can end with a period (.), one or more question marks (?), or one or m
 """
 
 def capitalize(paragraph: str) -> str:
-    cap_paragraph: str = ""
-    specials: str = ".?!"
+    cap_paragraph: list[str] = []
+    specials: set[str] = {".", "?", "!"}
     special_found: bool = False
 
     for index, char in enumerate(paragraph):
         if index == 0:
-            cap_paragraph += char.upper()
+            cap_paragraph.append(char.upper())
             continue
 
         elif char.isalpha() and special_found:
-            cap_paragraph += char.upper()
+            cap_paragraph.append(char.upper())
             special_found = False
             continue
 
         elif char in specials:
             special_found = True
 
-        cap_paragraph += char
+        cap_paragraph.append(char)
 
-    return cap_paragraph
+    return "".join(cap_paragraph)
 
 
 print(capitalize("this is a simple sentence."))
