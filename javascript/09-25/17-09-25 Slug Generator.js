@@ -1,4 +1,4 @@
-"""
+/*
 Slug Generator
 Given a string, return a URL-friendly version of the string using the following constraints:
 
@@ -13,24 +13,29 @@ The returned string should not have leading or trailing %20.
 3. generate_slug(" hello-world ") should return "helloworld".
 4. generate_slug("hello  world") should return "hello%20world".
 5. generate_slug("  ?H^3-1*1]0! W[0%R#1]D  ") should return "h3110%20w0r1d".
-"""
+ */
 
-def generate_slug(s: str) -> str:
-    url: list[str] = []
-    cleaned_s: str = s.lower().strip()
-    space_code: str = "%20"
+function generateSlug(str) {
+    const url = [];
+    const cleanedStr = str.toLowerCase().trim();
+    const spaceCode = "%20";
 
-    for index, char in enumerate(cleaned_s):
-        if char.isalpha() or char.isnumeric():
-            url.append(char)
-        elif char == " " and cleaned_s[index-1] != " ":
-            url.append(space_code)
+    for (let i = 0; i < cleanedStr.length; i++) {
+        const char = cleanedStr[i];
 
-    return "".join(url)
+        if (/[A-Za-z0-9]/.test(char)) {
+            url.push(char);
+        } else if (char === " " && cleanedStr[i - 1] !== " ") {
+            url.push(spaceCode);
+        }
+    }
+
+    return url.join("");
+}
 
 
-print(generate_slug("helloWorld"))
-print(generate_slug("hello world!"))
-print(generate_slug(" hello-world "))
-print(generate_slug("hello  world"))
-print(generate_slug("  ?H^3-1*1]0! W[0%R#1]D  "))
+console.log(generateSlug("helloWorld"));
+console.log(generateSlug("hello world!"));
+console.log(generateSlug(" hello-world "));
+console.log(generateSlug("hello  world"));
+console.log(generateSlug("  ?H^3-1*1]0! W[0%R#1]D  "));
