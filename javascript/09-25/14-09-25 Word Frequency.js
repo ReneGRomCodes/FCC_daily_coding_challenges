@@ -16,8 +16,24 @@ The returned array should be in descending order with the most frequently occurr
  */
 
 function getWords(paragraph) {
+    const words = paragraph.split(" ");
+    const wordsHist = {};
 
-    return paragraph;
+    for (let word of words) {
+        word = word.replace(/^[.,!]+|[.,!]+$/g, "").toLowerCase();
+
+        if (word in wordsHist) {
+            wordsHist[word]++;
+        } else {
+            wordsHist[word] = 1;
+        }
+    }
+
+    const mostFrequentWords = Object.keys(wordsHist)
+        .sort((a, b) => wordsHist[b] - wordsHist[a])
+        .slice(0, 3);
+
+    return mostFrequentWords;
 }
 
 
