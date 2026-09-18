@@ -16,8 +16,7 @@ square because you can multiply 3 by itself to get it.
  */
 
 function isPerfectSquare(n) {
-
-    return n;
+    return (0 <= n) && (n === Math.floor(n ** 0.5)**2);
 }
 
 

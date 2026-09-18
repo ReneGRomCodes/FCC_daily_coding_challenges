@@ -16,8 +16,13 @@ Ignore any other characters.
  */
 
 function digitsOrLetters(str) {
+    const nDigits = [...str].filter(char => /[0-9]/.test(char)).length;
+    const nLetters = [...str].filter(char => /[A-Za-z]/.test(char)).length;
 
-    return str;
+    if (nDigits > nLetters) { return "digits" }
+    else if (nDigits < nLetters) { return "letters"}
+
+    return "tie";
 }
 
 

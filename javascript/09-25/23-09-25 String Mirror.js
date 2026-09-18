@@ -16,8 +16,10 @@ Ignore all non-alphabetical characters.
  */
 
 function isMirror(str1, str2) {
+    const letters1 = [...str1].filter(char => /[A-Za-z]/.test(char)).join("");
+    const letters2 = [...str2].filter(char => /[A-Za-z]/.test(char)).reverse().join("");
 
-    return str1;
+    return letters1 === letters2;
 }
 
 
