@@ -16,8 +16,7 @@ The returned value should be rounded to two decimal places in the format: "$d.dd
  */
 
 function costToFill(tankSize, fuelLevel, pricePerGallon) {
-
-    return tankSize;
+    return `$${((tankSize - fuelLevel) * pricePerGallon).toFixed(2)}`;
 }
 
 

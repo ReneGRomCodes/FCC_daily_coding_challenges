@@ -14,8 +14,7 @@ Return the number of whole photos the drive can store.
  */
 
 function numberOfPhotos(photoSizeMb, hardDriveSizeGb) {
-
-    return photoSizeMb;
+    return Math.floor(hardDriveSizeGb * 1000 / photoSizeMb);
 }
 
 

@@ -26,21 +26,14 @@ drive.
 """
 
 def convert_to_bytes(size: int | float, unit: str) -> int | float:
-    size_mult_kb: int = 1_000
-    size_mult_mb: int = 1_000_000
-    size_mult_gb: int = 1_000_000_000
-    size_mult_tb: int = 1_000_000_000_000
+    size_multipliers: dict[str, int] = {
+        "KB": 1_000,
+        "MB": 1_000_000,
+        "GB": 1_000_000_000,
+        "TB": 1_000_000_000_000,
+    }
 
-    if unit == "KB":
-        size *= size_mult_kb
-    elif unit == "MB":
-        size *= size_mult_mb
-    elif unit == "GB":
-        size *= size_mult_gb
-    elif unit == "TB":
-        size *= size_mult_tb
-
-    return size
+    return size * size_multipliers[unit]
 
 
 def number_of_videos(video_size: int | float, video_unit: str, drive_size: int | float, drive_unit: str) -> int | str:

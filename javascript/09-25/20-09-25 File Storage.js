@@ -22,8 +22,20 @@ For example, given 500, "KB", and 1 as arguments, determine how many 500 KB file
  */
 
 function numberOfFiles(fileSize, fileUnit, driveSizeGb) {
+    // Size multipliers to convert file and drive sizes to bytes.
+    const sizeMultKb = 1_000;
+    const sizeMultMb = 1_000_000;
+    const sizeMultGb = 1_000_000_000;
+    //Stores the file size in bytes.
+    let fileSizeB = 0;
 
-    return fileSize;
+    if (fileUnit === "B") { fileSizeB = fileSize }
+    else if (fileUnit === "KB") { fileSizeB = fileSize * sizeMultKb }
+    else if (fileUnit === "MB") { fileSizeB = fileSize * sizeMultMb }
+    // "GB" not used in test cases. This one is here for the sake of completeness.
+    else if (fileUnit === "GB") { fileSizeB = fileSize * sizeMultGb }
+
+    return Math.floor(driveSizeGb * sizeMultGb / fileSizeB);
 }
 
 

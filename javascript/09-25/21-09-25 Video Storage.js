@@ -25,9 +25,25 @@ drive.
 5. number_of_videos(1.5, "GB", 2.2, "TB") should return 1466.
  */
 
-function numberOfVideos(videoSize, videoUnit, driveSize, driveUnit) {
+function convertToBytes(size, unit) {
+    const sizeMultipliers = {
+        "KB": 1_000,
+        "MB": 1_000_000,
+        "GB": 1_000_000_000,
+        "TB": 1_000_000_000_000,
+    };
 
-    return videoSize;
+    return size * sizeMultipliers[unit];
+}
+
+function numberOfVideos(videoSize, videoUnit, driveSize, driveUnit) {
+    const validVideoUnits = ["B", "KB", "MB", "GB"];
+    const validDriveUnits = ["GB", "TB"];
+
+    if (!validVideoUnits.includes(videoUnit)) { return "Invalid video unit"}
+    if (!validDriveUnits.includes(driveUnit)) { return "Invalid drive unit"}
+
+    return Math.floor(convertToBytes(driveSize, driveUnit) / convertToBytes(videoSize, videoUnit));
 }
 
 
