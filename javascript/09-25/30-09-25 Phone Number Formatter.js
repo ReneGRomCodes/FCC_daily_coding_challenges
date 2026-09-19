@@ -7,8 +7,11 @@ Given a string of eleven digits, return the string as a phone number in this for
  */
 
 function formatNumber(number) {
+    const element0 = `+${number[0]}`;
+    const element1 = `(${number.slice(1, 4)})`;
+    const element2 = `${number.slice(4, 7)}-${number.slice(7)}`;
 
-    return number;
+    return `${element0} ${element1} ${element2}`;
 }
 
 

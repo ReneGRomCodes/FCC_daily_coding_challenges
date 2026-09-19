@@ -14,8 +14,19 @@ If there were no vehicles speeding, return [0, 0].
  */
 
 function speeding(speeds, limit) {
+    const speedingCars = speeds.filter(x => x > limit);
+    const nSpeedingCars = speedingCars.length;
+    let avrgOverLimit = 0;
 
-    return speeds;
+    if (nSpeedingCars > 0) {
+        const speedsOverLimit = speedingCars.map(x => x - limit);
+        avrgOverLimit = speedsOverLimit.reduce((a, b) => a + b, 0) / nSpeedingCars;
+
+        // Turn '.0' floats into integers.
+        if (avrgOverLimit % 1 === 0) { avrgOverLimit = Math.floor(avrgOverLimit) }
+    }
+
+    return [nSpeedingCars, avrgOverLimit];
 }
 
 

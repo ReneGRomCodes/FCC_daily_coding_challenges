@@ -23,8 +23,28 @@ The number has the same digit four or more times in a row (ignoring the formatti
  */
 
 function isSpam(number) {
+    const elements = number.split(" ");
 
-    return number;
+    const countryCode = elements[0].replace("+", "");
+    const areaCode = elements[1].replace("(", "").replace(")", "");
+    const localNumber = elements[2].split("-");
+    const fullNumberString = countryCode + areaCode + localNumber[0] + localNumber[1];
+
+    if (countryCode.length > 2 || countryCode[0] !== "0") {
+        return true;
+    } else if (!(200 <= Number(areaCode) && Number(areaCode) <= 900)) {
+        return true;
+    } else if (localNumber[1].includes(String([...localNumber[0]].reduce((sum, x) => sum + Number(x), 0)))) {
+        return true;
+    }
+
+    for (let i = 0; i < 10; i++) {
+        if (fullNumberString.includes(i.toString().repeat(4))) {
+            return true;
+        }
+    }
+
+    return false;
 }
 
 
