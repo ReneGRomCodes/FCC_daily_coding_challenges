@@ -20,8 +20,13 @@ Return a number rounded to 4 decimal places, with trailing zeros removed.
  */
 
 function sendMessage(route) {
+    // Number of satellites equals number of items in 'route' minus 1, as each item except the last represents a satellite.
+    const nSat = route.length - 1;
+    const trsmsnDelay = nSat * 0.5;
+    const msgTravelTime = route.reduce((a, b) => a + b, 0) / 300000 + trsmsnDelay;
+    const roundedTravelTime = Math.round(msgTravelTime * 10000) / 10000;
 
-    return route;
+    return parseFloat(String(roundedTravelTime).replace(/0+$/, ""));
 }
 
 

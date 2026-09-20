@@ -21,8 +21,15 @@ is 8 or less.
  */
 
 function hasExoplanet(readings) {
+    const lumArr = readings.split("").map(x => parseInt(x, 36));
+    const lumAvrg = lumArr.reduce((a, b) => a + b, 0) / lumArr.length;
+    const lumThreshold = lumAvrg * 0.8;
 
-    return readings;
+    for (const value of lumArr) {
+        if (value <= lumThreshold) { return true }
+    }
+
+    return false;
 }
 
 

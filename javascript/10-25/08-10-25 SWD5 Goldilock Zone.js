@@ -21,8 +21,13 @@ For example, given 1 as a mass, return [0.95, 1.37].
  */
 
 function goldilocksZone(mass) {
+    const lum = mass**3.5;
+    const outputArr = [
+        Math.round(Math.sqrt(lum) * 0.95 * 100) / 100,
+        Math.round(Math.sqrt(lum) * 1.37 * 100) / 100
+    ]
 
-    return mass;
+    return outputArr;
 }
 
 

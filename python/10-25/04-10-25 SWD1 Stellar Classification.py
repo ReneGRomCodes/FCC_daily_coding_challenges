@@ -36,7 +36,6 @@ CLASSES: list[tuple[int, str]] = [
 
 
 def classification(temp: int) -> str:
-
     for threshold, label in CLASSES:
         if temp >= threshold:
             return label

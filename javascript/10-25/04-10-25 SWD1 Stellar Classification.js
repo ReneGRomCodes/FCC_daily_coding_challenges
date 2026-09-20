@@ -23,9 +23,24 @@ Return the classification of the given star.
 8. classification(11432) should return "B".
  */
 
-function classification(temp) {
+// Matrix with 'threshold temperature - classification' pairs.
+const CLASSES = [
+    [30000, "O"],
+    [10000, "B"],
+    [7500, "A"],
+    [6000, "F"],
+    [5200, "G"],
+    [3700, "K"],
+    [0, "M"]
+]
 
-    return temp;
+
+function classification(temp) {
+    for (const [threshold, label] of CLASSES) {
+        if (temp >= threshold) { return label }
+    }
+
+    return "Psst... temperatures can't be negative in Kelvin.";
 }
 
 

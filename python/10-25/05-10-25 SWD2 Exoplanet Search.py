@@ -21,7 +21,6 @@ is 8 or less.
 """
 
 def has_exoplanet(readings) -> bool:
-
     lum_list: list[int] = [int(x, 36) for x in readings]
     lum_avrg: float = sum(lum_list) / len(lum_list)
     lum_threshold: float = lum_avrg * 0.8

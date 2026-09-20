@@ -26,8 +26,30 @@ Return [0, 1], the indices for the 0 in the first array.
  */
 
 function findLandingSpot(matrix) {
+    let safestDanger = Infinity;
+    let safestRow = 0;
+    let safestCol = 0;
 
-    return matrix;
+    for (let row = 0; row < matrix.length; row++) {
+        for (let col = 0; col < matrix[row].length; col++) {
+            if (matrix[row][col] !== 0) { continue }
+
+            let danger = 0;
+
+            if (col > 0) { danger += matrix[row][col - 1] }
+            if (col < matrix[row].length - 1) { danger += matrix[row][col + 1] }
+            if (row > 0) { danger += matrix[row - 1][col] }
+            if (row < matrix.length - 1) { danger += matrix[row + 1][col] }
+
+            if (danger < safestDanger) {
+                safestDanger = danger;
+                safestRow = row;
+                safestCol = col;
+            }
+        }
+    }
+
+    return [safestRow, safestCol];
 }
 
 
