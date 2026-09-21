@@ -23,8 +23,21 @@ Return the correct phase as a string.
  */
 
 function moonPhase(dateString) {
+    const date = new Date(`${dateString}T00:00:00Z`);
+    const reference = new Date("2000-01-06T00:00:00Z");
 
-    return dateString;
+    const daysSince = Math.floor((date - reference) / (1000 * 60 * 60 * 24));
+    const dayInCycle = daysSince % 28;
+
+    if (dayInCycle <= 6) {
+        return "New";
+    } else if (dayInCycle <= 13) {
+        return "Waxing";
+    } else if (dayInCycle <= 20) {
+        return "Full";
+    } else {
+        return "Waning";
+    }
 }
 
 

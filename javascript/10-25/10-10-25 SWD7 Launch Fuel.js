@@ -24,8 +24,15 @@ Return the amount of fuel needed, rounded to one decimal place.
  */
 
 function launchFuel(payload) {
+    let additionalFuelMass = payload / 5;
+    let totalMass = additionalFuelMass + payload;
 
-    return payload;
+    while (additionalFuelMass > 1) {
+        additionalFuelMass = additionalFuelMass / 5;
+        totalMass += additionalFuelMass;
+    }
+
+    return Math.round((totalMass - payload) * 10) / 10;
 }
 
 
