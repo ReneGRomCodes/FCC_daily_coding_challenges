@@ -1,4 +1,4 @@
-"""
+/*
 Hex to Decimal
 Given a string representing a hexadecimal number (base 16), return its decimal (base 10) value as an integer.
 
@@ -30,14 +30,16 @@ The string will only contain characters 0–9 and A–F.
 3. hex_to_decimal("2E") should return 46.
 4. hex_to_decimal("FF") should return 255.
 5. hex_to_decimal("A3F") should return 2623.
-"""
+ */
 
-def hex_to_decimal(hex: str) -> int:
-    return int(hex, 16)  # I think something more 'manual' is expected here... but hey, it works :)
+function hexToDecimal(hex) {
+
+    return hex;
+}
 
 
-print(hex_to_decimal("A"))
-print(hex_to_decimal("15"))
-print(hex_to_decimal("2E"))
-print(hex_to_decimal("FF"))
-print(hex_to_decimal("A3F"))
+console.log(hexToDecimal("A"));
+console.log(hexToDecimal("15"));
+console.log(hexToDecimal("2E"));
+console.log(hexToDecimal("FF"));
+console.log(hexToDecimal("A3F"));
