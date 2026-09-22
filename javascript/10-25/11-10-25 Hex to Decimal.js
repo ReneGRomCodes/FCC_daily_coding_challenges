@@ -33,8 +33,7 @@ The string will only contain characters 0–9 and A–F.
  */
 
 function hexToDecimal(hex) {
-
-    return hex;
+    return parseInt(hex, 16);
 }
 
 

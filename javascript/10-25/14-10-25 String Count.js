@@ -13,8 +13,13 @@ second two.
  */
 
 function count(text, pattern) {
+    let counter = 0;
 
-    return text;
+    for (let i = 0; i < text.length; i++) {
+        if (text.slice(i, i + pattern.length) === pattern) { counter++ }
+    }
+
+    return counter;
 }
 
 

@@ -23,9 +23,32 @@ of wins.
 7. battle("We must never surrender", "Our team must win") should return "Draw".
  */
 
-function battle(ourTeam, opponent) {
+function getLetterValue(letter) {
+    let value = parseInt(letter, 36) - 9;
 
-    return ourTeam;
+    if (/[A-Z]/.test(letter)) { value *= 2 }
+
+    return value;
+}
+
+
+function battle(ourTeam, opponent) {
+    const ourArr = ourTeam.split(" ");
+    const oppArr = opponent.split(" ");
+    let ourTeamScore = 0;
+    let opponentScore = 0;
+
+    for (let i = 0; i < oppArr.length; i++) {
+        let ourWordScore = ourArr[i].split("").reduce((sum, x) => sum + getLetterValue(x), 0);
+        let oppWordScore = oppArr[i].split("").reduce((sum, x) => sum + getLetterValue(x), 0);
+
+        if (ourWordScore > oppWordScore) { ourTeamScore++ }
+        else if (ourWordScore < oppWordScore) { opponentScore++ }
+    }
+
+    if (ourTeamScore > opponentScore) { return "We win" }
+    else if (ourTeamScore < opponentScore) { return "We lose" }
+    else { return "Draw" }
 }
 
 

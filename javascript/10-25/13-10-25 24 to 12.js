@@ -12,8 +12,23 @@ The given input will always be a four-digit string in 24-hour time format, from 
  */
 
 function to12(time) {
+    let timeHours = Number (time.slice(0, 2));
+    let timeMinutes = Number (time.slice(2));
+    let suffix = "";
 
-    return time;
+    if (timeHours > 12) {
+        timeHours -= 12;
+        suffix = "PM";
+    } else if (timeHours === 12) {
+        suffix = "PM";
+    } else {
+        if (timeHours === 0) {
+            timeHours = 12;
+        }
+        suffix = "AM";
+    }
+
+    return `${timeHours}:${timeMinutes.toString().padStart(2, "0")} ${suffix}`;
 }
 
 

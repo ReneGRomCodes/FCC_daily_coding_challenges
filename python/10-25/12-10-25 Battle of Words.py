@@ -24,10 +24,10 @@ of wins.
 """
 
 def get_letter_value(letter: str) -> int:
-    value:int = int(letter, base=36) - 9
+    value: int = int(letter, base=36) - 9
 
     if letter.isupper():
-        value = value * 2
+        value *= 2
 
     return value
 
@@ -40,8 +40,8 @@ def battle(our_team: str, opponent: str) -> str:
     opponent_score: int = 0
 
     for word_1, word_2 in zip(our_list, opp_list):
-        our_word_score = sum(get_letter_value(x) for x in word_1)
-        opp_word_score = sum(get_letter_value(x) for x in word_2)
+        our_word_score: int = sum(get_letter_value(x) for x in word_1)
+        opp_word_score: int = sum(get_letter_value(x) for x in word_2)
 
         if our_word_score > opp_word_score:
             our_team_score += 1
