@@ -19,19 +19,19 @@ def strip_tags(html: str) -> str:
     end_tag_char: str = ">"
     tag_flag: bool = False
 
-    stripped_html: str = ""
+    stripped_html: list[str] = []
 
     for index, character in enumerate(html):
-        # Set flag to 'True' if current character is part of a tag.
+        # Set flag if current character is part of a tag.
         if character == start_tag_char:
             tag_flag = True
         elif character == end_tag_char:
             tag_flag = False
 
         if not tag_flag and character != end_tag_char:
-            stripped_html += character
+            stripped_html.append(character)
 
-    return stripped_html
+    return "".join(stripped_html)
 
 
 print(strip_tags('<a href="#">Click here</a>'))

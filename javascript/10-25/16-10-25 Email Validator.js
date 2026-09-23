@@ -23,8 +23,35 @@ Neither the local or domain part can have two dots in a row.
  */
 
 function validate(email) {
+    const emailParts = email.split("@");
+    const checkChars = "._-";
+    const dot = ".";
+    const doubleDot = "..";
 
-    return email;
+    if (emailParts.length !== 2) { return false }  // Check if email has two parts.
+
+    for (const part of emailParts) {
+        // Filter out email with empty parts.
+        if (part.length === 0) { return false }
+        // Filter invalid dot positions or double dots.
+        if (part[0] === dot || part[part.length - 1] === dot || part.includes(doubleDot)) { return false }
+        // Check local part for invalid characters.
+        if (part === emailParts[0]) {
+            for (const char of part) {
+                if (!/[A-Za-z0-9]/.test(char) && !checkChars.includes(char)) { return false }
+            }
+        }
+        //Check domain part for valid dot positions and ending.
+        if (part === emailParts[1]) {
+            if (!part.includes(dot)) { return false }
+
+            for (const char of part.slice(-2)) {
+                if (!/[A-Za-z]/.test(char)) { return false }
+            }
+        }
+    }
+
+    return true;
 }
 
 

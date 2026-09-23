@@ -15,8 +15,19 @@ For example, '<a href="#">Click here</a>' should return "Click here".
  */
 
 function stripTags(html) {
+    const startTagChar = "<";
+    const endTagChar = ">";
+    let tagFlag = false;
+    const strippedHtml = [];
 
-    return html;
+    for (let i = 0; i < html.length; i++) {
+        // Set flag if current character is part of a tag.
+        if (html[i] === startTagChar) { tagFlag = true }
+        else if (html[i] === endTagChar) { tagFlag = false }
+        if (!tagFlag && html[i] !== endTagChar) { strippedHtml.push(html[i]) }
+    }
+
+    return strippedHtml.join("");
 }
 
 
