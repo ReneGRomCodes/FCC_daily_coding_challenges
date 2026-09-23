@@ -1,4 +1,4 @@
-"""
+/*
 Credit Card Masker
 Given a string of credit card numbers, return a masked version of it using the following constraints:
 
@@ -12,29 +12,30 @@ For example, given "4012-8888-8888-1881" return "****-****-****-1881".
 2. mask("5105 1051 0510 5100") should return "**** **** **** 5100".
 3. mask("6011 1111 1111 1117") should return "**** **** **** 1117".
 4. mask("2223-0000-4845-0010") should return "****-****-****-0010".
-"""
+ */
 
-def mask(card: str) -> str:
-    card_list: list[str] = []
-    separators: tuple[str, ...] = (" ", "-")
-    replacement: str = "****"
-    masked_card: list[str] = []
+function mask(card) {
+    let cardList = [];
+    const separators = " -";
+    let replacement = "****";
+    const maskedCard = [];
 
-    for sep in separators:
-        if sep in card:
-            card_list = card.split(sep)
-            replacement += sep
+    for (const sep of separators) {
+        if (card.includes(sep)) {
+            cardList = card.split(sep);
+            replacement += sep;
+        }
+    }
 
-    for digit_set in card_list:
-        if digit_set is card_list[-1]:
-            masked_card.append(digit_set)
-        else:
-            masked_card.append(replacement)
+    for (const digitSet of cardList) {
+        digitSet === cardList[cardList.length-1] ? maskedCard.push(digitSet) : maskedCard.push(replacement);
+    }
 
-    return "".join(masked_card)
+    return maskedCard.join("");
+}
 
 
-print(mask("4012-8888-8888-1881"))
-print(mask("5105 1051 0510 5100"))
-print(mask("6011 1111 1111 1117"))
-print(mask("2223-0000-4845-0010"))
+console.log(mask("4012-8888-8888-1881"));
+console.log(mask("5105 1051 0510 5100"));
+console.log(mask("6011 1111 1111 1117"));
+console.log(mask("2223-0000-4845-0010"));
