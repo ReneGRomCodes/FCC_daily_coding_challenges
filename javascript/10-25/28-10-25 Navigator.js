@@ -23,8 +23,25 @@ For example, given ["Visit About Us", "Back", "Forward"], return "About Us".
  */
 
 function navigate(commands) {
+    const history = ["Home"];
+    let currentPage = 0;  // Index representing current page in 'history'.
 
-    return commands;
+    for (const cmd of commands) {
+        const cmdElements = cmd.split(" ");
+        const command = cmdElements[0];
+
+        if (command === "Visit") {
+            const page = cmdElements.slice(1).join(" ");
+            history.push(page);
+            currentPage++;
+        } else if (command === "Back") {
+            if (currentPage !== 0) { currentPage-- }
+        } else if (command === "Forward") {
+            if (currentPage < history.length - 1) { currentPage++ }
+        }
+    }
+
+    return history[currentPage];
 }
 
 
