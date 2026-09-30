@@ -26,8 +26,8 @@ def format(seconds: int) -> str:
 
     if f_hours == 0:
         return f"{f_minutes}:{f_seconds:02d}"
-    else:
-        return f"{f_hours}:{f_minutes:02d}:{f_seconds:02d}"
+
+    return f"{f_hours}:{f_minutes:02d}:{f_seconds:02d}"
 
 
 print(format(500))

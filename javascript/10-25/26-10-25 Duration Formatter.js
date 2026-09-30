@@ -16,8 +16,16 @@ Hours: Should be included only if they're greater than zero.
  */
 
 function format(seconds) {
+    const fSeconds = seconds % 60;
+    let fMinutes = Math.floor(seconds / 60);
+    const fHours = Math.floor(fMinutes / 60);
 
-    return seconds;
+    // Correct 'f_minutes' to wrap around for each hour.
+    if (fMinutes >= 60) { fMinutes -= fHours * 60 }
+
+    return fHours === 0 ?
+        `${fMinutes}:${String(fSeconds).padStart(2, "0")}` :
+        `${fHours}:${String(fMinutes).padStart(2, "0")}:${String(fSeconds).padStart(2, "0")}`;
 }
 
 

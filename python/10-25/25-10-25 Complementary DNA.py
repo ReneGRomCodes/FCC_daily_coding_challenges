@@ -14,18 +14,18 @@ For example, given "ACGT", return "TGCA".
 """
 
 def complementary_dna(strand: str) -> str:
-    dna_dict = {
+    dna_dict: dict[str, str] = {
         "A": "T",
         "T": "A",
         "C": "G",
         "G": "C",
     }
-    compl_dna: str = ""
+    compl_dna: list[str] = []
 
     for char in strand:
-        compl_dna += dna_dict[char]
+        compl_dna.append(dna_dict[char])
 
-    return compl_dna
+    return "".join(compl_dna)
 
 
 print(complementary_dna("ACGT"))

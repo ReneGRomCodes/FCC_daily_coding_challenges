@@ -48,8 +48,8 @@ def dive(map: list[list[str]], coordinates: list[int]) -> str:
 
     if unfound_n <= 1 or location != "O":
         return markers[location]
-    else:
-        return "Found"
+
+    return "Found"
 
 
 print(dive([[ "-", "X"], [ "-", "X"], [ "-", "O"]], [2, 1]))

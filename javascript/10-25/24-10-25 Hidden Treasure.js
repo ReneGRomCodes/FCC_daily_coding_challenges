@@ -35,8 +35,22 @@ the treasure.
  */
 
 function dive(map, coordinates) {
+    const location = map[coordinates[0]][coordinates[1]];
+    const markers = {
+        "-": "Empty",
+        "X": "Found",
+        "O": "Recovered"
+    };
 
-    return map;
+    // Get number of unfound treasures.
+    const flatMap = map.flat();
+    const unfoundN = flatMap.filter(x => x === "O").length;
+
+    if (unfoundN <= 1 || location !== "O") {
+        return markers[location];
+    }
+
+    return "Found";
 }
 
 

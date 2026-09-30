@@ -12,11 +12,15 @@ For example, given 5, return "12345".
  */
 
 function sequence(n) {
+    const seq = [];
 
-    return n;
+    for (let i = 1; i <= n; i++) { seq.push(String(i)) }
+
+    return seq.join("");
 }
 
 
+console.log(sequence(5));
 console.log(sequence(10));
 console.log(sequence(1));
 console.log(sequence(27));

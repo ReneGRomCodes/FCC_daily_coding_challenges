@@ -14,8 +14,19 @@ For example, given "ACGT", return "TGCA".
  */
 
 function complementaryDNA(strand) {
+    const dnaObj = {
+        "A": "T",
+        "T": "A",
+        "C": "G",
+        "G": "C",
+    };
+    const complDna = [];
 
-    return strand;
+    for (const char of strand) {
+        complDna.push(dnaObj[char]);
+    }
+
+    return complDna.join("");
 }
 
 

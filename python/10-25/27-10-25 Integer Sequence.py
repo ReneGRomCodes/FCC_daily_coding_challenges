@@ -12,12 +12,12 @@ For example, given 5, return "12345".
 """
 
 def sequence(n):
-    seq: str = ""
+    seq: list[str] = []
 
     for i in range(1, n+1):
-        seq += str(i)
+        seq.append(str(i))
 
-    return seq
+    return "".join(seq)
 
 
 print(sequence(5))

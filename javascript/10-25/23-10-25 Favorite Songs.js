@@ -16,8 +16,9 @@ Each object will have a "title" property (string), and a "plays" property (integ
  */
 
 function favoriteSongs(playlist) {
+    playlist.sort((a, b) => b.plays - a.plays);
 
-    return playlist;
+    return playlist.slice(0, 2).map(x => x.title);
 }
 
 
