@@ -14,20 +14,20 @@ For example, given hello_world, return HeLlO~wOrLd.
 """
 
 def spookify(boo: str) -> str:
-    spookified_boo: str = ""
+    spookified_boo: list[str] = []
     char_uppercase: bool = True
 
     for char in boo:
         if char in {"_", "-"}:
-            spookified_boo += "~"
+            spookified_boo.append("")
         elif char_uppercase:
-            spookified_boo += char.upper()
+            spookified_boo.append(char.upper())
             char_uppercase = False
         else:
-            spookified_boo += char.lower()
+            spookified_boo.append(char.lower())
             char_uppercase = True
 
-    return spookified_boo
+    return "".join(spookified_boo)
 
 
 print(spookify("hello_world"))

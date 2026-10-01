@@ -14,8 +14,22 @@ For example, given hello_world, return HeLlO~wOrLd.
  */
 
 function spookify(boo) {
+    const spookifiedBoo = [];
+    let charUppercase = true;
 
-    return boo;
+    for (const char of boo) {
+        if (["_", "-"].includes(char)) {
+            spookifiedBoo.push("~")
+        } else if (charUppercase) {
+            spookifiedBoo.push(char.toUpperCase());
+            charUppercase = false;
+        } else {
+            spookifiedBoo.push(char.toLowerCase());
+            charUppercase = true;
+        }
+    }
+
+    return spookifiedBoo.join("");
 }
 
 
