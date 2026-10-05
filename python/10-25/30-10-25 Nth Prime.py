@@ -20,14 +20,14 @@ def nth_prime(n: int) -> int:
     if n == 1:
         return 2
 
-    limit = max(15, n * 2)
-    primes = []
+    limit: int = max(15, n * 2)
+    primes: list[int] = []
 
     while len(primes) < n:
-        sieve = [True] * (limit + 1)
+        sieve: list[bool] = [True] * (limit + 1)
         sieve[0] = sieve[1] = False
 
-        p = 2
+        p: int = 2
         while p * p <= limit:
             if sieve[p]:
                 for i in range(p * p, limit + 1, p):

@@ -13,13 +13,44 @@ Given a positive integer n, return the nth prime number. For example, given 5 re
  */
 
 function nthPrime(n) {
+    if (n === 1) { return 2 }
 
-    return n;
+    let limit = Math.max(15, n * 2);
+    let primes = [];
+
+    while (primes.length < n) {
+        const sieve = new Array(limit + 1).fill(true);
+        sieve[0] = false;
+        sieve[1] = false;
+
+        let p = 2;
+
+        while (p * p <= limit) {
+            if (sieve[p]) {
+                for (let i = p * p; i <= limit; i += p) {
+                    sieve[i] = false;
+                }
+            }
+            p++;
+        }
+
+        primes = [];
+
+        for (let i = 0; i < sieve.length; i++) {
+            if (sieve[i]) {
+                primes.push(i);
+            }
+        }
+
+        limit *= 2;
+    }
+
+    return primes[n - 1];
 }
 
 
-console.log(nth_prime(5));
-console.log(nth_prime(10));
-console.log(nth_prime(16));
-console.log(nth_prime(99));
-console.log(nth_prime(1000));
+console.log(nthPrime(5));
+console.log(nthPrime(10));
+console.log(nthPrime(16));
+console.log(nthPrime(99));
+console.log(nthPrime(1000));

@@ -24,8 +24,31 @@ For example, given ["jill@mail.com", "john@example.com", "jane@example.com"], re
  */
 
 function sort(emails) {
+    const mappedEmails = {};  // Object for mapping of each address to lowercase version.
+    let domainAlpha = new Set();  // Unique domains to be turned into sorted array further down.
+    const addressObj = {};  // Object with arrays of usernames for each unique domain.
+    const outputLookup = [];  // Sorted array for lowercase versions of addresses.
+    const sortedEmails = [];  // array for final output.
 
-    return emails;
+    for (const address of emails) {
+        const [domain, username] = [address.split("@")[1].toLowerCase(), address.split("@")[0].toLowerCase()];
+        mappedEmails[address.toLowerCase()] = address;
+        domainAlpha.add(domain);
+
+        !(domain in addressObj) ? addressObj[domain] = [username] : addressObj[domain].push(username);
+    }
+
+    // Sort username and domain collections alphabetically.
+    for (const domain in addressObj) { addressObj[domain].sort() }
+    domainAlpha = [...domainAlpha].sort();
+
+    for (const domain of domainAlpha) {
+        for (const username of addressObj[domain]) { outputLookup.push(`${username}@${domain}`)}
+    }
+
+    for (const address of outputLookup) { sortedEmails.push(mappedEmails[address]) }
+
+    return sortedEmails;
 }
 
 
