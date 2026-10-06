@@ -15,10 +15,7 @@ Return the images in the same order they appear in the input array.
     should return ["cat.jpg", "kitty-cat.png", "catNip.jpeg", "franken_cat.gif"].
  */
 
-function imageSearch(images, term) {
-
-    return images;
-}
+function imageSearch(images, term) { return images.filter(x => x.toLowerCase().includes(term.toLowerCase())) }
 
 
 console.log(imageSearch(["dog.png", "cat.jpg", "parrot.jpeg"], "dog"));

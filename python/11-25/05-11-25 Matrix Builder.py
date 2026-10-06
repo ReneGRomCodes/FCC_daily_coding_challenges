@@ -17,9 +17,7 @@ For example, given 2 and 3, return:
 """
 
 def build_matrix(rows: int, cols: int) -> list[list[int]]:
-    filler: int = 0
-
-    return [[filler] * cols] * rows
+    return [[0] * cols] * rows
 
 
 print(build_matrix(2, 3))

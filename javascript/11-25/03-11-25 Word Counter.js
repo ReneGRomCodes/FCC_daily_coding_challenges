@@ -11,10 +11,7 @@ Words are any sequence of non-space characters and are separated by a single spa
 5. count_words("The missing semi-colon crashed the entire internet.") should return 7.
  */
 
-function countWords(sentence) {
-
-    return sentence;
-}
+function countWords(sentence) { return sentence.split(" ").length }
 
 
 console.log(countWords("Hello world"));

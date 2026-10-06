@@ -27,8 +27,15 @@ Return the number of total infected computers after the given amount of days hav
  */
 
 function infected(days) {
+    let nInfected = 1;
 
-    return days;
+    for (let day = 1; day <= days; day++) {
+        nInfected *= 2;
+
+        if (day % 3 === 0) { nInfected -= Math.floor((nInfected + 4) / 5) }
+    }
+
+    return nInfected;
 }
 
 

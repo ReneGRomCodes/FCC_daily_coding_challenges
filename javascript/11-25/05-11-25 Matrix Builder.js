@@ -16,10 +16,7 @@ For example, given 2 and 3, return:
 4. build_matrix(9, 1) should return [[0], [0], [0], [0], [0], [0], [0], [0], [0]].
  */
 
-function buildMatrix(rows, cols) {
-
-    return rows;
-}
+function buildMatrix(rows, cols) { return Array.from({ length: rows }, () => Array(cols).fill(0)) }
 
 
 console.log(buildMatrix(2, 3));

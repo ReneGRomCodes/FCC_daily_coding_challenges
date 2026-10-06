@@ -25,8 +25,17 @@ Check if the computed signature matches the provided signature.
  */
 
 function verify(message, key, signature) {
+    let checksum = 0;
 
-    return message;
+    for (const char of message + key) {
+        if (/[A-Z]/.test(char)) {
+            checksum += char.charCodeAt(0) - 38;
+        } else if (/[a-z]/.test(char)) {
+            checksum += char.charCodeAt(0) - 96;
+        }
+    }
+
+    return checksum === signature;
 }
 
 
