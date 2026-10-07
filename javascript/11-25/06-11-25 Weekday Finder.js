@@ -21,8 +21,21 @@ Be sure to ignore time zones.
  */
 
 function getWeekday(dateString) {
+    // Find and return weekday for given date string using Zeller's Congruence.
+    let [year, month, day] = dateString.split("-").map(Number);
+    const weekdays = ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
-    return dateString;
+    if (month < 3) {
+        month += 12;
+        year--;
+    }
+
+    const yearpart = year % 100;
+    const century = Math.floor(year / 100);
+
+    const dayIndex = (day + Math.floor((13 * (month + 1)) / 5) + yearpart + Math.floor(yearpart / 4) + Math.floor(century / 4) + 5 * century) % 7;
+
+    return weekdays[dayIndex];
 }
 
 
