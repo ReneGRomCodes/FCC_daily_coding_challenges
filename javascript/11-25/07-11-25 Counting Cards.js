@@ -15,9 +15,11 @@ return 1326, There's 1326 card combinations you can end up with when picking 2 c
 6. combinations(50) should return 1326.
  */
 
-function combinations(cards) {
+function factorial(n) { return n === 0 ? 1 : n * factorial(n - 1) }
 
-    return cards;
+
+function combinations(cards, deckSize = 52) {
+    return Math.floor(factorial(deckSize) / (factorial(cards) * factorial(deckSize - cards)));
 }
 
 

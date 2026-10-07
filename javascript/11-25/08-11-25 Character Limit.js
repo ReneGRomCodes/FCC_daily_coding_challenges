@@ -14,8 +14,12 @@ strings based on the rules given:
  */
 
 function canPost(message) {
+    const lenMsg = message.length;
 
-    return message;
+    if (lenMsg <= 40) { return "short post" }
+    else if (lenMsg <= 80) { return "long post" }
+
+    return "invalid post";
 }
 
 
