@@ -15,8 +15,12 @@ The extension should be returned as-is, preserving case.
  */
 
 function getExtension(filename) {
+    if (!filename.includes(".")) {
+        return "none";
+    }
 
-    return filename;
+    const extension = filename.split(".").pop();
+    return extension || "none";
 }
 
 
