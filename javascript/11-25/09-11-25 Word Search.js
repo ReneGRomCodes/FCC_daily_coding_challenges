@@ -30,8 +30,52 @@ Where [0, 1] are the indices for the "c" (start of the word), and [2, 1] are the
  */
 
 function findWord(matrix, word) {
+    const rows = matrix.length;
+    const cols = matrix[0].length;
 
-    return matrix;
+    const directions = [
+        [1, 0],
+        [-1, 0],
+        [0, 1],
+        [0, -1]
+    ];
+
+    function matches(x, y, dx, dy) {
+        for (let i = 0; i < word.length; i++) {
+            const row = y + dy * i;
+            const col = x + dx * i;
+
+            if (
+                row < 0 || row >= rows ||
+                col < 0 || col >= cols ||
+                matrix[row][col] !== word[i]
+            ) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    for (let y = 0; y < rows; y++) {
+        for (let x = 0; x < cols; x++) {
+            if (matrix[y][x] !== word[0]) continue;
+
+            const direction = directions.find(([dx, dy]) =>
+                matches(x, y, dx, dy)
+            );
+
+            if (direction) {
+                const [dx, dy] = direction;
+                const endX = x + dx * (word.length - 1);
+                const endY = y + dy * (word.length - 1);
+
+                return [[y, x], [endY, endX]];
+            }
+        }
+    }
+
+    return null;
 }
 
 

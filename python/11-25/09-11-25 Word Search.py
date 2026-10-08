@@ -34,12 +34,12 @@ def find_word(matrix: list[list[str]], word: str) -> list[list[int]] | None:
     cols: int = len(matrix[0])
     l: int = len(word)
 
-    directions = [
+    directions: tuple[tuple[int, int], ...] = (
         (1, 0),   # down
         (-1, 0),  # up
         (0, 1),   # right
         (0, -1)   # left
-    ]
+    )
 
     for y in range(rows):
         for x in range(cols):
@@ -47,10 +47,12 @@ def find_word(matrix: list[list[str]], word: str) -> list[list[int]] | None:
                 continue
 
             for dx, dy in directions:
-                match = True
+                match: bool = True
+
                 for i in range(l):
-                    cx = x + dx * i
-                    cy = y + dy * i
+                    cx: int = x + dx * i
+                    cy: int = y + dy * i
+
                     if cx < 0 or cy < 0 or cx >= cols or cy >= rows or matrix[cy][cx] != word[i]:
                         match = False
                         break
@@ -60,6 +62,8 @@ def find_word(matrix: list[list[str]], word: str) -> list[list[int]] | None:
                     end_y: int = y + dy * (l - 1)
 
                     return [[y, x], [end_y, end_x]]
+
+    return None
 
 
 print(find_word([["a", "c", "t"], ["t", "a", "t"], ["c", "t", "c"]], "cat"))
