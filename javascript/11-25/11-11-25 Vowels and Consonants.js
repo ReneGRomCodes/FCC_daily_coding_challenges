@@ -16,8 +16,15 @@ For example, given "Hello World", return [3, 7].
  */
 
 function count(str) {
+    const vowels = ["a", "e", "i", "o", "u"];
+    const counter = [0, 0];
 
-    return str;
+    for (const char of str) {
+        if (vowels.includes(char.toLowerCase())) { counter[0]++ }
+        else if (/[a-z]/i.test(char)) { counter[1]++ }
+    }
+
+    return counter;
 }
 
 

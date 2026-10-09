@@ -25,8 +25,18 @@ For example, given "Quinn Waverly", "Founder and CEO", and "TechCo" return "--Qu
  */
 
 function generateSignature(name, title, company) {
+    const firstLetterValue = name[0].toLowerCase().charCodeAt(0);
+    let prefix = "";
 
-    return name;
+    if (firstLetterValue >= 97 && firstLetterValue <= 105) {
+        prefix = ">>";
+    } else if (firstLetterValue >= 106 && firstLetterValue <= 114) {
+        prefix = "--";
+    } else if (firstLetterValue >= 115 && firstLetterValue <= 122) {
+        prefix = "::";
+    }
+
+    return `${prefix}${name}, ${title} at ${company}`;
 }
 
 
