@@ -13,10 +13,7 @@ For example, given 1 and 3, return 6. Three 1x1 rectangles, two 1x2 rectangles, 
 5. count_rectangles(11, 19) should return 12540.
  */
 
-function countRectangles(width, height) {
-
-    return width;
-}
+function countRectangles(width, height) { return Math.floor((width * (width + 1) * height * (height + 1)) / 4) }
 
 
 console.log(countRectangles(1, 3));
