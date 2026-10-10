@@ -14,8 +14,13 @@ largest number that appears in both sets of divisors.
  */
 
 function gcd(x, y) {
+    let [x1, y1] = [x, y];
 
-    return x;
+    while (y1 !== 0) {
+        [x1, y1] = [y1, x1 % y1];
+    }
+
+    return x1;
 }
 
 

@@ -15,8 +15,10 @@ For example, given [1, 2, 3] and 1, shift the array 1 to the left, returning [2,
  */
 
 function shiftArray(arr, n) {
+    let m = n % arr.length;
+    if (m < 0) { m += arr.length }
 
-    return arr;
+    return [...arr.slice(m), ...arr.slice(0, m)];
 }
 
 

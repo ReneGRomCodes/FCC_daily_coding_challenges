@@ -17,8 +17,35 @@ Make sure the calculation ignores your local timezone.
  */
 
 function daysUntilWeekend(dateString) {
+    // Find current weekday and return days until weekend for given date string using Zeller's Congruence.
+    let [year, month, day] = dateString.split("-").map(Number);
+    const weekdays = [
+        0,  // Saturday
+        0,  // Sunday
+        5,  // Monday
+        4,  // Tuesday
+        3,  // Wednesday
+        2,  // Thursday
+        1   // Friday
+    ];
 
-    return dateString;
+    if (month < 3) {
+        month += 12;
+        year--;
+    }
+
+    const yearpart = year % 100;
+    const century = Math.floor(year / 100);
+
+    const dayIndex = (day + Math.floor((13 * (month + 1)) / 5) + yearpart + Math.floor(yearpart / 4) + Math.floor(century / 4) + 5 * century) % 7;
+
+    if (weekdays[dayIndex] === 0) {
+        return "It's the weekend!"
+    } else if (weekdays[dayIndex] === 1) {
+        return `${weekdays[dayIndex]} day until the weekend.`
+    } else {
+        return `${weekdays[dayIndex]} days until the weekend.`
+    }
 }
 
 
