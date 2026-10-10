@@ -16,8 +16,12 @@ The number of differing characters does not exceed 10% of the fingerprint length
  */
 
 function isMatch(fingerprintA, fingerprintB) {
+    if (fingerprintA.length !== fingerprintB.length) { return false }
 
-    return fingerprintA;
+    const counter = fingerprintA.split("").filter((a, i) => a !== fingerprintB[i]).length;
+    const allowedDiff = 0.1 * fingerprintA.length;
+
+    return counter <= allowedDiff;
 }
 
 

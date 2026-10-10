@@ -21,10 +21,8 @@ def is_match(fingerprint_a: str, fingerprint_b: str) -> bool:
 
     counter: int = sum(a != b for a, b in zip(fingerprint_a, fingerprint_b))
     allowed_diff: float = 0.1 * len(fingerprint_a)
-    if counter > allowed_diff:
-        return False
 
-    return True
+    return counter <= allowed_diff
 
 
 print(is_match("helloworld", "helloworld"))
