@@ -16,12 +16,14 @@ characters, trim the extra so it's exactly 100.
 """
 
 def one_hundred(chars: str) -> str:
-    output: str = ""
+    output: list[str] = []
+    length: int = 0
 
-    while len(output) < 100:
-        output += chars
+    while length < 100:
+        output.append(chars)
+        length += 1
 
-    return output[:100]
+    return "".join(output)[:100]
 
 
 print(one_hundred("One hundred "))

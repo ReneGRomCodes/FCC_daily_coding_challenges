@@ -16,8 +16,15 @@ characters, trim the extra so it's exactly 100.
  */
 
 function oneHundred(chars) {
+    const output = [];
+    let length = 0;
 
-    return chars;
+    while (length < 100) {
+        output.push(chars);
+        length++;
+    }
+
+    return output.join("").slice(0, 100);
 }
 
 
