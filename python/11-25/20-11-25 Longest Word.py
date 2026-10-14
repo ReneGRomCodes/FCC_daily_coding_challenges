@@ -16,16 +16,18 @@ Return the word as it appears in the given string, with punctuation removed.
 """
 
 def longest_word(sentence: str) -> str:
-    cleaned_sentence: str = ""
+    cleaned_sentence: list[str] = []
     longest_word_str: str = ""
 
     # Remove non-alphabetic characters from sentence.
     for char in sentence:
         if char.isalpha() or char == " ":
-            cleaned_sentence += char
+            cleaned_sentence.append(char)
+
+    cleaned_sentence = "".join(cleaned_sentence).split()
 
     # Find the longest word.
-    for word in cleaned_sentence.split():
+    for word in cleaned_sentence:
         if len(word) > len(longest_word_str):
             longest_word_str = word
 
