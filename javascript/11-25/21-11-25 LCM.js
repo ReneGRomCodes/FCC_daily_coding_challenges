@@ -17,8 +17,15 @@ Multiplies of 6 are 6, 12, 18 and so on.
  */
 
 function lcm(a, b) {
+    const n1 = Math.max(a, b);
+    const n2 = Math.min(a, b);
+    let multiplier = 1;
 
-    return a;
+    while (true) {
+        const multiple = n1 * multiplier;
+        if (multiple % n2 === 0) { return multiple }
+        multiplier++;
+    }
 }
 
 
