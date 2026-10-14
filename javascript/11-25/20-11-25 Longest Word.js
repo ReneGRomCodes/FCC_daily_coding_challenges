@@ -16,8 +16,22 @@ Return the word as it appears in the given string, with punctuation removed.
  */
 
 function longestWord(sentence) {
+    let cleanedSentence = [];
+    let longestWord = "";
 
-    return sentence;
+    // Remove non-alphabetic characters from sentence.
+    for (const char of sentence) {
+        if (/[a-z]/i.test(char) || char === " ") { cleanedSentence.push(char) }
+    }
+
+    cleanedSentence = cleanedSentence.join("").split(" ");
+
+    // Find the longest word.
+    for (const word of cleanedSentence) {
+        if (word.length > longestWord.length) { longestWord = word }
+    }
+
+    return longestWord;
 }
 
 

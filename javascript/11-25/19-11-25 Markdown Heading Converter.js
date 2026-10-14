@@ -28,8 +28,26 @@ tags included.
  */
 
 function convert(heading) {
+    const convHead = heading.trimStart();
+    let hashEnd = 0;
 
-    return heading;
+    // Check for leading '#'s.
+    if (convHead[0] !== "#") { return "Invalid format" }
+
+    for (let i = 0; i < convHead.length; i++) {
+        // Check for valid number of '#'s.
+        if (i === 6) { return "Invalid format" }
+        // Get index for and number of leading '#'s.
+        if (convHead[i] !== "#") {
+            if (convHead[i] !== " ") { return "Invalid format" }
+            else {
+                hashEnd = i;
+                break;
+            }
+        }
+    }
+
+    return `<h${hashEnd}>${convHead.slice(hashEnd).trimStart()}</h${hashEnd}>`;
 }
 
 
