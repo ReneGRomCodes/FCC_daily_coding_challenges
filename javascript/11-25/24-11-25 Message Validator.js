@@ -14,8 +14,9 @@ Words in the message are separated by single spaces.
  */
 
 function isValidMessage(message, validator) {
+    const startingLetters = message.toLowerCase().split(/\s+/).map(word => word[0]).join("");
 
-    return message;
+    return startingLetters === validator.toLowerCase();
 }
 
 
