@@ -16,8 +16,16 @@ Do not return a count of letters that are not in the given string.
  */
 
 function countCharacters(sentence) {
+    const hist = {};
 
-    return sentence;
+    for (const char of sentence) {
+        if (!/[a-z]/i.test(char)) { continue }
+        hist[char.toLowerCase()] = (hist[char.toLowerCase()] || 0) + 1;
+    }
+
+    return Object.entries(hist)
+        .map(([k, v]) => `${k} ${v}`)
+        .sort();
 }
 
 

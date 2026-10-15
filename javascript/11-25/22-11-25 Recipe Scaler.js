@@ -17,8 +17,19 @@ Return the scaled items in the same order they are given.
  */
 
 function scaleRecipe(ingredients, scale) {
+    const ingredientsArray = ingredients.map(ingredient => ingredient.split(/\s+/));
+    const scaledIngredients = [];
 
-    return ingredients;
+    for (const arr of ingredientsArray) {
+        const newQuantity = arr[0] * scale;
+
+        if (newQuantity % 1 === 0) { arr[0] = newQuantity.toString() }
+        else { arr[0] = newQuantity.toString() }
+
+        scaledIngredients.push(arr.join(" "));
+    }
+
+    return scaledIngredients;
 }
 
 
