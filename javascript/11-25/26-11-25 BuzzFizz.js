@@ -20,9 +20,35 @@ The array must start at 1 and have no missing or extra elements.
     38, "Fizz", "Buzz", 41, "Fizz", 43, 44, "FizzBuzz", 46, 47, "Fizz", 49, "Buzz"]) should return True.
  */
 
-function isFizzBuzz(sequence) {
+// Copied over this function from the solution for yesterday's challenge.
+function fizzBuzz(n) {
+    const fizzbuzz = [];
 
-    return sequence;
+    for (let i = 1; i <= n; i++) {
+        const fizz = i % 3 === 0;
+        const buzz = i % 5 === 0;
+
+        if (fizz && buzz) {
+            fizzbuzz.push("FizzBuzz");
+            continue;
+        } else if (fizz) {
+            fizzbuzz.push("Fizz");
+            continue;
+        } else if (buzz) {
+            fizzbuzz.push("Buzz");
+            continue;
+        } else {
+            fizzbuzz.push(i);
+        }
+    }
+
+    return fizzbuzz;
+}
+
+
+function isFizzBuzz(sequence) {
+    const expected = fizzBuzz(sequence.length);
+    return sequence.every((value, i) => value === expected[i]);
 }
 
 

@@ -17,8 +17,27 @@ Given an integer (n), return an array of integers from 1 to n (inclusive), repla
  */
 
 function fizzBuzz(n) {
+    const fizzbuzz = [];
 
-    return n;
+    for (let i = 1; i <= n; i++) {
+        const fizz = i % 3 === 0;
+        const buzz = i % 5 === 0;
+
+        if (fizz && buzz) {
+            fizzbuzz.push("FizzBuzz");
+            continue;
+        } else if (fizz) {
+            fizzbuzz.push("Fizz");
+            continue;
+        } else if (buzz) {
+            fizzbuzz.push("Buzz");
+            continue;
+        } else {
+            fizzbuzz.push(i);
+        }
+    }
+
+    return fizzbuzz;
 }
 
 
