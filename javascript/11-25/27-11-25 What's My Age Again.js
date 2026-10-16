@@ -14,8 +14,17 @@ Be sure to account for whether the person has already had their birthday in 2025
  */
 
 function calculateAge(birthday) {
+    const year = Number(birthday.slice(0, 4));
+    const month = Number(birthday.slice(5, 7));
+    const day = Number(birthday.slice(8, 10));
 
-    return birthday;
+    const [refYear, refMonth, refDay] = [2025, 11, 27];
+    let age = refYear - year;
+
+    // If their 2025 birthday hasn't happened yet, subtract 1.
+    if (month > refMonth || (month === refMonth && day > refDay)) { age-- }
+
+    return age;
 }
 
 

@@ -22,7 +22,7 @@ def calculate_age(birthday: str) -> int:
 
     age: int = ref_year - year
 
-    # If their 2025 birthday hasn't happened yet, subtract 1
+    # If their 2025 birthday hasn't happened yet, subtract 1.
     if (month, day) > (ref_month, ref_day):
         age -= 1
 
