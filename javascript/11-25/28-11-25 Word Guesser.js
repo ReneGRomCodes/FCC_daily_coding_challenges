@@ -26,8 +26,32 @@ correct location ("2"), the third "P" is a zero ("0") because the two "P"'s in t
  */
 
 function compare(word, guess) {
+    const outputList = Array(guess.length).fill(0);
+    const wordList = [...word];
+    const guessList = [...guess];
+    const marker = "!";
 
-    return word;
+    // First loop to prioritize letters that are in the correct position.
+    for (let i = 0; i < guessList.length; i++) {
+        if (guessList[i] === wordList[i]) {
+            outputList[i] = 2;
+            wordList[i] = marker;
+            guessList[i] = marker;
+        }
+    }
+
+    // Second loop to get letters that are in 'word', but not in the correct position.
+    for (let i = 0; i < guessList.length; i++) {
+        const letter = guessList[i];
+
+        if (/[a-z]/i.test(letter) && wordList.includes(letter)) {
+            outputList[i] = 1;
+            wordList[wordList.indexOf(letter)] = marker;
+            guessList[i] = marker;
+        }
+    }
+
+    return outputList.join("");
 }
 
 

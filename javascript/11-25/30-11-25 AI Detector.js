@@ -19,8 +19,28 @@ If the given sentence meets any of the rules above, return "AI", otherwise, retu
  */
 
 function detectAI(text) {
+    const parenthesisThreshold = text.split("(").length - 1 >= 2 && text.split(")").length - 1 >= 2;
+    const dashThreshold = text.split("-").length - 1 >= 2;
 
-    return text;
+    const longWords = [];
+
+    for (const word of text.split(" ")) {
+        const cleanedWord = [...word]
+            .filter(char => /[a-z]/i.test(char))
+            .join("");
+
+        if (cleanedWord.length >= 7) {
+            longWords.push(cleanedWord);
+        }
+    }
+
+    const wordLength = longWords.length >= 3;
+
+    if (parenthesisThreshold || dashThreshold || wordLength) {
+        return "AI";
+    }
+
+    return "Human";
 }
 
 
