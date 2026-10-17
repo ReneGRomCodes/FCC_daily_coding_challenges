@@ -16,18 +16,18 @@ For example, given "abb", return 3 because there's three unique ways to arrange 
 
 def count_permutations(s: str) -> int:
     # Simple factorial.
-    def factorial(n):
-        r = 1
+    def factorial(n: int) -> int:
+        r: int = 1
         for i in range(2, n+1):
             r *= i
         return r
 
     # Frequency count.
-    frequency = {}
+    frequency: dict[str, int] = {}
     for char in s:
         frequency[char] = frequency.get(char, 0) + 1
 
-    total = factorial(len(s))
+    total: int = factorial(len(s))
     for v in frequency.values():
         total //= factorial(v)
 

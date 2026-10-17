@@ -13,16 +13,16 @@ Separate words with an underscore (_).
 """
 
 def to_snake(camel: str) -> str:
-    snake: str = ""
+    snake: list[str] = []
 
     for char in camel:
         if not char.isupper():
-            snake += char
+            snake.append(char)
             continue
 
-        snake += "_" + char.lower()
+        snake.append("_" + char.lower())
 
-    return snake
+    return "".join(snake)
 
 
 print(to_snake("helloWorld"))
