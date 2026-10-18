@@ -25,8 +25,15 @@ tags included.
  */
 
 function convertListItem(markdown) {
+    const trimmed = markdown.trimStart();
+    const itemNumber = trimmed.slice(0, 3);
+    const itemText = trimmed.slice(3).trim();
 
-    return markdown;
+    if (!/[0-9]/.test(itemNumber[0]) || itemNumber.slice(1) !== ". ") {
+        return "Invalid format";
+    }
+
+    return `<li>${itemText}</li>`;
 }
 
 
