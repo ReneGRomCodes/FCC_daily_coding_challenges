@@ -16,7 +16,8 @@ def difference(arr1: list[str | int], arr2: list[str | int]) -> list[str | int]:
     diff_list: list[str | int] = []
 
     for item in arr1 + arr2:
-        if item in diff_set: diff_list.append(item)
+        if item in diff_set:
+            diff_list.append(item)
 
     return diff_list
 

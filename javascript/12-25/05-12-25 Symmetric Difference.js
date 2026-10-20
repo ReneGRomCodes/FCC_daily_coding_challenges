@@ -12,8 +12,21 @@ Return the values in the order they first appear in the input arrays.
  */
 
 function difference(arr1, arr2) {
+    const set1 = new Set(arr1);
+    const set2 = new Set(arr2);
+    const diffSet = new Set([
+        ...[...set1].filter(item => !set2.has(item)),
+        ...[...set2].filter(item => !set1.has(item))
+    ]);
 
-    return arr1;
+    const diffList = [];
+    for (const item of [...arr1, ...arr2]) {
+        if (diffSet.has(item) && !diffList.includes(item)) {
+            diffList.push(item);
+        }
+    }
+
+    return diffList;
 }
 
 

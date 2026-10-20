@@ -15,9 +15,29 @@ For example, given "abb", return 3 because there's three unique ways to arrange 
  */
 
 function countPermutations(str) {
+    // Simple factorial.
+    function factorial(n) {
+        let r = 1;
+        for (let i = 2; i <= n; i++) {
+            r *= i;
+        }
+        return r;
+    }
 
-    return str;
+    // Frequency count.
+    const frequency = {};
+    for (const char of str) {
+        frequency[char] = (frequency[char] || 0) + 1;
+    }
+
+    let count = factorial(str.length);
+    for (const v of Object.values(frequency)) {
+        count /= factorial(v);
+    }
+
+    return count;
 }
+
 
 
 console.log(countPermutations("abb"));
