@@ -17,7 +17,7 @@ def compress_string(sentence: str) -> str:
     """This solution is far from perfect. Duplicate words are counted throughout the sentence, not only if they are
     consecutive. This one is does fulfill the challenge requirements and is easy to read though."""
     counted: list[tuple[str, int]] = []
-    new_sentence: str = ""
+    new_sentence: list[str] = []
 
     for word in sentence.split():
         if (word, sentence.count(word)) not in counted:
@@ -25,11 +25,11 @@ def compress_string(sentence: str) -> str:
 
     for count in counted:
         if count[1] > 1:
-            new_sentence += f"{count[0]}({count[1]}) "
+            new_sentence.append(f"{count[0]}({count[1]}) ")
         else:
-            new_sentence += f"{count[0]} "
+            new_sentence.append(f"{count[0]} ")
 
-    return new_sentence[:-1]
+    return "".join(new_sentence)
 
 
 def compress_string_alternative(sentence: str) -> str:
