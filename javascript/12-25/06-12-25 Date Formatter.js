@@ -15,8 +15,20 @@ For example, given "December 6, 2025", return "2025-12-06".
  */
 
 function formatDate(dateString) {
+    const date = dateString.split(" ");
+    date[1] = date[1].replace(",", "");
 
-    return dateString;
+    // Map months to numeric strings. Only contains months relevant to this challenge.
+    const months = {
+        January: "01",
+        February: "02",
+        May: "05",
+        September: "09",
+        November: "11",
+        December: "12"
+    };
+
+    return `${date[2]}-${months[date[0]]}-${date[1].padStart(2, "0")}`;
 }
 
 

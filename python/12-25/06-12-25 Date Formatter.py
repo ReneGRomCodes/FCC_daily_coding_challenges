@@ -28,9 +28,7 @@ def format_date(date_string: str) -> str:
         "December": "12",
     }
 
-    formatted_date: str = f"{date[2]}-{months[date[0]]}-{int(date[1]):02d}"
-
-    return formatted_date
+    return f"{date[2]}-{months[date[0]]}-{int(date[1]):02d}"
 
 
 print(format_date("December 6, 2025"))
