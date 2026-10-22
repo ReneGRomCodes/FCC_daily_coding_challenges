@@ -14,8 +14,49 @@ For example, given "yes yes yes please", return "yes(3) please".
  */
 
 function compressString(sentence) {
+    // This solution is far from perfect. Duplicate words are counted throughout the sentence, not only if they are
+    // consecutive. This one is does fulfill the challenge requirements and is easy to read though.
+    const counted = [];
+    const newSentence = [];
 
-    return sentence;
+    for (const word of sentence.split(" ")) {
+        if (!counted.some(([w, count]) => w === word && count === sentence.split(word).length - 1)) {
+            counted.push([word, sentence.split(word).length - 1]);
+        }
+    }
+
+    for (const count of counted) {
+        if (count[1] > 1) { newSentence.push(`${count[0]}(${count[1]}) `) }
+        else { newSentence.push(`${count[0]} `) }
+    }
+
+    return newSentence.join("").trimEnd();
+}
+
+
+function compressStringAlternative(sentence) {
+    // More thorough solution to the challenge which takes non-consecutive duplicates into account.
+    const words = sentence.split(" ");
+    const result = [];
+    let current = words[0];
+    let count = 1;
+
+    for (const word of words.slice(1)) {
+        if (word === current) { count++ }
+        else {
+            if (count > 1) { result.push(`${current}(${count})`) }
+            else { result.push(current) }
+
+        current = word;
+        count = 1;
+        }
+    }
+
+    // Handle the last word/run.
+    if (count > 1) { result.push(`${current}(${count})`) }
+    else { result.push(current) }
+
+    return result.join(" ");
 }
 
 

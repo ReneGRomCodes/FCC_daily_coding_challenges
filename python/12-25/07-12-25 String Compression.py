@@ -56,7 +56,7 @@ def compress_string_alternative(sentence: str) -> str:
     else:
         result.append(current)
 
-    return " ".join(result)
+    return "".join(result)
 
 
 print(compress_string("yes yes yes please"))
