@@ -31,7 +31,33 @@ Here's one more example: given 1464, return "MCDLXIV" (1000 + (500 - 100) + 50 +
  */
 
 function toRoman(num) {
-    return num;
+    const romanMap =  [
+        [1000, "M"],
+        [900, "CM"],
+        [500, "D"],
+        [400, "CD"],
+        [100, "C"],
+        [90, "XC"],
+        [50, "L"],
+        [40, "XL"],
+        [10, "X"],
+        [9, "IX"],
+        [5, "V"],
+        [4, "IV"],
+        [1, "I"]
+    ];
+    let result =  [];
+
+    for (const valueSymbolPair of romanMap) {
+        const [value, symbol] = [valueSymbolPair[0], valueSymbolPair[1]];
+
+        while (num >= value) {
+            result.push(symbol);
+            num -= value;
+        }
+    }
+
+    return result.join("");
 }
 
 

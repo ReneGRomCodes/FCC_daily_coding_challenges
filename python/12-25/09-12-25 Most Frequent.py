@@ -11,7 +11,7 @@ There will always be a single most frequent element.
 """
 
 def most_frequent(arr):
-    hist = {}
+    hist: dict[str, int] = {}
 
     for item in arr:
         if item not in hist:

@@ -11,10 +11,21 @@ There will always be a single most frequent element.
  */
 
 function mostFrequent(arr) {
-    return arr;
+    const hist = {};
+
+    for (const item of arr) {
+        if (hist[item] === undefined) {
+            hist[item] = 1;
+        } else {
+            hist[item]++;
+        }
+    }
+
+    return arr.reduce((a, b) => hist[a] >= hist[b] ? a : b);
 }
 
 
+console.log(mostFrequent(["a", "b", "a", "c"]));
 console.log(mostFrequent([2, 3, 5, 2, 6, 3, 2, 7, 2, 9]));
 console.log(mostFrequent([true, false, "False", "True", false]));
 console.log(mostFrequent([40, 20, 70, 30, 10, 40, 10, 50, 40, 60]));

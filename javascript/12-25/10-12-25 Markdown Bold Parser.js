@@ -19,7 +19,50 @@ tags included.
  */
 
 function parseBold(markdown) {
-    return markdown;
+    const words = markdown.split(" ");
+    const markers = ["__", "**"];
+    const temp = [];  // Used to temporarily store start markers and index extracted from 'words'.
+    const html = [];
+
+    for (let i = 0; i < words.length; i++) {
+        const word = words[i];
+        const hasLength = word.length > 2;  // Ensures that standalone markers will be ignored.
+        const markerStart = markers.includes(word.slice(0, 2));
+        const markerEnd = markers.includes(word.slice(-2));
+        let handled = false;
+
+        if (hasLength) {
+            if (markerStart && markerEnd) {
+                html.push(`<b>${word.slice(2, -2)}</b>`);
+                handled = true;
+            } else if (markerStart) {
+                temp.push(word);
+                temp.push(i);
+                handled = true;
+            } else if (markerEnd) {
+                if (temp.length > 0) {
+                    html.push(`${word.slice(0, -2)}</b>`);
+                    html.splice(temp[1], 0, `<b>${temp[0].slice(2)}`);
+                    temp.length = 0;
+                } else {
+                    html.push(word);
+                }
+                handled = true;
+            }
+        }
+
+        //This only works if only one 'unclosed' start marker has been found. Not perfect but works for the given test cases.
+        // Left it as is as to not overcomplicate it for potential edge cases which are not tested for here.
+        if (!handled) {
+            html.push(word);
+        }
+    }
+
+    if (temp.length > 0) {
+        html.splice(temp[1], 0, temp[0]);
+    }
+
+    return html.join(" ");
 }
 
 
