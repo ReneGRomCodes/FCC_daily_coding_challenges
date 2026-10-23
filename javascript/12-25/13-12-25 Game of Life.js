@@ -38,8 +38,45 @@ stays alive (2 live neighbors), [0][2] dies (3 live neighbors), and so on.
     should return [[1, 1, 1, 0], [1, 0, 0, 1], [1, 0, 0, 1], [0, 1, 1, 0]].
  */
 
+// Check surrounding cells for life and return number of live cells.
+function countSurroundingLife(grid, i, j, isBorderLt, isBorderRt, isBorderUp, isBorderLo) {
+    const liveCells = [
+        !isBorderLt && grid[i][j - 1],  // left
+        !isBorderRt && grid[i][j + 1],  // right
+        !isBorderUp && grid[i - 1][j],  // top
+        !isBorderLo && grid[i + 1][j],  // below
+        (!isBorderUp && !isBorderLt) && grid[i - 1][j - 1],  // top-left
+        (!isBorderUp && !isBorderRt) && grid[i - 1][j + 1],  // top-right
+        (!isBorderLo && !isBorderLt) && grid[i + 1][j - 1],  // bottom-left
+        (!isBorderLo && !isBorderRt) && grid[i + 1][j + 1]  // bottom-right
+    ];
+
+    return liveCells.filter(cell => cell === 1).length;
+}
+
 function gameOfLife(grid) {
-    return grid;
+    const newGrid = [];
+
+    for (let i = 0; i < grid.length; i++) {
+        const array = grid[i];
+        const [isBorderUp, isBorderLo] = [i === 0, i === grid.length - 1];
+        const newArray = [];
+
+        for (let j = 0; j < array.length; j++) {
+            const cell = array[j];
+            const isCellAlive = cell === 1;
+            const [isBorderLt, isBorderRt] = [j === 0, j === grid[0].length - 1];
+            const nLiveCells = countSurroundingLife(grid, i, j, isBorderLt, isBorderRt, isBorderUp, isBorderLo)
+
+            if (nLiveCells < 2 || (nLiveCells > 3 && isCellAlive)) { newArray.push(0) }
+            else if (([2, 3].includes(nLiveCells) && isCellAlive) || (nLiveCells === 3 && !isCellAlive)) { newArray.push(1) }
+            else { newArray.push(cell) }
+        }
+
+        newGrid.push(newArray);
+    }
+
+    return newGrid;
 }
 
 

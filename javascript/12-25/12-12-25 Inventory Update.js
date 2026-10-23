@@ -23,6 +23,31 @@ return [[3, "apples"], [8, "bananas"]].
  */
 
 function updateInventory(inventory, shipment) {
+    // Immediately return 'shipment' if 'inventory' is empty.
+    if (inventory.length === 0) {
+        return shipment;
+    }
+
+    // Indices for objects in inner lists.
+    const [amountIndex, nameIndex] = [0, 1];
+
+    // Dict for item lookups.
+    const inventoryDict = {};
+    inventory.forEach((item, index) => {
+        inventoryDict[item[nameIndex]] = index;
+    });
+
+    for (const item of shipment) {
+        const [amount, name] = [item[amountIndex], item[nameIndex]];
+
+        if (inventoryDict[name] !== undefined) {
+            inventory[inventoryDict[name]][amountIndex] += amount;
+        } else {
+            inventory.push([amount, name]);
+            inventoryDict[name] = inventory.length - 1;
+        }
+    }
+
     return inventory;
 }
 
