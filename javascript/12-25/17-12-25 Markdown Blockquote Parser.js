@@ -21,7 +21,7 @@ tags included.
  */
 
 function parseBlockquote(markdown) {
-    return markdown;
+    return `<blockquote>${markdown.trimStart().slice(1).trimStart()}</blockquote>`;
 }
 
 

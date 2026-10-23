@@ -22,7 +22,29 @@ For example, given [3, 3], return:
  */
 
 function createBoard(dimensions) {
-    return dimensions;
+    const [nRows, nColumns] = dimensions;
+    const placeholder = ".";
+    const valueSwitch = {"X": "O", "O": "X"};
+
+    // Create complete matrix with placeholder values.
+    const matrix = Array.from(
+        { length: nRows },
+        () => Array(nColumns).fill(placeholder)
+    );
+
+    for (let i = 0; i < matrix.length; i++) {
+        const row = matrix[i];
+
+        for (let j = 0; j < row.length; j++) {
+            const field = row[j];
+
+            if (i === 0 && j === 0) { matrix[i][j] = valueSwitch["O"] }  // Set first field in matrix to "X".
+            else if (i === 0) { row[j] = valueSwitch[row[j-1]] }
+            else if (i !== 0) { row[j] = valueSwitch[matrix[i-1][j]] }
+        }
+    }
+
+    return matrix;
 }
 
 

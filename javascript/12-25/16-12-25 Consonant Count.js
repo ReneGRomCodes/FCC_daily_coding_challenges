@@ -13,7 +13,14 @@ Ignore digits, punctuation, spaces, and other non-letter characters when countin
  */
 
 function hasConsonantCount(text, target) {
-    return text;
+    let count = 0;
+
+    for (const char of text.toLowerCase()) {
+        if (/[a-z]/i.test(char) && !["a", "e", "i", "o", "u"].includes(char)) { count++ }
+        if (count > target) { return false }
+    }
+
+    return count === target;
 }
 
 

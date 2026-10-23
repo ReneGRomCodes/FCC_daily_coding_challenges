@@ -13,7 +13,9 @@ Words are always separated by a single space.
  */
 
 function titleCase(title) {
-    return title;
+    return title.split(" ")
+        .map(word => word[0].toUpperCase() + word.slice(1).toLowerCase())
+        .join(" ");
 }
 
 

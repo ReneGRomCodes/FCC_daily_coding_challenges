@@ -17,8 +17,15 @@ If you are travelling more than 5 KPH over the speed limit, return "Ticket".
  */
 
 function speedCheck(speedMph, speedLimitKph) {
-    return speedMph;
+    const speedKph = speedMph * 1.60934;
+
+    if (speedKph <= speedLimitKph) { return "Not Speeding" }
+    else if (speedKph <= speedLimitKph + 5) { return "Warning" }
+    else { return "Ticket" }
 }
+
+// Cursed and borderline unreadable version using a nested ternary operator in an arrow function... just for shits and giggles.
+const cursedSpeedCheck = (s, l) => s * 1.60934 <= l ? "Not Speeding" : s * 1.60934 <= l + 5 ? "Warning" : "Ticket";
 
 
 console.log(speedCheck(30, 70));
