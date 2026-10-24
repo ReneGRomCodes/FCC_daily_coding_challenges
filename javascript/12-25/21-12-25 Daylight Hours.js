@@ -32,9 +32,28 @@ If the given latitude does not exactly match a table entry, use the value of the
 8. daylight_hours(70) should return 2.
  */
 
-function daylightHours(latitude) {
+const DAYLIGHT_H = {
+    "-90": 24,
+    "-75": 23,
+    "-60": 21,
+    "-45": 15,
+    "-30": 13,
+    "-15": 12,
+    "0": 12,
+    "15": 11,
+    "30": 10,
+    "45": 9,
+    "60": 6,
+    "75": 2,
+    "90": 0,
+};
 
-    return latitude;
+function daylightHours(latitude) {
+    const closest = Object.keys(DAYLIGHT_H).reduce((a, b) =>
+        Math.abs(Number(a) - latitude) < Math.abs(Number(b) - latitude) ? a : b
+    );
+
+    return DAYLIGHT_H[closest];
 }
 
 

@@ -27,9 +27,43 @@ given.
  */
 
 function buyItems(funds, items) {
+    const exchangeRatesUsd = {
+        "eur": 1.1,
+        "gbp": 1.25,
+        "jpy": 0.007,
+        "cad": 0.75,
+    };
 
-    return funds;
+    const itemsUsd = [];
+    let itemsUsdSum = 0.0;
+    let fundsUsd = 0;
+    const buyList = [];
+
+    if (funds[1] !== "USD") { fundsUsd = Number(funds[0]) * exchangeRatesUsd[funds[1].toLowerCase()] }
+    else { fundsUsd = Number(funds[0]) }
+
+    for (const item of items) {
+        let price = Number(item[0]);
+        const currency = item[1].toLowerCase();
+
+        if (currency !== "usd") { price = price * exchangeRatesUsd[currency] }
+
+        itemsUsd.push(price);
+    }
+
+    for (const item of itemsUsd) {
+        const newUsdSum = itemsUsdSum + item;
+
+        if (newUsdSum <= fundsUsd) {
+            itemsUsdSum = newUsdSum;
+            buyList.push(item);
+        } else { break }
+    }
+
+    if (buyList.length === itemsUsd.length) { return "Buy them all!" }
+    else { return `Buy the first ${buyList.length} items.` }
 }
+
 
 
 console.log(buyItems(["150.00", "USD"], [["50.00", "USD"], ["75.00", "USD"], ["30.00", "USD"]]));
