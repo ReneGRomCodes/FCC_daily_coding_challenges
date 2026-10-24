@@ -11,9 +11,25 @@ Do not change any of the other elements or their order.
 4. purge_most_frequent([5, 5, 5, 5]) should return [].
  */
 
-function purgeMostFrequent(arr) {
+function getHistogram(arr) {
+    const histogram = {};
 
-    return arr;
+    for (const item of arr) {
+        if (!histogram.hasOwnProperty(item)) { histogram[item] = 1 }
+        else { histogram[item]++ }
+    }
+
+    return histogram;
+}
+
+
+function purgeMostFrequent(arr) {
+    const itemFrequencies = getHistogram(arr);
+    const mostFrequent = Object.keys(itemFrequencies).reduce((a, b) =>
+        itemFrequencies[a] > itemFrequencies[b] ? a : b
+    );
+
+    return arr.filter(x => x != mostFrequent);
 }
 
 

@@ -33,13 +33,12 @@ def buy_items(funds: list[str], items: list[list[str]]) -> str:
         "jpy": 0.007,
         "cad": 0.75,
     }
-    funds_usd: float = 0.0
     items_usd: list[float] = []
     items_usd_sum: float = 0.0
     buy_list: list[float] = []
 
     if funds[1] != "USD":
-        funds_usd = float(funds[0]) * float(exchange_rates_usd[funds[1].lower()])
+        funds_usd: float = float(funds[0]) * float(exchange_rates_usd[funds[1].lower()])
     else:
         funds_usd = float(funds[0])
 
@@ -53,7 +52,7 @@ def buy_items(funds: list[str], items: list[list[str]]) -> str:
         items_usd.append(price)
 
     for item in items_usd:
-        new_usd_sum = items_usd_sum + item
+        new_usd_sum: float = items_usd_sum + item
 
         if new_usd_sum <= funds_usd:
             items_usd_sum = new_usd_sum

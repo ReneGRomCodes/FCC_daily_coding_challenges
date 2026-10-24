@@ -16,8 +16,17 @@ Add all the indices together to get a return value of 9.
  */
 
 function pairwise(arr, target) {
+    const indices = [];
 
-    return arr;
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = i + 1; j < arr.length; j++) {
+            if (arr[i] + arr[j] === target) {
+                indices.push(i + j);
+            }
+        }
+    }
+
+    return indices.reduce((a, b) => a + b, 0);
 }
 
 
