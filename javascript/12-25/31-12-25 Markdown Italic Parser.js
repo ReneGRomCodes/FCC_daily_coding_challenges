@@ -19,8 +19,22 @@ tags included.
  */
 
 function parseItalics(markdown) {
+    const markers = ["_", "*"];
+    const mdList = markdown.split(" ");
+    const parsedList = [];
 
-    return markdown;
+    for (const marker of markers) {
+        if (mdList.includes(marker)) { return markdown }
+    }
+
+    for (const item of mdList) {
+        if (markers.includes(item[0]) && markers.includes(item.at(-1))) { parsedList.push(`<i>${item.slice(1, -1)}</i>`) }
+        else if (markers.includes(item.at(-1))) { parsedList.push(`${item.slice(0, -1)}</i>`) }
+        else if (markers.includes(item[0])) { parsedList.push(`<i>${item.slice(1)}`) }
+        else { parsedList.push(item) }
+    }
+
+    return parsedList.join(" ");
 }
 
 

@@ -22,8 +22,16 @@ Return:
  */
 
 function rockPaperScissors(player1, player2) {
+    const winLose = {
+        "Rock": ["Scissors", "Paper"],
+        "Paper": ["Rock", "Scissors"],
+        "Scissors": ["Paper", "Rock"]
+    };
 
-    return player1;
+    if (player1 === winLose[player2][0]) { return "Player 2 wins" }
+    else if (player1 === winLose[player2][1]) { return "Player 1 wins" }
+
+    return "Tie";
 }
 
 

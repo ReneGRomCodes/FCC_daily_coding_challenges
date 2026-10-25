@@ -16,8 +16,9 @@ Do not include decimals in the return number.
  */
 
 function fuelToAdd(currentGallons, requiredLiters) {
+    const requiredGallons = requiredLiters / 3.78541;
 
-    return currentGallons;
+    return currentGallons >= requiredGallons ? 0 : Math.round(requiredGallons - currentGallons + 0.5);
 }
 
 

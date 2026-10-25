@@ -22,7 +22,7 @@ Return:
 """
 
 def rock_paper_scissors(player1: str, player2: str) -> str:
-    win_lose = {  # Value at '0' loses, '1' wins.
+    win_lose: dict[str, tuple[str, str]] = {  # Value at '0' loses, '1' wins.
         "Rock": ("Scissors", "Paper"),
         "Paper": ("Rock", "Scissors"),
         "Scissors": ("Paper", "Rock"),

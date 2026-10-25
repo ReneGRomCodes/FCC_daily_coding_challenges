@@ -23,8 +23,24 @@ Separate words with an underscore (_)
  */
 
 function toScreamingSnakeCase(variableName) {
+    const separators = ["_", "-"];
+    let currentWord = "";
+    const words = [];
 
-    return variableName;
+    for (let i = 0; i < variableName.length; i++) {
+        const char = variableName[i];
+
+        if (separators.includes(char) || /[A-Z]/.test(char)) {
+            if (currentWord) { words.push(currentWord) }
+            if (separators.includes(char)) { currentWord = "" }
+            else { currentWord = char }
+        } else {
+            currentWord += char.toUpperCase();
+            if (i === variableName.length - 1) { words.push(currentWord) }
+        }
+    }
+
+    return words.join("_");
 }
 
 
