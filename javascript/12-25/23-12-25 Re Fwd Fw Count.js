@@ -20,8 +20,9 @@ Return the total number of occurrences of these markers.
  */
 
 function emailChainCount(subject) {
+    const subList = subject.split(":").map(item => item.trimStart().toLowerCase());
 
-    return subject;
+    return subList.filter(item => ["fw", "fwd", "re"].includes(item)).length;
 }
 
 
