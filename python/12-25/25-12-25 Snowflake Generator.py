@@ -27,15 +27,15 @@ Take careful note of the whitespaces in the given and returned strings. Be sure 
 def generate_snowflake(crystals: str) -> str:
     crystals_list: list[str] = crystals.split("\n")
     rev_crystals: list[str] = [x[-1::-1] for x in crystals_list]
-    snowflake: str = ""
+    snowflake: list[str] = []
 
     for index, (a, b) in enumerate(zip(crystals_list, rev_crystals)):
         if index != len(crystals_list) - 1:
-            snowflake += f"{a}{b}\n"
+            snowflake.append(f"{a}{b}\n")
         else:
-            snowflake += f"{a}{b}"
+            snowflake.append(f"{a}{b}")
 
-    return snowflake
+    return "".join(snowflake)
 
 
 print(generate_snowflake("* \n *\n* "))
