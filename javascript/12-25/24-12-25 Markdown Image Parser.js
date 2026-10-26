@@ -22,8 +22,13 @@ with tags included.
  */
 
 function parseImage(markdown) {
+    const alt = markdown.slice(2, markdown.indexOf("]"));
+    const imgSrc = markdown.slice(
+        markdown.indexOf("(") + 1,
+        markdown.indexOf(")")
+    );
 
-    return markdown;
+    return `<img src="${imgSrc}" alt="${alt}">`;
 }
 
 

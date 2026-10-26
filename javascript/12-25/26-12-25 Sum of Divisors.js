@@ -15,8 +15,9 @@ For example, given 6, return 12 because the divisors of 6 are 1, 2, 3, and 6, an
  */
 
 function sumDivisors(n) {
-
-    return n;
+    return Array.from({ length: n }, (_, i) => i + 1)
+        .filter(x => n % x === 0)
+        .reduce((sum, x) => sum + x, 0);
 }
 
 

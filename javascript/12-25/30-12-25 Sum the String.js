@@ -13,8 +13,12 @@ Ignore any non-digit characters.
  */
 
 function stringSum(str) {
+    const extractedS = str.replace(/\D/g, " ");
 
-    return str;
+    return extractedS
+        .trim()
+        .split(/\s+/)
+        .reduce((sum, x) => sum + Number(x), 0);
 }
 
 

@@ -25,8 +25,19 @@ Take careful note of the whitespaces in the given and returned strings. Be sure 
  */
 
 function generateSnowflake(crystals) {
+    const crystalsArr = crystals.split("\n");
+    const revCrystals = crystalsArr.map(x => x.split("").reverse().join(""));
+    const snowflake = [];
 
-    return crystals;
+    for (let i = 0; i < crystalsArr.length; i++) {
+        const a = crystalsArr[i];
+        const b = revCrystals[i];
+
+        if (i !== crystalsArr.length - 1) { snowflake.push(`${a}${b}\n`) }
+        else { snowflake.push(`${a}${b}`) }
+    }
+
+    return snowflake.join("");
 }
 
 
