@@ -25,8 +25,12 @@ tags included.
  */
 
 function parseUnorderedList(markdown) {
+    const itemArr = markdown.split("\n").map(x => `<li>${x.slice(1).trim()}</li>`);
+    const parsedArr = [];
 
-    return markdown;
+    for (const item of itemArr) { parsedArr.push(item) }
+
+    return `<ul>${parsedArr.join("")}</ul>`;
 }
 
 

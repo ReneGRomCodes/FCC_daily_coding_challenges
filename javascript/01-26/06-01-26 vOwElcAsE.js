@@ -20,8 +20,15 @@ Return:
  */
 
 function vowelCase(str) {
+    const vowels = ["a", "e", "i", "o", "u"];
+    const vowelsCaseArr = [];
 
-    return str;
+    for (const char of str) {
+        if (vowels.includes(char.toLowerCase())) { vowelsCaseArr.push(char.toUpperCase()) }
+        else { vowelsCaseArr.push(char.toLowerCase()) }
+    }
+
+    return vowelsCaseArr.join("");
 }
 
 

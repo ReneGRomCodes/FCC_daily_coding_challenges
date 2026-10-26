@@ -13,9 +13,33 @@ For example, 197 is a circular prime because all rotations of its digits: 197, 9
 5. is_circular_prime(1193) should return True.
  */
 
-function isCircularPrime(n) {
+function isPrime(x) {
+    if (x < 2 || x % 2 === 0) { return false }
+    if (x === 2) { return true }
 
-    return n;
+    let i = 3;
+    while (i * i <= x) {
+        if (x % i === 0) { return false }
+        i += 2;
+    }
+
+    return true;
+}
+
+
+function isCircularPrime(n) {
+    const s = String(n);
+    const length = s.length;
+
+    for (let i = 0; i < length; i++) {
+        const rotation = Number(s.slice(i) + s.slice(0, i));
+
+        if (!isPrime(rotation)) {
+            return false;
+        }
+    }
+
+    return true;
 }
 
 

@@ -20,8 +20,22 @@ Return:
  */
 
 function ticTacToe(board) {
+    // Check horizontal and vertical positions.
+    for (let i = 0; i < 3; i++) {
+        if (new Set(board[i]).size === 1) { return `${board[i][0]} wins` }
+        else if (board[0][i] === board[1][i] && board[0][i] === board[2][i]) { return `${board[0][i]} wins` }
+    }
 
-    return board;
+    // Check diagonal positions.
+    const centerElement = board[1][1];
+    if (
+        (centerElement === board[0][2] && board[0][2] === board[2][0]) ||
+        (centerElement === board[0][0] && board[0][0] === board[2][2])
+    ) {
+        return `${centerElement} wins`
+    }
+
+    return "Draw";
 }
 
 

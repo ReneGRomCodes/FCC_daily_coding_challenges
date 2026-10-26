@@ -17,8 +17,13 @@ Not sorted in ascending or descending order, return "Not sorted".
  */
 
 function isSorted(arr) {
+    if ([...arr].sort((a, b) => a - b).every((x, i) => x === arr[i])) {
+        return "Ascending";
+    } else if ([...arr].sort((a, b) => b - a).every((x, i) => x === arr[i])) {
+        return "Descending";
+    }
 
-    return arr;
+    return "Not sorted";
 }
 
 

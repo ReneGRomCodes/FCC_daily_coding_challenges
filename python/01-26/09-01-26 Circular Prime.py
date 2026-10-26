@@ -14,12 +14,11 @@ For example, 197 is a circular prime because all rotations of its digits: 197, 9
 """
 
 def is_prime(x: int) -> bool:
-    if x < 2:
+    if x < 2 or x % 2 == 0:
         return False
     if x == 2:
         return True
-    if x % 2 == 0:
-        return False
+
     i = 3
     while i * i <= x:
         if x % i == 0:
