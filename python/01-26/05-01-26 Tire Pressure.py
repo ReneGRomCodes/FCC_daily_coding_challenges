@@ -23,10 +23,10 @@ def tire_status(pressures_psi: list[int], range_bar: list[int | float]) -> list[
     max_psi:  float = range_bar[1] * 14.5038
     status_list: list[str] = []
 
-    for i in pressures_psi:
-        if i < min_psi:
+    for n in pressures_psi:
+        if n < min_psi:
             status_list.append("Low")
-        elif i > max_psi:
+        elif n > max_psi:
             status_list.append("High")
         else:
             status_list.append("Good")

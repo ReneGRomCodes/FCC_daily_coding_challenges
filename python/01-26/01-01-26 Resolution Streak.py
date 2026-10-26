@@ -30,7 +30,7 @@ the first unsuccessful day, and N is the number of successful days before the fi
 def resolution_streak(days: list[list[int]]) -> str:
     for day, goals in enumerate(days, start=1):
         # Check for failed goals.
-        steps: bool = goals[0] < 10000
+        steps: bool = goals[0] < 10_000
         screen_time: bool = goals[1] > 120
         pages_read: bool = goals[2] < 5
 
