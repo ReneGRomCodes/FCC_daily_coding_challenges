@@ -25,6 +25,7 @@ def is_prime(x: int) -> bool:
         if x % i == 0:
             return False
         i += 2
+
     return True
 
 

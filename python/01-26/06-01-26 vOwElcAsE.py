@@ -15,15 +15,15 @@ Non-alphabetical characters should remain unchanged.
 
 def vowel_case(s: str) -> str:
     vowels: set[str] = {"a", "e", "i", "o", "u"}
-    vowel_case_s: str = ""
+    vowel_case_s: list[str] = []
 
     for char in s:
         if char.lower() in vowels:
-            vowel_case_s += char.upper()
+            vowel_case_s.append(char.upper())
         else:
-            vowel_case_s += char.lower()
+            vowel_case_s.append(char.lower())
 
-    return vowel_case_s
+    return "".join(vowel_case_s)
 
 
 print(vowel_case("vowelcase"))

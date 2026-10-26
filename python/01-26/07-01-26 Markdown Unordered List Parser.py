@@ -26,12 +26,12 @@ tags included.
 
 def parse_unordered_list(markdown: str) -> str:
     item_list: list[str] = [f"<li>{x[1:].strip()}</li>" for x in markdown.split("\n")]
-    parsed_list: str = ""
+    parsed_list: list[str] = []
 
     for item in item_list:
-        parsed_list += item
+        parsed_list.append(item)
 
-    return f"<ul>{parsed_list}</ul>"
+    return f"<ul>{"".join(parsed_list)}</ul>"
 
 
 print(parse_unordered_list("- Item A\n- Item B"))
