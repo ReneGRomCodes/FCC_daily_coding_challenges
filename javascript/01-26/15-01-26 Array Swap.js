@@ -10,10 +10,7 @@ For example, given ["A", "B"] return ["B", "A"].
 4. array_swap(["1", 1]) should return [1, "1"].
  */
 
-function arraySwap(arr) {
-
-    return arr;
-}
+function arraySwap(arr) { return arr.reverse() }
 
 
 console.log(arraySwap(["A", "B"]));

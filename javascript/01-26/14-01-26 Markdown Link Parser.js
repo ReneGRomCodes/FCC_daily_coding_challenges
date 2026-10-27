@@ -18,8 +18,11 @@ tags included.
  */
 
 function parseLink(markdown) {
+    const markdownSplit = markdown.split("]");
+    const linkText = markdownSplit[0].slice(1);
+    const linkUrl = markdownSplit[1].slice(1, -1);
 
-    return markdown;
+    return `<a href="${linkUrl}">${linkText}</a>`;
 }
 
 

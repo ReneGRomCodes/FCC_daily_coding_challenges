@@ -10,8 +10,9 @@ Given a positive integer, return "Odd" if it's an odd number, and "Even" is it's
  */
 
 function oddOrEven(n) {
+    if (n % 2) { return "Odd" }
 
-    return n;
+    return "Even";
 }
 
 

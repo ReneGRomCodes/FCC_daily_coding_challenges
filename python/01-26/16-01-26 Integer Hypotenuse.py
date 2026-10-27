@@ -19,10 +19,7 @@ square root of that total (a² + b² = c²).
 import math
 
 def is_integer_hypotenuse(a: int, b: int) -> bool:
-    if math.sqrt(a**2 + b**2) % 1 == 0:
-        return True
-
-    return False
+    return math.sqrt(a**2 + b**2) % 1 == 0
 
 
 print(is_integer_hypotenuse(3, 4))

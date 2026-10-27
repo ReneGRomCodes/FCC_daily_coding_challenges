@@ -14,10 +14,7 @@ square root of that total (a² + b² = c²).
 6. is_integer_hypotenuse(250, 333) should return False.
  */
 
-function isIntegerHypotenuse(a, b) {
-
-    return a;
-}
+function isIntegerHypotenuse(a, b) { return Math.sqrt(a**2 + b**2) % 1 === 0 }
 
 
 console.log(isIntegerHypotenuse(3, 4));

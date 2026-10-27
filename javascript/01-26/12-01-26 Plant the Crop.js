@@ -22,9 +22,22 @@ Return the number of plants that fit in the field, rounded down to the nearest w
 5. get_number_of_plants(16.75, "acres", "tomatoes") should return 271139.
  */
 
-function getNumberOfPlants(fieldSize, unit, crop) {
+const SQRM_CONVERSION = {
+    "acres": 4046.86,
+    "hectares": 10000.0,
+}
 
-    return fieldSize;
+const CROPS_SQRM = {
+    "corn": 1.0,
+    "wheat": 0.1,
+    "soybeans": 0.5,
+    "tomatoes": 0.25,
+    "lettuce": 0.2,
+}
+
+
+function getNumberOfPlants(fieldSize, unit, crop) {
+    return Math.floor(fieldSize * SQRM_CONVERSION[unit] / CROPS_SQRM[crop])
 }
 
 

@@ -21,8 +21,18 @@ Return:
  */
 
 function golfScore(par, strokes) {
+    const scoreObj = {
+        "Hole in one!": strokes === 1,
+        "Eagle": strokes === par-2,
+        "Birdie": strokes === par-1,
+        "Par": strokes === par,
+        "Bogey": strokes === par+1,
+        "Double bogey": strokes === par+2
+    }
 
-    return par;
+    for (const [k, v] of Object.entries(scoreObj)) {
+        if (v) { return k }
+    }
 }
 
 

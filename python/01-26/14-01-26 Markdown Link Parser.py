@@ -18,7 +18,7 @@ tags included.
 """
 
 def parse_link(markdown: str) -> str:
-    markdown_split = markdown.split("]")
+    markdown_split: list[str] = markdown.split("]")
     link_text, link_url = markdown_split[0][1:], markdown_split[1][1:-1]
 
     return f'<a href="{link_url}">{link_text}</a>'
