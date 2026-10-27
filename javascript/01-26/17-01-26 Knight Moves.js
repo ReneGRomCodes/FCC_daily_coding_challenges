@@ -27,8 +27,25 @@ if a knight was at A1, it could only move to B3 or C2.
  */
 
 function knightMoves(position) {
+    // Convert position like "A1" to numeric coordinates.
+    const x = position.charCodeAt(0) - "A".charCodeAt(0) + 1;
+    const y = Number(position[1]);
 
-    return position;
+    // All possible knight move offsets.
+    const moves = [
+        [2, 1], [2, -1],
+        [-2, 1], [-2, -1],
+        [1, 2], [1, -2],
+        [-1, 2], [-1, -2]
+    ];
+
+    let count = 0;
+    for (const [dx, dy] of moves) {
+        const [nx, ny] = [x + dx, y + dy];
+        if (nx >= 1 && nx <= 8 && ny >= 1 && ny <= 8) { count++ }
+    }
+
+    return count;
 }
 
 
