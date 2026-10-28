@@ -2,422 +2,419 @@
 
 ## Collection of my solutions to FCCs daily coding challenges sorted by language and month.
 
-### NOTE 1: While the Python solutions are complete, I am still in the process of adding JavaScript.
-### NOTE 2: I try to solve all challenges with a 'no import' approach... just to make my life a little harder ;)
+### NOTE 1: I try to solve all challenges with a 'no import' approach... just to make my life a little harder ;)
+### Note 2: The JavaScript solutions are mostly direct 'translations' of the Python solutions and therefore might not always be the most optimal ones.
+
 
 <details>
-  <summary><b>August 2025 (08-25)</b></summary>
-- 11-08-25: Vowel Balance<br>
-- 12-08-25: Base Check<br>
-- 13-08-25: Fibonacci Sequence<br>
-- 14-08-25: S P A C E J A M<br>
-- 15-08-25: Jbelmud Text<br>
-- 16-08-25: Anagram Checker<br>
-- 17-08-25: Targeted Sum<br>
-- 18-08-25: Factorializer<br>
-- 19-08-25: Sum of Squares<br>
-- 20-08-25: 3 Strikes<br>
-- 21-08-25: Mile Pace<br>
-- 22-08-25: Message Decoder<br>
-- 23-08-25: Unnatural Prime<br>
-- 24-08-25: Character Battle<br>
-- 25-08-25: camelCase<br>
-- 26-08-25: Reverse Parenthesis<br>
-- 27-08-25: Unorder of Operations<br>
-- 28-08-25: Seconds Best<br>
-- 29-08-25: Candlelight<br>
-- 30-08-25: Array Duplicates<br>
-- 31-08-25: Hex Generator<p>
+  <summary><b>January</b></summary>
+- 01: Resolution Streak<br>
+- 02: Nth Fibonacci Number<br>
+- 03: Left-Handed Seat at the Table<br>
+- 04: Leap Year Calculator<br>
+- 05: Tire Pressure<br>
+- 06: vOwElcAsE<br>
+- 07: Markdown Unordered List Parser<br>
+- 08: Sorted Array?<br>
+- 09: Circular Prime<br>
+- 10: Tic-Tac-Toe<br>
+- 11: Par for the Hole<br>
+- 12: Plant the Crop<br>
+- 13: Odd or Even<br>
+- 14: Markdown Link Parser<br>
+- 15: Array Swap<br>
+- 16: Integer Hypotenuse<br>
+- 17: Knight Moves<br>
+- 18: Free Shipping<br>
+- 19: Energy Consumption<br>
+- 20: Consonant Case<br>
+- 21: Markdown Inline Code Parser<br>
+- 22: Class Average<br>
+- 23: Hex Validator<br>
+- 24: Bingo! Letter<br>
+- 25: Scaled Image<br>
+- 26: FizzBuzz Mini<br>
+- 27: Odd or Even Day<br>
+- 28: Flatten the Array<br>
+- 29: Letters-Numbers<br>
+- 30: Valid Pawn Moves<br>
+- 31: Zodiac Finder<p>
 </details>
 
 <details>
-  <summary><b>September 2025 (09-25)</b></summary>
-- 01-09-25: Tribonacci Sequence<br>
-- 02-09-25: RGB to Hex<br>
-- 03-09-25: Pangram<br>
-- 04-09-25: Vowel Repeater<br>
-- 05-09-25: IPv4 Validator<br>
-- 06-09-25: Matrix Rotate<br>
-- 07-09-25: Roman Numeral Parser<br>
-- 08-09-25: Acronym Builder<br>
-- 09-09-25: Unique Characters<br>
-- 10-09-25: Array Diff<br>
-- 11-09-25: Reverse Sentence<br>
-- 12-09-25: Screen Time<br>
-- 13-09-25: Missing Numbers<br>
-- 14-09-25: Word Frequency<br>
-- 15-09-25: Thermostat Adjuster<br>
-- 16-09-25: Sentence Capitalizer<br>
-- 17-09-25: Slug Generator<br>
-- 18-09-25: Fill The Tank<br>
-- 19-09-25: Photo Storage<br>
-- 20-09-25: File Storage<br>
-- 21-09-25: Video Storage<br>
-- 22-09-25: Digits vs Letters<br>
-- 23-09-25: String Mirror<br>
-- 24-09-25: Perfect Square<br>
-- 25-09-25: 2nd Largest<br>
-- 26-09-25: Caught Speeding<br>
-- 27-09-25: Spam Detector<br>
-- 28-09-25: CSV Header Parser<br>
-- 29-09-25: Longest Word<br>
-- 30-09-25: Phone Number Formatter<p>
+  <summary><b>February</b></summary>
+- 01: Digital Detox<br>
+- 02: Groundhog Day<br>
+- 03: String Mirror<br>
+- 04: Truncate the Text<br>
+- 05: Pocket Change<br>
+- 06: 2026 Winter Games Day 1: Opening Day<br>
+- 07: 2026 Winter Games Day 2: Snowboarding<br>
+- 08: 2026 Winter Games Day 3: Biathlon<br>
+- 09: 2026 Winter Games Day 4: Ski Jumping<br>
+- 10: 2026 Winter Games Day 5: Cross Country Skiing<br>
+- 11: 2026 Winter Games Day 6: Figure Skating<br>
+- 12: 2026 Winter Games Day 7: Speed Skating<br>
+- 13: 2026 Winter Games Day 8: Luge<br>
+- 14: 2026 Winter Games Day 9: Skeleton<br>
+- 15: 2026 Winter Games Day 10: Alpine Skiing<br>
+- 16: 2026 Winter Games Day 11: Ice Hockey<br>
+- 17: 2026 Winter Games Day 12: Bobsled<br>
+- 18: 2026 Winter Games Day 13: Nordic Combined<br>
+- 19: 2026 Winter Games Day 14: Ski Mountaineering<br>
+- 20: 2026 Winter Games Day 15: Freestyle Skiing<br>
+- 21: 2026 Winter Games Day 16: Curling<br>
+- 22: 2026 Winter Games Day 17: Closing Day<br>
+- 23: Blood Type Compatibility<br>
+- 24: Business Day Counter<br>
+- 25: Sequential Differences<br>
+- 26: Letter and Number Count<br>
+- 27: Matrix Shift<br>
+- 28: Add Punctuation<p>
 </details>
 
 <details>
-  <summary><b>October 2025 (10-25)</b></summary>
-- 01-10-25: Binary to Decimal<br>
-- 02-10-25: Decimal to Binary<br>
-- 03-10-25: P@ssw0rd Str3ngth!<br>
-- 04-10-25: Space Week Day 1 - Stellar Classification<br>
-- 05-10-25: Space Week Day 2 - Exoplanet Search<br>
-- 06-10-25: Space Week Day 3 - Phone Home<br>
-- 07-10-25: Space Week Day 4 - Landing Spot<br>
-- 08-10-25: Space Week Day 5 - Goldilock Zone<br>
-- 09-10-25: Space Week Day 6 - Moon Phase<br>
-- 10-10-25: Space Week Day 7 - Launch Fuel<br>
-- 11-10-25: Hex to Decimal<br>
-- 12-10-25: Battle of Words<br>
-- 13-10-25: 24 to 12<br>
-- 14-10-25: String Count<br>
-- 15-10-25: HTML Tag Stripper<br>
-- 16-10-25: Email Validator<br>
-- 17-10-25: Credit Card Masker<br>
-- 18-10-25: Missing Socks<br>
-- 19-10-25: HTML Attribute Extractor<br>
-- 20-10-25: Tip Calculator<br>
-- 21-10-25: Thermostat Adjuster 2<br>
-- 22-10-25: Speak Wisely, You Must<br>
-- 23-10-25: Favorite Songs<br>
-- 24-10-25: Hidden Treasure<br>
-- 25-10-25: Complementary DNA<br>
-- 26-10-25: Duration Formatter<br>
-- 27-10-25: Integer Sequence<br>
-- 28-10-25: Navigator<br>
-- 29-10-25: Email Sorter<br>
-- 30-10-25: Nth Prime<br>
-- 31-10-25: SpOoKy~CaSe<p>
+  <summary><b>March</b></summary>
+- 01: Flattened<br>
+- 02: Sum the Letters<br>
+- 03: Perfect Cube Count<br>
+- 04: Playing Card Values<br>
+- 05: Smallest Gap<br>
+- 06: Trail Traversal<br>
+- 07: Element Size<br>
+- 08: HSL Validator<br>
+- 09: Array Sum<br>
+- 10: Array Insertion<br>
+- 11: Word Length Converter<br>
+- 12: Domino Chain Validator<br>
+- 13: Parking Fee Calculator<br>
+- 14: Pi Day<br>
+- 15: Captured Chess Pieces<br>
+- 16: Evenly Divisible<br>
+- 17: Anniversary Milestones<br>
+- 18: Largest Number<br>
+- 19: Inverted Matrix<br>
+- 20: Equinox Shadows<br>
+- 21: QR Decoder<br>
+- 22: Coffee Roast Detector<br>
+- 23: No Consecutive Repeats<br>
+- 24: Passing Exam Count<br>
+- 25: Cooldown Time<br>
+- 26: Movie Night<br>
+- 27: Truncate the Text 2<br>
+- 28: Pascal's Triangle Row<br>
+- 29: ISBN-10 Validator<br>
+- 30: Due Date<br>
+- 31: Wake-Up Alarm<p>
 </details>
 
 <details>
-  <summary><b>November 2025 (11-25)</b></summary>
-- 01-11-25: Signature Validation<br>
-- 02-11-25: Infected<br>
-- 03-11-25: Word Counter<br>
-- 04-11-25: Image Search<br>
-- 05-11-25: Matrix builder<br>
-- 06-11-25: Weekday Finder<br>
-- 07-11-25: Counting Cards<br>
-- 08-11-25: Character Limit<br>
-- 09-11-25: Word Search<br>
-- 10-11-25: Extension Extractor<br>
-- 11-11-25: Vowels and Consonants<br>
-- 12-11-25: Email Signature Generator<br>
-- 13-11-25: Array Shift<br>
-- 14-11-25: Is It the Weekend<br>
-- 15-11-25: GCD<br>
-- 16-11-25: Rectangle Count<br>
-- 17-11-25: Fingerprint Test<br>
-- 18-11-25: 100 Characters<br>
-- 19-11-25: Markdown Heading Converter<br>
-- 20-11-25: Longest Word<br>
-- 21-11-25: LCM<br>
-- 22-11-25: Recipe Scaler<br>
-- 23-11-25: Character Count<br>
-- 24-11-25: Message Validator<br>
-- 25-11-25: FizzBuzz<br>
-- 26-11-25: BuzzFizz<br>
-- 27-11-25: What's My Age Again<br>
-- 28-11-25: Word Guesser<br>
-- 29-11-25: Ball Trajectory<br>
-- 30-11-25: AI Detector<p>
+  <summary><b>April</b></summary>
+- 01: Prank Number<br>
+- 02: Capitalized Fibonacci<br>
+- 03: Browser History<br>
+- 04: Equation Validation<br>
+- 05: Digit Rotation Escape<br>
+- 06: What Day Is It?<br>
+- 07: Palindrome Characters<br>
+- 08: FizzBuzz Validator<br>
+- 09: Next Bingo Number<br>
+- 10: Rook Attack<br>
+- 11: Rook and Bishop Attack<br>
+- 12: Spiral Matrix<br>
+- 13: Name Initials<br>
+- 14: Last Letter<br>
+- 15: Sorted Array Swap<br>
+- 16: String Math<br>
+- 17: Hidden Key<br>
+- 18: Array Sum Finder<br>
+- 19: Unique Stair Climb<br>
+- 20: Acronym Finder<br>
+- 21: Odd Words<br>
+- 22: Earth Day Cleanup Crew<br>
+- 23: Closest Time Direction<br>
+- 24: Word Compressor<br>
+- 25: Word Decompressor<br>
+- 26: FizzBuzz Explosion<br>
+- 27: Word Score<br>
+- 28: Number Words<br>
+- 29: URL Query Parse<br>
+- 30: Binary Crosswords<p>
 </details>
 
 <details>
-  <summary><b>December 2025 (12-25)</b></summary>
-- 01-12-25: Miles to Kilometers<br>
-- 02-12-25: Camel to Snake<br>
-- 03-12-25: Markdown Ordered List Item Converter<br>
-- 04-12-25: Permutation Count<br>
-- 05-12-25: Symmetric Difference<br>
-- 06-12-25: Date Formatter<br>
-- 07-12-25: String Compression<br>
-- 08-12-25: Pounds to Kilogram<br>
-- 09-12-25: Most Frequent<br>
-- 10-12-25: Markdown Bold Parser<br>
-- 11-12-25: Roman Numeral Builder<br>
-- 12-12-25: Inventory Update<br>
-- 13-12-25: Game of Life<br>
-- 14-12-25: Capitalize It<br>
-- 15-12-25: Speed Check<br>
-- 16-12-25: Consonant Count<br>
-- 17-12-25: Markdown Blockquote Parser<br>
-- 18-12-25: Checkerboard<br>
-- 19-12-25: Pairwise<br>
-- 20-12-25: Purge Most Frequent<br>
-- 21-12-25: Daylight Hours<br>
-- 22-12-25: Traveling Shopper<br>
-- 23-12-25: Re: Fwd: Fw: Count<br>
-- 24-12-25: Markdown Image Parser<br>
-- 25-12-25: Snowflake Generator<br>
-- 26-12-25: Sum of Divisors<br>
-- 27-12-25: Rock, Paper, Scissors<br>
-- 28-12-25: SCREAMING_SNAKE_CASE<br>
-- 29-12-25: Takeoff Fuel<br>
-- 30-12-25: Sum the Strings<br>
-- 31-12-25: Markdown Italic Parser<p>
+  <summary><b>May</b></summary>
+- 01: Anagram Groups<br>
+- 02: Deepest Brackets<br>
+- 03: Good Day<br>
+- 04: Parsec Converter<br>
+- 05: Narcissistic Number<br>
+- 06: Allergen Friendly Meals<br>
+- 07: Longest Common Substrings<br>
+- 08: Medication Reminder<br>
+- 09: Transposed Matrix<br>
+- 10: ISBN-13 Validator<br>
+- 11: Oldest Person<br>
+- 12: Character Frequency<br>
+- 13: Offending Element<br>
+- 14: Mirror Image<br>
+- 15: Coffee Order Parser<br>
+- 16: Longest Domino Chain<br>
+- 17: Mongo ID Date<br>
+- 18: Bingo Range<br>
+- 19: Sleep Debt<br>
+- 20: String Zipper<br>
+- 21: I Before E<br>
+- 22: Meeting Time<br>
+- 23: Open Issues<br>
+- 24: Roman Numeral Fixer<br>
+- 25: Secret Number<br>
+- 26: Sum of Differences<br>
+- 27: Pizza Party<br>
+- 28: FizzBuzz Counter<br>
+- 29: Wider Aspect Ratio<br>
+- 30: Best Hand<br>
+- 31: Parentheses Combination<p>
 </details>
 
 <details>
-  <summary><b>January 2026 (01-26)</b></summary>
-- 01-01-26: Resolution Streak<br>
-- 02-01-26: Nth Fibonacci Number<br>
-- 03-01-26: Left-Handed Seat at the Table<br>
-- 04-01-26: Leap Year Calculator<br>
-- 05-01-26: Tire Pressure<br>
-- 06-01-26: vOwElcAsE<br>
-- 07-01-26: Markdown Unordered List Parser<br>
-- 08-01-26: Sorted Array?<br>
-- 09-01-26: Circular Prime<br>
-- 10-01-26: Tic-Tac-Toe<br>
-- 11-01-26: Par for the Hole<br>
-- 12-01-26: Plant the Crop<br>
-- 13-01-26: Odd or Even<br>
-- 14-01-26: Markdown Link Parser<br>
-- 15-01-26: Array Swap<br>
-- 16-01-26: Integer Hypotenuse<br>
-- 17-01-26: Knight Moves<br>
-- 18-01-26: Free Shipping<br>
-- 19-01-26: Energy Consumption<br>
-- 20-01-26: Consonant Case<br>
-- 21-01-26: Markdown Inline Code Parser<br>
-- 22-01-26: Class Average<br>
-- 23-01-26: Hex Validator<br>
-- 24-01-26: Bingo! Letter<br>
-- 25-01-26: Scaled Image<br>
-- 26-01-26: FizzBuzz Mini<br>
-- 27-01-26: Odd or Even Day<br>
-- 28-01-26: Flatten the Array<br>
-- 29-01-26: Letters-Numbers<br>
-- 30-01-26: Valid Pawn Moves<br>
-- 31-01-26: Zodiac Finder<p>
+  <summary><b>June</b></summary>
+- 01: Schema Validator Part 1<br>
+- 02: Schema Validator Part 2<br>
+- 03: Schema Validator Part 3<br>
+- 04: Schema Validator Part 4<br>
+- 05: Schema Validator Part 5<br>
+- 06: Schema Validator Part 6<br>
+- 07: Last Load<br>
+- 08: Jet Lagged<br>
+- 09: Roommates<br>
+- 10: Itinerary Arrangements<br>
+- 11: Idea Rankings<br>
+- 12: HTML Content Extractor<br>
+- 13: Zoning Regulations<br>
+- 14: Credit Card Validator<br>
+- 15: Number Sort<br>
+- 16: British to American<br>
+- 17: Spellcaster<br>
+- 18: Streaming Cost<br>
+- 19: Rental Cost<br>
+- 20: Prime Factorization<br>
+- 21: Summer Solstice<br>
+- 22: 1337 Speak<br>
+- 23: BMI Calculator<br>
+- 24: DNA Mutations<br>
+- 25: Frontmatter Parser<br>
+- 26: Blood Bank<br>
+- 27: Periodic Spelling<br>
+- 28: Connect 3<br>
+- 29: Song Mood Finder<br>
+- 30: Duplicate Character Count<p>
 </details>
 
 <details>
-  <summary><b>February 2026 (02-26)</b></summary>
-- 01-02-26: Digital Detox<br>
-- 02-02-26: Groundhog Day<br>
-- 03-02-26: String Mirror<br>
-- 04-02-26: Truncate the Text<br>
-- 05-02-26: Pocket Change<br>
-- 06-02-26: 2026 Winter Games Day 1: Opening Day<br>
-- 07-02-26: 2026 Winter Games Day 2: Snowboarding<br>
-- 08-02-26: 2026 Winter Games Day 3: Biathlon<br>
-- 09-02-26: 2026 Winter Games Day 4: Ski Jumping<br>
-- 10-02-26: 2026 Winter Games Day 5: Cross Country Skiing<br>
-- 11-02-26: 2026 Winter Games Day 6: Figure Skating<br>
-- 12-02-26: 2026 Winter Games Day 7: Speed Skating<br>
-- 13-02-26: 2026 Winter Games Day 8: Luge<br>
-- 14-02-26: 2026 Winter Games Day 9: Skeleton<br>
-- 15-02-26: 2026 Winter Games Day 10: Alpine Skiing<br>
-- 16-02-26: 2026 Winter Games Day 11: Ice Hockey<br>
-- 17-02-26: 2026 Winter Games Day 12: Bobsled<br>
-- 18-02-26: 2026 Winter Games Day 13: Nordic Combined<br>
-- 19-02-26: 2026 Winter Games Day 14: Ski Mountaineering<br>
-- 20-02-26: 2026 Winter Games Day 15: Freestyle Skiing<br>
-- 21-02-26: 2026 Winter Games Day 16: Curling<br>
-- 22-02-26: 2026 Winter Games Day 17: Closing Day<br>
-- 23-02-26: Blood Type Compatibility<br>
-- 24-02-26: Business Day Counter<br>
-- 25-02-26: Sequential Differences<br>
-- 26-02-26: Letter and Number Count<br>
-- 27-02-26: Matrix Shift<br>
-- 28-02-26: Add Punctuation<p>
+  <summary><b>July</b></summary>
+- 01: Lucky Number<br>
+- 02: Max Profit<br>
+- 03: Database Migration<br>
+- 04: Kaprekar's Routine<br>
+- 05: Bucket Fill<br>
+- 06: lowercase word<br>
+- 07: Nearest Multiple<br>
+- 08: Issue Triage<br>
+- 09: Issue Triage 2<br>
+- 10: Exact Change<br>
+- 11: Five Dice<br>
+- 12: Horoscope Match<br>
+- 13: Tally Counter<br>
+- 14: Pet Age Calculator<br>
+- 15: Array Chunks<br>
+- 16: Pig Latin Converter<br>
+- 17: Birthday Countdown<br>
+- 18: Dice Odds<br>
+- 19: Elevator Stops<br>
+- 20: Golden Ratio<br>
+- 21: Word Blender<br>
+- 22: Piggy Bank<br>
+- 23: Game Theory<br>
+- 24: Loan Calculator<br>
+- 25: Cell Signal<br>
+- 26: Letter Distances<br>
+- 27: Pronit Numbers<br>
+- 28: Contrast Rating 1<br>
+- 29: Contrast Rating 2<br>
+- 30: Contrast Rating 3<br>
+- 31: Morse Code<p>
 </details>
 
 <details>
-  <summary><b>March 2026 (03-26)</b></summary>
-- 01-03-26: Flattened<br>
-- 02-03-26: Sum the Letters<br>
-- 03-03-26: Perfect Cube Count<br>
-- 04-03-26: Playing Card Values<br>
-- 05-03-26: Smallest Gap<br>
-- 06-03-26: Trail Traversal<br>
-- 07-03-26: Element Size<br>
-- 08-03-26: HSL Validator<br>
-- 09-03-26: Array Sum<br>
-- 10-03-26: Array Insertion<br>
-- 11-03-26: Word Length Converter<br>
-- 12-03-26: Domino Chain Validator<br>
-- 13-03-26: Parking Fee Calculator<br>
-- 14-03-26: Pi Day<br>
-- 15-03-26: Captured Chess Pieces<br>
-- 16-03-26: Evenly Divisible<br>
-- 17-03-26: Anniversary Milestones<br>
-- 18-03-26: Largest Number<br>
-- 19-03-26: Inverted Matrix<br>
-- 20-03-26: Equinox Shadows<br>
-- 21-03-26: QR Decoder<br>
-- 22-03-26: Coffee Roast Detector<br>
-- 23-03-26: No Consecutive Repeats<br>
-- 24-03-26: Passing Exam Count<br>
-- 25-03-26: Cooldown Time<br>
-- 26-03-26: Movie Night<br>
-- 27-03-26: Truncate the Text 2<br>
-- 28-03-26: Pascal's Triangle Row<br>
-- 29-03-26: ISBN-10 Validator<br>
-- 30-03-26: Due Date<br>
-- 31-03-26: Wake-Up Alarm<p>
+  <summary><b>August</b></summary>
+- 01: Magic Square Solver<br>
+- 02: Food Chain<br>
+- 03: Emoji Translator<br>
+- 04: Golf Handicap Calculator<br>
+- 05: Spoken Duration<br>
+- 06: Spoken Time<br>
+- 07: Nonogram Validator<br>
+- 08: Bucket Fill 2<br>
+- 09: Between Two Buckets<br>
+- 10: The Last Challenge - Bucket Fill 3<br>
+- 11: Vowel Balance<br>
+- 12: Base Check<br>
+- 13: Fibonacci Sequence<br>
+- 14: S P A C E J A M<br>
+- 15: Jbelmud Text<br>
+- 16: Anagram Checker<br>
+- 17: Targeted Sum<br>
+- 18: Factorializer<br>
+- 19: Sum of Squares<br>
+- 20: 3 Strikes<br>
+- 21: Mile Pace<br>
+- 22: Message Decoder<br>
+- 23: Unnatural Prime<br>
+- 24: Character Battle<br>
+- 25: camelCase<br>
+- 26: Reverse Parenthesis<br>
+- 27: Unorder of Operations<br>
+- 28: Seconds Best<br>
+- 29: Candlelight<br>
+- 30: Array Duplicates<br>
+- 31: Hex Generator<p>
 </details>
 
 <details>
-  <summary><b>April 2026 (04-26)</b></summary>
-- 01-04-26: Prank Number<br>
-- 02-04-26: Capitalized Fibonacci<br>
-- 03-04-26: Browser History<br>
-- 04-04-26: Equation Validation<br>
-- 05-04-26: Digit Rotation Escape<br>
-- 06-04-26: What Day Is It?<br>
-- 07-04-26: Palindrome Characters<br>
-- 08-04-26: FizzBuzz Validator<br>
-- 09-04-26: Next Bingo Number<br>
-- 10-04-26: Rook Attack<br>
-- 11-04-26: Rook and Bishop Attack<br>
-- 12-04-26: Spiral Matrix<br>
-- 13-04-26: Name Initials<br>
-- 14-04-26: Last Letter<br>
-- 15-04-26: Sorted Array Swap<br>
-- 16-04-26: String Math<br>
-- 17-04-26: Hidden Key<br>
-- 18-04-26: Array Sum Finder<br>
-- 19-04-26: Unique Stair Climb<br>
-- 20-04-26: Acronym Finder<br>
-- 21-04-26: Odd Words<br>
-- 22-04-26: Earth Day Cleanup Crew<br>
-- 23-04-26: Closest Time Direction<br>
-- 24-04-26: Word Compressor<br>
-- 25-04-26: Word Decompressor<br>
-- 26-04-26: FizzBuzz Explosion<br>
-- 27-04-26: Word Score<br>
-- 28-04-26: Number Words<br>
-- 29-04-26: URL Query Parse<br>
-- 30-04-26: Binary Crosswords<p>
+  <summary><b>September</b></summary>
+- 01: Tribonacci Sequence<br>
+- 02: RGB to Hex<br>
+- 03: Pangram<br>
+- 04: Vowel Repeater<br>
+- 05: IPv4 Validator<br>
+- 06: Matrix Rotate<br>
+- 07: Roman Numeral Parser<br>
+- 08: Acronym Builder<br>
+- 09: Unique Characters<br>
+- 10: Array Diff<br>
+- 11: Reverse Sentence<br>
+- 12: Screen Time<br>
+- 13: Missing Numbers<br>
+- 14: Word Frequency<br>
+- 15: Thermostat Adjuster<br>
+- 16: Sentence Capitalizer<br>
+- 17: Slug Generator<br>
+- 18: Fill The Tank<br>
+- 19: Photo Storage<br>
+- 20: File Storage<br>
+- 21: Video Storage<br>
+- 22: Digits vs Letters<br>
+- 23: String Mirror<br>
+- 24: Perfect Square<br>
+- 25: 2nd Largest<br>
+- 26: Caught Speeding<br>
+- 27: Spam Detector<br>
+- 28: CSV Header Parser<br>
+- 29: Longest Word<br>
+- 30: Phone Number Formatter<p>
 </details>
 
 <details>
-  <summary><b>May 2026 (05-26)</b></summary>
-- 01-05-26: Anagram Groups<br>
-- 02-05-26: Deepest Brackets<br>
-- 03-05-26: Good Day<br>
-- 04-05-26: Parsec Converter<br>
-- 05-05-26: Narcissistic Number<br>
-- 06-05-26: Allergen Friendly Meals<br>
-- 07-05-26: Longest Common Substrings<br>
-- 08-05-26: Medication Reminder<br>
-- 09-05-26: Transposed Matrix<br>
-- 10-05-26: ISBN-13 Validator<br>
-- 11-05-26: Oldest Person<br>
-- 12-05-26: Character Frequency<br>
-- 13-05-26: Offending Element<br>
-- 14-05-26: Mirror Image<br>
-- 15-05-26: Coffee Order Parser<br>
-- 16-05-26: Longest Domino Chain<br>
-- 17-05-26: Mongo ID Date<br>
-- 18-05-26: Bingo Range<br>
-- 19-05-26: Sleep Debt<br>
-- 20-05-26: String Zipper<br>
-- 21-05-26: I Before E<br>
-- 22-05-26: Meeting Time<br>
-- 23-05-26: Open Issues<br>
-- 24-05-26: Roman Numeral Fixer<br>
-- 25-05-26: Secret Number<br>
-- 26-05-26: Sum of Differences<br>
-- 27-05-26: Pizza Party<br>
-- 28-05-26: FizzBuzz Counter<br>
-- 29-05-26: Wider Aspect Ratio<br>
-- 30-05-26: Best Hand<br>
-- 31-05-26: Parentheses Combination<p>
+  <summary><b>October</b></summary>
+- 01: Binary to Decimal<br>
+- 02: Decimal to Binary<br>
+- 03: P@ssw0rd Str3ngth!<br>
+- 04: Space Week Day 1 - Stellar Classification<br>
+- 05: Space Week Day 2 - Exoplanet Search<br>
+- 06: Space Week Day 3 - Phone Home<br>
+- 07: Space Week Day 4 - Landing Spot<br>
+- 08: Space Week Day 5 - Goldilock Zone<br>
+- 09: Space Week Day 6 - Moon Phase<br>
+- 10: Space Week Day 7 - Launch Fuel<br>
+- 11: Hex to Decimal<br>
+- 12: Battle of Words<br>
+- 13: 24 to 12<br>
+- 14: String Count<br>
+- 15: HTML Tag Stripper<br>
+- 16: Email Validator<br>
+- 17: Credit Card Masker<br>
+- 18: Missing Socks<br>
+- 19: HTML Attribute Extractor<br>
+- 20: Tip Calculator<br>
+- 21: Thermostat Adjuster 2<br>
+- 22: Speak Wisely, You Must<br>
+- 23: Favorite Songs<br>
+- 24: Hidden Treasure<br>
+- 25: Complementary DNA<br>
+- 26: Duration Formatter<br>
+- 27: Integer Sequence<br>
+- 28: Navigator<br>
+- 29: Email Sorter<br>
+- 30: Nth Prime<br>
+- 31: SpOoKy~CaSe<p>
 </details>
 
 <details>
-  <summary><b>June 2026 (06-26)</b></summary>
-- 01-06-26: Schema Validator Part 1<br>
-- 02-06-26: Schema Validator Part 2<br>
-- 03-06-26: Schema Validator Part 3<br>
-- 04-06-26: Schema Validator Part 4<br>
-- 05-06-26: Schema Validator Part 5<br>
-- 06-06-26: Schema Validator Part 6<br>
-- 07-06-26: Last Load<br>
-- 08-06-26: Jet Lagged<br>
-- 09-06-26: Roommates<br>
-- 10-06-26: Itinerary Arrangements<br>
-- 11-06-26: Idea Rankings<br>
-- 12-06-26: HTML Content Extractor<br>
-- 13-06-26: Zoning Regulations<br>
-- 14-06-26: Credit Card Validator<br>
-- 15-06-26: Number Sort<br>
-- 16-06-26: British to American<br>
-- 17-06-26: Spellcaster<br>
-- 18-06-26: Streaming Cost<br>
-- 19-06-26: Rental Cost<br>
-- 20-06-26: Prime Factorization<br>
-- 21-06-26: Summer Solstice<br>
-- 22-06-26: 1337 Speak<br>
-- 23-06-26: BMI Calculator<br>
-- 24-06-26: DNA Mutations<br>
-- 25-06-26: Frontmatter Parser<br>
-- 26-06-26: Blood Bank<br>
-- 27-06-26: Periodic Spelling<br>
-- 28-06-26: Connect 3<br>
-- 29-06-26: Song Mood Finder<br>
-- 30-06-26: Duplicate Character Count<p>
+  <summary><b>November</b></summary>
+- 01: Signature Validation<br>
+- 02: Infected<br>
+- 03: Word Counter<br>
+- 04: Image Search<br>
+- 05: Matrix builder<br>
+- 06: Weekday Finder<br>
+- 07: Counting Cards<br>
+- 08: Character Limit<br>
+- 09: Word Search<br>
+- 10: Extension Extractor<br>
+- 11: Vowels and Consonants<br>
+- 12: Email Signature Generator<br>
+- 13: Array Shift<br>
+- 14: Is It the Weekend<br>
+- 15: GCD<br>
+- 16: Rectangle Count<br>
+- 17: Fingerprint Test<br>
+- 18: 100 Characters<br>
+- 19: Markdown Heading Converter<br>
+- 20: Longest Word<br>
+- 21: LCM<br>
+- 22: Recipe Scaler<br>
+- 23: Character Count<br>
+- 24: Message Validator<br>
+- 25: FizzBuzz<br>
+- 26: BuzzFizz<br>
+- 27: What's My Age Again<br>
+- 28: Word Guesser<br>
+- 29: Ball Trajectory<br>
+- 30: AI Detector<p>
 </details>
 
 <details>
-  <summary><b>July 2026 (07-26)</b></summary>
-- 01-07-26: Lucky Number<br>
-- 02-07-26: Max Profit<br>
-- 03-07-26: Database Migration<br>
-- 04-07-26: Kaprekar's Routine<br>
-- 05-07-26: Bucket Fill<br>
-- 06-07-26: lowercase word<br>
-- 07-07-26: Nearest Multiple<br>
-- 08-07-26: Issue Triage<br>
-- 09-07-26: Issue Triage 2<br>
-- 10-07-26: Exact Change<br>
-- 11-07-26: Five Dice<br>
-- 12-07-26: Horoscope Match<br>
-- 13-07-26: Tally Counter<br>
-- 14-07-26: Pet Age Calculator<br>
-- 15-07-26: Array Chunks<br>
-- 16-07-26: Pig Latin Converter<br>
-- 17-07-26: Birthday Countdown<br>
-- 18-07-26: Dice Odds<br>
-- 19-07-26: Elevator Stops<br>
-- 20-07-26: Golden Ratio<br>
-- 21-07-26: Word Blender<br>
-- 22-07-26: Piggy Bank<br>
-- 23-07-26: Game Theory<br>
-- 24-07-26: Loan Calculator<br>
-- 25-07-26: Cell Signal<br>
-- 26-07-26: Letter Distances<br>
-- 27-07-26: Pronit Numbers<br>
-- 28-07-26: Contrast Rating 1<br>
-- 29-07-26: Contrast Rating 2<br>
-- 30-07-26: Contrast Rating 3<br>
-- 31-07-26: Morse Code<p>
-</details>
-
-<details>
-  <summary><b>August 2026 (08-26)</b></summary>
-- 01-08-26: Magic Square Solver<br>
-- 02-08-26: Food Chain<br>
-- 03-08-26: Emoji Translator<br>
-- 04-08-26: Golf Handicap Calculator<br>
-- 05-08-26: Spoken Duration<br>
-- 06-08-26: Spoken Time<br>
-- 07-08-26: Nonogram Validator<br>
-- 08-08-26: Bucket Fill 2<br>
-- 09-08-26: Between Two Buckets<br>
-- 10-08-26: The Last Challenge - Bucket Fill 3<p>
+  <summary><b>December</b></summary>
+- 01: Miles to Kilometers<br>
+- 02: Camel to Snake<br>
+- 03: Markdown Ordered List Item Converter<br>
+- 04: Permutation Count<br>
+- 05: Symmetric Difference<br>
+- 06: Date Formatter<br>
+- 07: String Compression<br>
+- 08: Pounds to Kilogram<br>
+- 09: Most Frequent<br>
+- 10: Markdown Bold Parser<br>
+- 11: Roman Numeral Builder<br>
+- 12: Inventory Update<br>
+- 13: Game of Life<br>
+- 14: Capitalize It<br>
+- 15: Speed Check<br>
+- 16: Consonant Count<br>
+- 17: Markdown Blockquote Parser<br>
+- 18: Checkerboard<br>
+- 19: Pairwise<br>
+- 20: Purge Most Frequent<br>
+- 21: Daylight Hours<br>
+- 22: Traveling Shopper<br>
+- 23: Re: Fwd: Fw: Count<br>
+- 24: Markdown Image Parser<br>
+- 25: Snowflake Generator<br>
+- 26: Sum of Divisors<br>
+- 27: Rock, Paper, Scissors<br>
+- 28: SCREAMING_SNAKE_CASE<br>
+- 29: Takeoff Fuel<br>
+- 30: Sum the Strings<br>
+- 31: Markdown Italic Parser<p>
 </details>
